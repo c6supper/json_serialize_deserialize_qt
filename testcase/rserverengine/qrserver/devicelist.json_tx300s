@@ -1,0 +1,40 @@
+{
+  "deviceList": [
+    {
+      "cableMac": "00:00:00:00:00:00",
+      "deviceName": "TX320s-100GQ",
+      "deviceStatus": 4,
+      "deviceType": 190,
+      "deviceTypeEnum": "eRServerTX320S100GQType",
+      "imageType": 296,
+      "mac": "00:2B:A4:58:23:6C",
+      "remoteVersion": "",
+      "serialNumber": "ABFZZ00Z45Z125",
+      "version": "2.1.12"
+    },
+    {
+      "cableMac": "00:00:00:00:00:00",
+      "deviceName": "320SM",
+      "deviceStatus": 4,
+      "deviceType": 198,
+      "deviceTypeEnum": "eRServerTX300STX320SMType",
+      "imageType": 299,
+      "mac": "00:2B:A4:58:23:6C",
+      "remoteVersion": "",
+      "serialNumber": "ATVZZZ456ZZ235",
+      "version": "3.3.1-1"
+    },
+    {
+      "cableMac": "00:00:00:00:00:00",
+      "deviceName": "TX320s",
+      "deviceStatus": 4,
+      "deviceType": 192,
+      "deviceTypeEnum": "eRServerTX320SPLATFORMType",
+      "imageType": 303,
+      "mac": "00:2B:A4:58:23:6C",
+      "remoteVersion": "",
+      "serialNumber": "TT000000000001",
+      "version": "3.3.5"
+    }
+  ]
+}

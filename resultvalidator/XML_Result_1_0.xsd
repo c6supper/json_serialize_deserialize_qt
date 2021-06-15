@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:simpleType name="fixed_version">
+        <xs:restriction base="xs:decimal">
+            <xs:enumeration value="1.0" />
+            <xs:enumeration value="2.0" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="fixed_datetime">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{4}-\d\d-\d\d:\d\d-\d\d-\d\d" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="serial_number">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9A-Za-z]{14,32}" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="fixed_software_version">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9A-Za-z\-_]{1,63}" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="limited_string">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="63" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:element name="data">
+        <xs:complexType>
+            <xs:all>
+                <xs:element ref="v300_oeminfo"/>
+                <xs:element ref="v300_advinfo"/>
+                <xs:element ref="v300_gpsData" minOccurs="0"/>
+                <xs:element ref="result_status" minOccurs="0"/>
+                <xs:element name="results" minOccurs="0"/>
+            </xs:all>
+            <xs:attribute name="port" type="xs:string"/>
+            <xs:attribute name="type" type="xs:string"/>
+            <xs:attribute name="version" use="required" type="fixed_version"/>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:simpleType name="longitude_latitude">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="-180"/>
+            <xs:maxInclusive value="180"/>
+        </xs:restriction>
+    </xs:simpleType> 
+
+    <xs:element name="v300_oeminfo">
+        <xs:complexType>
+            <xs:attribute name="save_date" use="required" type="fixed_datetime"/>
+            <xs:attribute name="save_time" type="fixed_datetime"/>
+            <xs:attribute name="serial_number" use="required" type="serial_number"/>
+            <xs:attribute name="software_version" use="required" type="xs:string" />
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="v300_advinfo">
+        <xs:complexType>
+            <xs:attribute name="account_id" use="required" type="limited_string"/>
+            <xs:attribute name="advtype" use="required" type="limited_string"/>
+            <xs:attribute name="comment" use="required" type="limited_string"/>
+            <xs:attribute name="job_id" use="required" type="limited_string"/>
+            <xs:attribute name="location" use="required" type="limited_string"/>
+            <xs:attribute name="locator" use="required" type="limited_string"/>
+            <xs:attribute name="node_id" use="required" type="limited_string"/>
+            <xs:attribute name="tech_id" use="required" type="limited_string"/>
+            <xs:attribute name="tech_name" use="required" type="limited_string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="v300_gpsData">
+        <xs:complexType>
+            <xs:attribute name="Altitude" use="required" type="xs:decimal"/>
+            <xs:attribute name="Latitude" use="required" type="longitude_latitude"/>
+            <xs:attribute name="Longitude" use="required" type="longitude_latitude"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="result_status">
+        <xs:complexType>
+            <xs:attribute name="IsNA" use="required" type="xs:boolean"/>
+            <xs:attribute name="TestResult" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="PASS" />
+                        <xs:enumeration value="FAIL" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute> 
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,42 @@
+{
+	"id": "my-id",
+	"from": "heisenberg@breakingbad.com/bedroom",
+	"to": "skyler/bedroom",
+	"type": "application/vnd.lime.threadedtext+json",
+	"method": "processMessage",
+	"resource": {
+		"device": {
+			"type": "160",
+			"serialNumber": "TS200000000000",
+			"version": "02.00.0103"
+		},
+		"messageList": [
+			{
+				"id": "1",
+				"messageType": "43",
+				"deviceType": "160",
+				"serialNumber": "TS200000000000",
+				"techName": "sssss",
+				"techId": "dddiao",
+				"company": "test",
+				"version": "02.00.0103",
+				"jsoncomment": "eUnRegistTarget"
+			},
+			{
+				"id": "2",
+				"messageType": "46",
+				"status": "0",
+				"jsoncomment": "NOT_REGISTER"
+			}
+		],
+		"messageRouteList": [
+			[
+				"1",
+				"2"
+			]
+		]
+	},
+	"metadata": {
+		"senderIp": "192.168.0.1"
+	}
+}

@@ -1,0 +1,4 @@
+<TestApp>
+  <Type Value="0" Name="Pressure Test"/>
+  <Type Value="1" Name="Fiber To The Home"/>
+</TestApp>

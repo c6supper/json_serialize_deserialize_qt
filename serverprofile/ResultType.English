@@ -1,0 +1,798 @@
+<Result>
+  <Type Value="0" Name="Analog Channel" Group="CX Series" GroupType="Single Channel"/>
+  <Type Value="1" Name="Digital Channel" Group="CX Series" GroupType="Single Channel"/>
+  <Type Value="2" Name="Installation Check" Group="CX Series" GroupType="Installation Check" />
+  <Type Value="3" Name="Return Path" />
+  <Type Value="4" Name="IGM Return Path" />
+  <Type Value="5" Name="Return Path Sweep" />
+  <Type Value="6" Name="System Scan" Group="CX Series" GroupType="System Scan"/>
+  <Type Value="7" Name="CX350 Spectrum" Group="CX Series" GroupType="Spectrum"/>
+  <Type Value="8" Name="CX380 Spectrum" Group="CX Series" GroupType="Spectrum"/>
+  <Type Value="9" Name="IGM Spectrum" Group="CX Series" GroupType="Spectrum"/>
+  <Type Value="10" Name="Tilt" Group="CX Series" GroupType="Tilt"/>
+  <Type Value="11" Name="Cable Modem" Group="CX Series" GroupType="Cable Modem"/>
+  <Type Value="12" Name="TDR" Group="CX Series" GroupType="TDR"/>
+  <Type Value="13" Name="MPEG TS" />
+  <Type Value="14" Name="In Service Sweep" />
+  <Type Value="15" Name="RP Balancing" />
+  <Type Value="16" Name="HIP AutoTest" Group="CX Series" GroupType="HIP"/>
+  <Type Value="17" Name="OFDM" />
+  <Type Value="18" Name="Ingress Under QAM" />
+  <Type Value="19" Name="Multi Table Scan" />
+  <Type Value="20" Name="In-Channel Frequency Response" />
+  <Type Value="21" Name="Timed Stats Test" Group="CX Series" GroupType="Timed Stats"/>
+  <Type Value="22" Name="Headend Check" />
+  <Type Value="23" Name="FCC POP" />
+  <Type Value="24" Name="Forward Path Sweep" />
+  <Type Value="25" Name="QAM Wiz" />
+  <Type Value="26" Name="Fast Scan" />
+  <Type Value="27" Name="Drop Cert" />
+  <Type Value="28" Name="Calan Return Sweep" />
+  <Type Value="29" Name="Calan Forward Sweep" />
+  <Type Value="30" Name="i QAM" />
+  <Type Value="31" Name="RP Tilt" />
+  <Type Value="32" Name="VeCheck" Group="CX Series" GroupType="VeCheck"/>
+  <Type Value="33" Name="OFDM Analysis" />
+  <Type Value="34" Name="CX310 Ingress" Group="CX Series" GroupType="CX310 Ingress"/>
+  <Type Value="35" Name="HIP Manual Test" Group="CX Series" GroupType="HIP"/>
+  <Type Value="36" Name="HIP V2.0 Test" Group="CX Series" GroupType="HIP V2"/>
+  <Type Value="37" Name="Pressure" />
+  <Type Value="38" Name="Calan Sweepless Sweep" />
+  <Type Value="39" Name="WiFi Check" Group="CX Series" GroupType="WiFi Check"/>
+  <Type Value="40" Name="DMM" Group="CX Series" GroupType="DMM"/>
+  <Type Value="41" Name="HFC Cert" Group="CX Series" GroupType="HFC Cert"/>
+  <Type Value="100" Name="CM Ftp Get" Group="CX Series" GroupType="Cable Modem"/>
+  <Type Value="101" Name="CM Ftp Put" Group="CX Series" GroupType="Cable Modem"/>
+  <Type Value="102" Name="CM Http Get" Group="CX Series" GroupType="Cable Modem"/>
+  <Type Value="103" Name="CM Web" Group="CX Series" GroupType="Cable Modem"/>
+  <Type Value="104" Name="CM Ping" Group="CX Series" GroupType="Cable Modem"/>
+  <Type Value="105" Name="CM Trace Route" Group="CX Series" GroupType="Cable Modem"/>
+  <Type Value="106" Name="CM VoIP Check" Group="CX Series" GroupType="Cable Modem"/>
+  <Type Value="107" Name="CM VoIP Client" Group="CX Series" GroupType="Cable Modem"/>
+  <Type Value="108" Name="CM VoIP Server" Group="CX Series" GroupType="Cable Modem"/>
+  <Type Value="109" Name="CM VoIP Phone" Group="CX Series" GroupType="Cable Modem"/>
+  <Type Value="110" Name="CM Speed Test" Group="CX Series" GroupType="Cable Modem"/>
+  <Type Value="111" Name="CM ARPWiz" />
+  <Type Value="200" Name="SLM" Group="CM Series" GroupType="SLM"/>
+  <Type Value="201" Name="Scan" Group="CM Series" GroupType="Scan"/>
+  <Type Value="202" Name="Auto Test" Group="CM Series" GroupType="Auto Test"/>
+  <Type Value="203" Name="Real View" Group="CM Series" GroupType="Real View"/>
+  <Type Value="204" Name="Ping Trace" Group="CM Series" GroupType="Ping Trace"/>
+  <Type Value="205" Name="Throughput" Group="CM Series" GroupType="Throughput"/>
+  <Type Value="206" Name="Modem" Group="CM Series" GroupType="Modem"/>
+  <Type Value="207" Name="VoIP" Group="CM Series" GroupType="VoIP"/>
+  <Type Value="208" Name="Digital Video" Group="CM Series" GroupType="Digital Video"/>
+  <Type Value="209" Name="CM Spectrum" Group="CM Series" GroupType="Spectrum"/>
+  <Type Value="210" Name="Stats" Group="CM Series" GroupType="Stats"/>
+  <Type Value="211" Name="Sweep" Group="CM Series" GroupType="Sweep"/>
+  <Type Value="212" Name="Site" Group="CM Series" GroupType="Site"/>
+  <Type Value="213" Name="Scheduled" Group="CM Series" GroupType="Scheduled"/>
+  <Type Value="214" Name="Distortion" Group="CM Series" GroupType="Distortion"/>
+  <Type Value="215" Name="QAM Ingress" Group="CM Series" GroupType="QAM Ingress"/>
+  <Type Value="216" Name="Sched" />
+  <Type Value="301" Name="Spectrum" />
+  <Type Value="302" Name="ZeroSpan" />
+  <Type Value="303" Name="Digital Channel Power" />
+  <Type Value="304" Name="QAM" />
+  <Type Value="305" Name="ISDB-T" />
+  <Type Value="306" Name="Satellite/Terrestrial" />
+  <Type Value="307" Name="AT OFDM" />
+  <Type Value="308" Name="TV Channel" />
+  <Type Value="309" Name="CCN/CSO/CTB" />
+  <Type Value="310" Name="Video Demod" />
+  <Type Value="311" Name="AT VeCheck" />
+  <Type Value="312" Name="FCC Test" />
+  <Type Value="1000" Name="BERT_1GC1" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="1001" Name="BERT_1GC2" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="1002" Name="BERT_1GF1" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="1003" Name="BERT_1GF2" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="1004" Name="BERT_10G" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="1005" Name="RFC2544_1GC1" Group="Ethernet" GroupType="RFC2544"/>
+  <Type Value="1006" Name="RFC2544_1GC2" Group="Ethernet" GroupType="RFC2544"/>
+  <Type Value="1007" Name="RFC2544_1GF1" Group="Ethernet" GroupType="RFC2544"/>
+  <Type Value="1008" Name="RFC2544_1GF2" Group="Ethernet" GroupType="RFC2544"/>
+  <Type Value="1009" Name="RFC2544_10G" Group="Ethernet" GroupType="RFC2544"/>
+  <Type Value="1010" Name="Throughput_1GC1" Group="Ethernet" GroupType="Throughput"/>
+  <Type Value="1011" Name="Throughput_1GC2" Group="Ethernet" GroupType="Throughput"/>
+  <Type Value="1012" Name="Throughput_1GF1" Group="Ethernet" GroupType="Throughput"/>
+  <Type Value="1013" Name="Throughput_1GF2" Group="Ethernet" GroupType="Throughput"/>
+  <Type Value="1014" Name="Throughput_10G" Group="Ethernet" GroupType="Throughput"/>
+  <Type Value="1015" Name="VSAM_1GC1" Group="Ethernet" GroupType="V-SAM"/>
+  <Type Value="1016" Name="VSAM_1GC2" Group="Ethernet" GroupType="V-SAM"/>
+  <Type Value="1017" Name="VSAM_1GF1" Group="Ethernet" GroupType="V-SAM"/>
+  <Type Value="1018" Name="VSAM_1GF2" Group="Ethernet" GroupType="V-SAM"/>
+  <Type Value="1019" Name="VSAM_10G" Group="Ethernet" GroupType="V-SAM"/>
+  <Type Value="2050" Name="Loop_1GC1"/>
+  <Type Value="2051" Name="Scan_1GC1" />
+  <Type Value="2052" Name="Ping_1GC1" />
+  <Type Value="2053" Name="Trace Route_1GC1" />
+  <Type Value="2054" Name="ARP_1GC1" />
+  <Type Value="2055" Name="VoIP Check_1GC1" />
+  <Type Value="2056" Name="VoIP Client_1GC1" />
+  <Type Value="2057" Name="VoIP Phone_1GC1" />
+  <Type Value="2058" Name="VoIP Nextragen_1GC1" />
+  <Type Value="2059" Name="IPTV Probe_1GC1" />
+  <Type Value="2060" Name="IPTV Analysis_1GC1" />
+  <Type Value="2061" Name="Pcap_1GC1" />
+  <Type Value="2062" Name="ESMC_1GC1" />
+  <Type Value="2063" Name="PTPv2_1GC1" />
+  <Type Value="2064" Name="Wander_1GC1" />
+  <Type Value="2065" Name="V-PERF_1GC1" Group="Ethernet" GroupType="V-Perf"/>
+  <Type Value="2066" Name="Vftp_1GC1" />
+  <Type Value="2067" Name="V-TEST_1GC1" Group="CX Series" GroupType="VeTest 1GC1"/>
+  <Type Value="2068" Name="PTPv2_PassThrough_1GC1" />
+  <Type Value="2069" Name="L2CP_1GC1" />
+  <Type Value="2070" Name="NWdisc_1GC1" />
+  <Type Value="2071" Name="ADMonitor_1GC1" />
+  <Type Value="2072" Name="Vsuite_1GC1" />
+  <Type Value="2100" Name="Loop_1GC2" />
+  <Type Value="2101" Name="Scan_1GC2" />
+  <Type Value="2102" Name="Ping_1GC2" />
+  <Type Value="2103" Name="Trace Route_1GC2" />
+  <Type Value="2104" Name="ARP_1GC2" />
+  <Type Value="2105" Name="VoIP Check_1GC2" />
+  <Type Value="2106" Name="VoIP Client_1GC2" />
+  <Type Value="2107" Name="VoIP Phone_1GC2" />
+  <Type Value="2108" Name="VoIP Nextragen_1GC2" />
+  <Type Value="2109" Name="IPTV Probe_1GC2" />
+  <Type Value="2110" Name="IPTV Analysis_1GC2" />
+  <Type Value="2111" Name="Pcap_1GC2" />
+  <Type Value="2112" Name="ESMC_1GC2" />
+  <Type Value="2113" Name="PTPv2_1GC2" />
+  <Type Value="2114" Name="Wander_1GC2" />
+  <Type Value="2115" Name="V-PERF_1GC2" Group="Ethernet" GroupType="V-Perf"/>
+  <Type Value="2116" Name="Vftp_1GC2" />
+  <Type Value="2117" Name="V-TEST_1GC2" Group="Ethernet" GroupType="V-Test"/>
+  <Type Value="2118" Name="PTPv2_PassThrough_1GC2" />
+  <Type Value="2119" Name="L2CP_1GC2" />
+  <Type Value="2120" Name="NWdisc_1GC2" />
+  <Type Value="2121" Name="ADMonitor_1GC2" />
+  <Type Value="2122" Name="Vsuite_1GC2" />
+  <Type Value="2150" Name="Loop_1GF1" />
+  <Type Value="2151" Name="Scan_1GF1" />
+  <Type Value="2152" Name="Ping_1GF1" />
+  <Type Value="2153" Name="Trace Route_1GF1" />
+  <Type Value="2154" Name="ARP_1GF1" />
+  <Type Value="2155" Name="VoIP Check_1GF1" />
+  <Type Value="2156" Name="VoIP Client_1GF1" />
+  <Type Value="2157" Name="VoIP Phone_1GF1" />
+  <Type Value="2158" Name="VoIP Nextragen_1GF1" />
+  <Type Value="2159" Name="IPTV Probe_1GF1" />
+  <Type Value="2160" Name="IPTV Analysis_1GF1" />
+  <Type Value="2161" Name="Pcap_1GF1" />
+  <Type Value="2162" Name="ESMC_1GF1" />
+  <Type Value="2163" Name="PTPv2_1GF1" />
+  <Type Value="2164" Name="Wander_1GF1" />
+  <Type Value="2165" Name="V-PERF_1GF1" Group="Ethernet" GroupType="V-Perf"/>
+  <Type Value="2166" Name="Vftp_1GF1" />
+  <Type Value="2167" Name="V-TEST_1GF1" Group="Ethernet" GroupType="V-Test"/>
+  <Type Value="2168" Name="PTPv2_PassThrough_1GF1" />
+  <Type Value="2169" Name="L2CP_1GF1" />
+  <Type Value="2170" Name="NWdisc_1GF1" />
+  <Type Value="2171" Name="ADMonitor_1GF1" />
+  <Type Value="2172" Name="Vsuite_1GF1" />
+  <Type Value="2200" Name="Loop_1GF2" />
+  <Type Value="2201" Name="Scan_1GF2" />
+  <Type Value="2202" Name="Ping_1GF2" />
+  <Type Value="2203" Name="Trace Route_1GF2" />
+  <Type Value="2204" Name="ARP_1GF2" />
+  <Type Value="2205" Name="VoIP Check_1GF2" />
+  <Type Value="2206" Name="VoIP Client_1GF2" />
+  <Type Value="2207" Name="VoIP Phone_1GF2" />
+  <Type Value="2208" Name="VoIP Nextragen_1GF2" />
+  <Type Value="2209" Name="IPTV Probe_1GF2" />
+  <Type Value="2210" Name="IPTV Analysis_1GF2" />
+  <Type Value="2211" Name="Pcap_1GF2" />
+  <Type Value="2212" Name="ESMC_1GF2" />
+  <Type Value="2213" Name="PTPv2_1GF2" />
+  <Type Value="2214" Name="Wander_1GF2" />
+  <Type Value="2215" Name="V-PERF_1GF2" Group="Ethernet" GroupType="V-Perf"/>
+  <Type Value="2216" Name="Vftp_1GF2" />
+  <Type Value="2217" Name="V-TEST_1GF2" Group="Ethernet" GroupType="V-Test"/>
+  <Type Value="2218" Name="PTPv2_PassThrough_1GF2" />
+  <Type Value="2219" Name="L2CP_1GF2" />
+  <Type Value="2220" Name="NWdisc_1GF2" />
+  <Type Value="2221" Name="ADMonitor_1GF2" />
+  <Type Value="2222" Name="Vsuite_1GF2" />
+  <Type Value="2250" Name="Loop_10G1" />
+  <Type Value="2251" Name="Scan_10G1" />
+  <Type Value="2252" Name="Ping_10G1" />
+  <Type Value="2253" Name="Trace Route_10G1" />
+  <Type Value="2254" Name="ARP_10G1" />
+  <Type Value="2255" Name="VoIP Check_10G1" />
+  <Type Value="2256" Name="VoIP Client_10G1" />
+  <Type Value="2257" Name="VoIP Phone_10G1" />
+  <Type Value="2258" Name="VoIP Nextragen_10G1" />
+  <Type Value="2259" Name="IPTV Probe_10G1" />
+  <Type Value="2260" Name="IPTV Analysis_10G1" />
+  <Type Value="2261" Name="Pcap_10G1" />
+  <Type Value="2262" Name="ESMC_10G1" />
+  <Type Value="2263" Name="PTPv2_10G1" />
+  <Type Value="2264" Name="Wander_10G1" />
+  <Type Value="2265" Name="V-PERF_10G1" Group="Ethernet" GroupType="V-Perf"/>
+  <Type Value="2266" Name="Monitor_10G1" />
+  <Type Value="2267" Name="L2CP_10G1" />
+  <Type Value="2268" Name="Vftp_10G1" />
+  <Type Value="2269" Name="V-TEST_10G1" Group="Ethernet" GroupType="V-Test"/>
+  <Type Value="2270" Name="eCPRI Throughput_10G1" />
+  <Type Value="2271" Name="eCPRI Pcap_10G1" />
+  <Type Value="2300" Name="BERT_10G2" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="2301" Name="Throughput_10G2" Group="Ethernet" GroupType="Throughput"/>
+  <Type Value="2302" Name="Loop_10G2" />
+  <Type Value="2303" Name="RFC2544_10G2" Group="Ethernet" GroupType="RFC2544"/>
+  <Type Value="2304" Name="VSAM_10G2" Group="Ethernet" GroupType="V-SAM"/>
+  <Type Value="2305" Name="Scan_10G2" />
+  <Type Value="2306" Name="Ping_10G2" />
+  <Type Value="2307" Name="Trace Route_10G2" />
+  <Type Value="2308" Name="ARP_10G2" />
+  <Type Value="2309" Name="VoIP Check_10G2" />
+  <Type Value="2310" Name="VoIP Client_10G2" />
+  <Type Value="2311" Name="VoIP Phone_10G2" />
+  <Type Value="2312" Name="VoIP Nextragen_10G2" />
+  <Type Value="2313" Name="IPTV Probe_10G2" />
+  <Type Value="2314" Name="IPTV Analysis_10G2" />
+  <Type Value="2315" Name="Pcap_10G2" />
+  <Type Value="2316" Name="ESMC_10G2" />
+  <Type Value="2317" Name="PTPv2_10G2" />
+  <Type Value="2318" Name="Wander_10G2" />
+  <Type Value="2319" Name="V-PERF_10G2" Group="Ethernet" GroupType="V-Perf"/>
+  <Type Value="2320" Name="Monitor_10G2" />
+  <Type Value="2321" Name="L2CP_10G2" />
+  <Type Value="2322" Name="Vftp_10G2" />
+  <Type Value="2323" Name="V-TEST_10G2" Group="Ethernet" GroupType="V-Test"/>
+  <Type Value="2324" Name="eCPRI Throughput_10G2" />
+  <Type Value="2325" Name="eCPRI Pcap_10G2" />
+  <Type Value="2350" Name="BERT OTN/SDH/SONET/PDH" />
+  <Type Value="2351" Name="Pulse OTN/SDH/SONET/PDH" />
+  <Type Value="2352" Name="ISDN OTN/SDH/SONET/PDH" />
+  <Type Value="2353" Name="JIT OTN/SDH/SONET/PDH" />
+  <Type Value="2354" Name="WAN OTN/SDH/SONET/PDH" />
+  <Type Value="2355" Name="MTJ OTN/SDH/SONET/PDH" />
+  <Type Value="2356" Name="JTF OTN/SDH/SONET/PDH" />
+  <Type Value="2357" Name="DS1 OTN/SDH/SONET/PDH" />
+  <Type Value="2358" Name="DS3 OTN/SDH/SONET/PDH" />
+  <Type Value="2359" Name="Sonet OTN/SDH/SONET/PDH" />
+  <Type Value="2360" Name="TX300 Result" />
+  <Type Value="2361" Name="TX300 RTD" />
+  <Type Value="2362" Name="TX300 IBERT" />
+  <Type Value="2370" Name="BERT_100G OTN/SDH/SONET/PDH"/>
+  <Type Value="2400" Name="BERT  OTN/SDH/SONET/PDH" />
+  <Type Value="2401" Name="Pulse  OTN/SDH/SONET/PDH" />
+  <Type Value="2402" Name="ISDN  OTN/SDH/SONET/PDH" />
+  <Type Value="2403" Name="JIT  OTN/SDH/SONET/PDH" />
+  <Type Value="2404" Name="WAN  OTN/SDH/SONET/PDH" />
+  <Type Value="2405" Name="MTJ  OTN/SDH/SONET/PDH" />
+  <Type Value="2406" Name="JTF  OTN/SDH/SONET/PDH" />
+  <Type Value="2407" Name="DS1  OTN/SDH/SONET/PDH" />
+  <Type Value="2408" Name="DS3  OTN/SDH/SONET/PDH" />
+  <Type Value="2409" Name="Sonet  OTN/SDH/SONET/PDH" />
+  <Type Value="2410" Name="OWD OTN/SDH/SONET/PDH" />
+  <Type Value="2450" Name="OTU-Xe(1e/2e)" />
+  <Type Value="2451" Name="OTU-Xe (1e/2e)" />
+  <Type Value="2500" Name="FBERT_1GF1" Group="Fiber Channel" GroupType="BERT"/>
+  <Type Value="2501" Name="FThroughput_1GF1" Group="Fiber Channel" GroupType="Throughput"/>
+  <Type Value="2502" Name="FLoop_1GF1" />
+  <Type Value="2503" Name="FRFC2544_1GF1" Group="Fiber Channel" GroupType="RFC2544"/>
+  <Type Value="2504" Name="FPort_1GF1" />
+  <Type Value="2550" Name="FBERT_1GF2" Group="Fiber Channel" GroupType="BERT"/>
+  <Type Value="2551" Name="FThroughput_1GF2" Group="Fiber Channel" GroupType="Throughput"/>
+  <Type Value="2552" Name="FLoop_1GF2" />
+  <Type Value="2553" Name="FRFC2544_1GF2" Group="Fiber Channel" GroupType="RFC2544"/>
+  <Type Value="2554" Name="FPort_1GF2" />
+  <Type Value="2600" Name="FBERT_10GF1" Group="Fiber Channel" GroupType="BERT"/>
+  <Type Value="2601" Name="FThroughput_10GF1" Group="Fiber Channel" GroupType="Throughput"/>
+  <Type Value="2602" Name="FLoop_10GF1" />
+  <Type Value="2603" Name="FRFC2544_10GF1" Group="Fiber Channel" GroupType="RFC2544"/>
+  <Type Value="2604" Name="FPort_10GF1" />
+  <Type Value="2650" Name="FBERT_10GF2" Group="Fiber Channel" GroupType="BERT"/>
+  <Type Value="2651" Name="FThroughput_10GF2" Group="Fiber Channel" GroupType="Throughput"/>
+  <Type Value="2652" Name="FLoop_10GF2" />
+  <Type Value="2653" Name="FRFC2544_10GF2" Group="Fiber Channel" GroupType="RFC2544"/>
+  <Type Value="2654" Name="FPort_10GF2" />
+  <Type Value="2700" Name="CPRI_1GF1" />
+  <Type Value="2750" Name="CPRI_1GF2" />
+  <Type Value="2800" Name="Fiberscope" />
+  <Type Value="2801" Name="OPM" Group="Optical" GroupType="OPM"/>
+  <Type Value="2802" Name="ODM" />
+  <Type Value="2803" Name="SCREEN" />
+  <Type Value="2850" Name="WIFI Ping" />
+  <Type Value="2851" Name="WIFI Trace Route" />
+  <Type Value="2852" Name="WIFI ARP" />
+  <Type Value="2900" Name="CPRI Framed RST_L1" />
+  <Type Value="2901" Name="CPRI Framed RTD_L1" />
+  <Type Value="2950" Name="CPRI Framed  RST_L1" />
+  <Type Value="2951" Name="CPRI Framed  RTD_L1" />
+  <Type Value="3000" Name="CPRI Framed RST_L2" />
+  <Type Value="3001" Name="CPRI Framed Wan_L2" />
+  <Type Value="3050" Name="CPRI Framed  RST_L2" />
+  <Type Value="3100" Name="VIPAG_10GP1" />
+  <Type Value="3101" Name="VIPAG_1GP1" />
+  <Type Value="3102" Name="VIPAG_1FP1" />
+  <Type Value="3150" Name="VIPAG_10GP2" />
+  <Type Value="3160" Name="VIPAG_100G" />
+  <Type Value="3200" Name="BERT_OTU2"/>
+  <Type Value="3300" Name="FBERT_16GF1" Group="Fiber Channel" GroupType="BERT"/>
+  <Type Value="3301" Name="FThroughput_16GF1" Group="Fiber Channel" GroupType="Throughput"/>
+  <Type Value="3302" Name="FLoop_16GF1" />
+  <Type Value="3303" Name="FRFC2544_16GF1" Group="Fiber Channel" GroupType="RFC2544"/>
+  <Type Value="3304" Name="FPort_16GF1" />
+  <Type Value="3350" Name="FBERT_16GF2" Group="Fiber Channel" GroupType="BERT"/>
+  <Type Value="3351" Name="FThroughput_16GF2" Group="Fiber Channel" GroupType="Throughput"/>
+  <Type Value="3352" Name="FLoop_16GF2" />
+  <Type Value="3353" Name="FRFC2544_16GF2" Group="Fiber Channel" GroupType="RFC2544"/>
+  <Type Value="3354" Name="FPort_16GF2" />
+  <Type Value="3400" Name="BERT_40G" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="3410" Name="Transport_OTU3" />
+  <Type Value="3420" Name="Transport_OTU4" />
+  <Type Value="3450" Name="BERT_40GE" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="3451" Name="Throughput_40GE" Group="Ethernet" GroupType="Throughput"/>
+  <Type Value="3452" Name="Loop_40GE" />
+  <Type Value="3453" Name="RFC2544_40GE" Group="Ethernet" GroupType="RFC2544"/>
+  <Type Value="3454" Name="VSAM_40GE" Group="Ethernet" GroupType="V-SAM"/>
+  <Type Value="3455" Name="Scan_40GE" />
+  <Type Value="3456" Name="Ping_40GE" />
+  <Type Value="3457" Name="Trace Route_40GE" />
+  <Type Value="3458" Name="ARP_40GE" />
+  <Type Value="3459" Name="VoIP Check_40GE" />
+  <Type Value="3460" Name="VoIP Client_40GE" />
+  <Type Value="3461" Name="VoIP Phone_40GE" />
+  <Type Value="3462" Name="VoIP Nextragen_40GE" />
+  <Type Value="3463" Name="IPTV Probe_40GE" />
+  <Type Value="3464" Name="IPTV Analysis_40GE" />
+  <Type Value="3465" Name="Pcap_40GE" />
+  <Type Value="3466" Name="ESMC_40GE" />
+  <Type Value="3467" Name="PTPv2_40GE" />
+  <Type Value="3468" Name="Wander_40GE" />
+  <Type Value="3469" Name="V-PERF_40GE" Group="Ethernet" GroupType="V-Perf"/>
+  <Type Value="3470" Name="Monitor_40GE" />
+  <Type Value="3471" Name="Lane Bert_40GE" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="3472" Name="PCS_40GE" />
+  <Type Value="3475" Name="BERT_40GE2" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="3476" Name="Throughput_40GE2" Group="Ethernet" GroupType="Throughput"/>
+  <Type Value="3477" Name="Loop_40GE2" />
+  <Type Value="3478" Name="RFC2544_40GE2" Group="Ethernet" GroupType="RFC2544"/>
+  <Type Value="3479" Name="VSAM_40GE2" Group="Ethernet" GroupType="V-SAM"/>
+  <Type Value="3480" Name="Scan_40GE2" />
+  <Type Value="3481" Name="Ping_40GE2" />
+  <Type Value="3482" Name="Trace Route_40GE2" />
+  <Type Value="3483" Name="ARP_40GE2" />
+  <Type Value="3484" Name="VoIP Check_40GE2" />
+  <Type Value="3485" Name="VoIP Client_40GE2" />
+  <Type Value="3486" Name="VoIP Phone_40GE2" />
+  <Type Value="3487" Name="VoIP Nextragen_40GE2" />
+  <Type Value="3488" Name="IPTV Probe_40GE2" />
+  <Type Value="3489" Name="IPTV Analysis_40GE2" />
+  <Type Value="3490" Name="Pcap_40GE2" />
+  <Type Value="3491" Name="ESMC_40GE2" />
+  <Type Value="3492" Name="PTPv2_40GE2" />
+  <Type Value="3493" Name="Wander_40GE2" />
+  <Type Value="3494" Name="V-PERF_40GE2" Group="Ethernet" GroupType="V-Perf"/>
+  <Type Value="3495" Name="Monitor_40GE2" />
+  <Type Value="3496" Name="Lane Bert_40GE2" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="3497" Name="PCS_40GE2" />
+  <Type Value="3500" Name="BERT_OTU3" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="3501" Name="Throughput_OTU3" Group="Ethernet" GroupType="Throughput"/>
+  <Type Value="3502" Name="RFC2544_OTU3" Group="Ethernet" GroupType="RFC2544"/>
+  <Type Value="3503" Name="VSAM_OTU3" Group="Ethernet" GroupType="V-SAM"/>
+  <Type Value="3550" Name="BERT_100GE" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="3551" Name="Throughput_100GE" Group="Ethernet" GroupType="Throughput"/>
+  <Type Value="3552" Name="Loop_100GE" />
+  <Type Value="3553" Name="RFC2544_100GE" Group="Ethernet" GroupType="RFC2544"/>
+  <Type Value="3554" Name="VSAM_100GE" Group="Ethernet" GroupType="V-SAM"/>
+  <Type Value="3555" Name="Scan_100GE" />
+  <Type Value="3556" Name="Ping_100GE" />
+  <Type Value="3557" Name="Trace Route_100GE" />
+  <Type Value="3558" Name="ARP_100GE" />
+  <Type Value="3559" Name="VoIP Check_100GE" />
+  <Type Value="3560" Name="VoIP Client_100GE" />
+  <Type Value="3561" Name="VoIP Phone_100GE" />
+  <Type Value="3562" Name="VoIP Nextragen_100GE" />
+  <Type Value="3563" Name="IPTV Probe_100GE" />
+  <Type Value="3564" Name="IPTV Analysis_100GE" />
+  <Type Value="3565" Name="Pcap_100GE" />
+  <Type Value="3566" Name="ESMC_100GE" />
+  <Type Value="3567" Name="PTPv2_100GE" />
+  <Type Value="3568" Name="Wander_100GE" />
+  <Type Value="3569" Name="V-PERF_100GE" Group="Ethernet" GroupType="V-Perf"/>
+  <Type Value="3570" Name="Monitor_100GE" />
+  <Type Value="3571" Name="Lane Bert_100GE" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="3572" Name="PCS_100GE" />
+  <Type Value="3575" Name="BERT_100GE2" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="3576" Name="Throughput_100GE2" Group="Ethernet" GroupType="Throughput"/>
+  <Type Value="3577" Name="Loop_100GE2" />
+  <Type Value="3578" Name="RFC2544_100GE2" Group="Ethernet" GroupType="RFC2544"/>
+  <Type Value="3579" Name="VSAM_100GE2" Group="Ethernet" GroupType="V-SAM"/>
+  <Type Value="3580" Name="Scan_100GE2" />
+  <Type Value="3581" Name="Ping_100GE2" />
+  <Type Value="3582" Name="Trace Route_100GE2" />
+  <Type Value="3583" Name="ARP_100GE2" />
+  <Type Value="3584" Name="VoIP Check_100GE2" />
+  <Type Value="3585" Name="VoIP Client_100GE2" />
+  <Type Value="3586" Name="VoIP Phone_100GE2" />
+  <Type Value="3587" Name="VoIP Nextragen_100GE2" />
+  <Type Value="3588" Name="IPTV Probe_100GE2" />
+  <Type Value="3589" Name="IPTV Analysis_100GE2" />
+  <Type Value="3590" Name="Pcap_100GE2" />
+  <Type Value="3591" Name="ESMC_100GE2" />
+  <Type Value="3592" Name="PTPv2_100GE2" />
+  <Type Value="3593" Name="Wander_100GE2" />
+  <Type Value="3594" Name="V-PERF_100GE2" Group="Ethernet" GroupType="V-Perf"/>
+  <Type Value="3595" Name="Monitor_100GE2" />
+  <Type Value="3596" Name="Lane Bert_100GE2" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="3597" Name="PCS_100GE2" />
+  <Type Value="3600" Name="BERT_OTU4" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="3601" Name="Throughput_OTU4" Group="Ethernet" GroupType="Throughput"/>
+  <Type Value="3602" Name="RFC2544_OTU4" Group="Ethernet" GroupType="RFC2544"/>
+  <Type Value="3603" Name="VSAM_OTU4" Group="Ethernet" GroupType="V-SAM"/>     
+  <Type Value="3650" Name="OSA" />
+  <Type Value="3700" Name="ODU0_P1" />
+  <Type Value="3750" Name="ODU0_P2" />
+  <Type Value="3800" Name="BERT_25GE" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="3801" Name="Throughput_25GE" Group="Ethernet" GroupType="Throughput"/>
+  <Type Value="3802" Name="Loop_25GE" />
+  <Type Value="3803" Name="RFC2544_25GE" Group="Ethernet" GroupType="RFC2544"/>
+  <Type Value="3804" Name="VSAM_25GE" Group="Ethernet" GroupType="V-SAM"/>
+  <Type Value="3805" Name="Scan_25GE" />
+  <Type Value="3806" Name="Ping_25GE" />
+  <Type Value="3807" Name="Trace Route_25GE" />
+  <Type Value="3808" Name="ARP_25GE" />
+  <Type Value="3809" Name="VoIP Check_25GE" />
+  <Type Value="3810" Name="VoIP Client_25GE" />
+  <Type Value="3811" Name="VoIP Phone_25GE" />
+  <Type Value="3812" Name="VoIP Nextragen_25GE" />
+  <Type Value="3813" Name="IPTV Probe_25GE" />
+  <Type Value="3814" Name="IPTV Analysis_25GE" />
+  <Type Value="3815" Name="Pcap_25GE" />
+  <Type Value="3816" Name="ESMC_25GE" />
+  <Type Value="3817" Name="PTPv2_25GE" />
+  <Type Value="3818" Name="Wander_25GE" />
+  <Type Value="3819" Name="V-PERF_25GE" Group="Ethernet" GroupType="V-Perf"/>
+  <Type Value="3820" Name="L2CP_25GE" />
+  <Type Value="3821" Name="eCPRI Throughput_25GE" />
+  <Type Value="3822" Name="eCPRI Pcap_25GE" />
+  <Type Value="3825" Name="BERT_25GE2" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="3826" Name="Throughput_25GE2" Group="Ethernet" GroupType="Throughput"/>
+  <Type Value="3827" Name="Loop_25GE2" />
+  <Type Value="3828" Name="RFC2544_25GE2" Group="Ethernet" GroupType="RFC2544"/>
+  <Type Value="3829" Name="VSAM_25GE2" Group="Ethernet" GroupType="V-SAM"/>
+  <Type Value="3830" Name="Scan_25GE2" />
+  <Type Value="3831" Name="Ping_25GE2" />
+  <Type Value="3832" Name="Trace Route_25GE2" />
+  <Type Value="3833" Name="ARP_25GE2" />
+  <Type Value="3834" Name="VoIP Check_25GE2" />
+  <Type Value="3835" Name="VoIP Client_25GE2" />
+  <Type Value="3836" Name="VoIP Phone_25GE2" />
+  <Type Value="3837" Name="VoIP Nextragen_25GE2" />
+  <Type Value="3838" Name="IPTV Probe_25GE2" />
+  <Type Value="3839" Name="IPTV Analysis_25GE2" />
+  <Type Value="3840" Name="Pcap_25GE2" />
+  <Type Value="3841" Name="ESMC_25GE2" />
+  <Type Value="3842" Name="PTPv2_25GE2" />
+  <Type Value="3843" Name="Wander_25GE2" />
+  <Type Value="3844" Name="V-PERF_25GE2" Group="Ethernet" GroupType="V-Perf"/>
+  <Type Value="3845" Name="L2CP_25GE2" />
+  <Type Value="3846" Name="eCPRI Throughput_25GE2" />
+  <Type Value="3847" Name="eCPRI Pcap_25GE2" />
+  <Type Value="3850" Name="BERT_50GE" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="3851" Name="Throughput_50GE" Group="Ethernet" GroupType="Throughput"/>
+  <Type Value="3852" Name="Loop_50GE" />
+  <Type Value="3853" Name="RFC2544_50GE" Group="Ethernet" GroupType="RFC2544"/>
+  <Type Value="3854" Name="VSAM_50GE" Group="Ethernet" GroupType="V-SAM"/>
+  <Type Value="3855" Name="Scan_50GE" />
+  <Type Value="3856" Name="Ping_50GE" />
+  <Type Value="3857" Name="Trace Route_50GE" />
+  <Type Value="3858" Name="ARP_50GE" />
+  <Type Value="3859" Name="VoIP Check_50GE" />
+  <Type Value="3860" Name="VoIP Client_50GE" />
+  <Type Value="3861" Name="VoIP Phone_50GE" />
+  <Type Value="3862" Name="VoIP Nextragen_50GE" />
+  <Type Value="3863" Name="IPTV Probe_50GE" />
+  <Type Value="3864" Name="IPTV Analysis_50GE" />
+  <Type Value="3865" Name="Pcap_50GE" />
+  <Type Value="3866" Name="ESMC_50GE" />
+  <Type Value="3867" Name="PTPv2_50GE" />
+  <Type Value="3868" Name="Wander_50GE" />
+  <Type Value="3869" Name="V-PERF_50GE" Group="Ethernet" GroupType="V-Perf"/>
+  <Type Value="3870" Name="PCS_50GE" />
+  <Type Value="3875" Name="BERT_50GE2" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="3876" Name="Throughput_50GE2" Group="Ethernet" GroupType="Throughput"/>
+  <Type Value="3877" Name="Loop_50GE2" />
+  <Type Value="3878" Name="RFC2544_50GE2" Group="Ethernet" GroupType="RFC2544"/>
+  <Type Value="3879" Name="VSAM_50GE2" Group="Ethernet" GroupType="V-SAM"/>
+  <Type Value="3880" Name="Scan_50GE2" />
+  <Type Value="3881" Name="Ping_50GE2" />
+  <Type Value="3882" Name="Trace Route_50GE2" />
+  <Type Value="3883" Name="ARP_50GE2" />
+  <Type Value="3884" Name="VoIP Check_50GE2" />
+  <Type Value="3885" Name="VoIP Client_50GE2" />
+  <Type Value="3886" Name="VoIP Phone_50GE2" />
+  <Type Value="3887" Name="VoIP Nextragen_50GE2" />
+  <Type Value="3888" Name="IPTV Probe_50GE2" />
+  <Type Value="3889" Name="IPTV Analysis_50GE2" />
+  <Type Value="3890" Name="Pcap_50GE2" />
+  <Type Value="3891" Name="ESMC_50GE2" />
+  <Type Value="3892" Name="PTPv2_50GE2" />
+  <Type Value="3893" Name="Wander_50GE2" />
+  <Type Value="3894" Name="V-PERF_50GE2" Group="Ethernet" GroupType="V-Perf"/>
+  <Type Value="3895" Name="PCS_50GE2" />
+  <Type Value="4000" Name="OSA result" Group="Optical" GroupType="OSA"/>
+  <Type Value="4001" Name="OCC result" Group="Optical" GroupType="OCC"/>
+  <Type Value="4020" Name="MTT6B result" />
+  <Type Value="4040" Name="MTT8 T1BE" />
+  <Type Value="4041" Name="MTT8 T1EV" />
+  <Type Value="4060" Name="MTT9 result" />
+  <Type Value="4080" Name="MTT14B result" />
+  <Type Value="4100" Name="MTT16A DCVT" />
+  <Type Value="4101" Name="MTT16A ACVT" />
+  <Type Value="4102" Name="MTT16A OHMT" />
+  <Type Value="4103" Name="MTT16A CAPT" />
+  <Type Value="4104" Name="MTT16A AMPT" />
+  <Type Value="4120" Name="MTT19A result" />
+  <Type Value="4140" Name="MTT24 result" />
+  <Type Value="4160" Name="MTT27 E1BE" />
+  <Type Value="4161" Name="MTT27 E1EV" />
+  <Type Value="4162" Name="MTT27 E1VF" />
+  <Type Value="4163" Name="MTT27 E1JM" />
+  <Type Value="4164" Name="MTT27 E1JO" />
+  <Type Value="4165" Name="MTT27 E1JR" />
+  <Type Value="4166" Name="MTT27 E1GS" />
+  <Type Value="4180" Name="MTT38 ATM" />
+  <Type Value="4181" Name="MTT38 SDHp" />
+  <Type Value="4182" Name="MTT38 SDHe" />
+  <Type Value="4183" Name="MTT38 SDHm" />
+  <Type Value="4200" Name="MTT45 result" />
+  <Type Value="4220" Name="MTT48 STAT" />
+  <Type Value="4221" Name="MTT48 ADVF" />
+  <Type Value="4222" Name="MTT48 MEAS" />
+  <Type Value="4223" Name="MTT48 CHNT" />
+  <Type Value="4224" Name="MTT48 TMPE" />
+  <Type Value="4225" Name="MTT48 DECM" />
+  <Type Value="4226" Name="MTT48 PLAM" />
+  <Type Value="4227" Name="MTT48 TSME" />
+  <Type Value="4228" Name="MTT48 PIDA" />
+  <Type Value="4229" Name="MTT48 MDIM" />
+  <Type Value="4230" Name="MTT48 CHAN" />
+  <Type Value="4231" Name="MTT48 CNFG" />
+  <Type Value="4232" Name="MTT48 TSRT" />
+  <Type Value="4233" Name="MTT48 UDSL" />
+  <Type Value="4240" Name="MTT50 STAT" />
+  <Type Value="4241" Name="MTT50 ETH" />
+  <Type Value="4242" Name="MTT50 BERT" />
+  <Type Value="4243" Name="MTT50 QTST" />
+  <Type Value="4244" Name="MTT50 BWSP" />
+  <Type Value="4245" Name="MTT50 IPTH" />
+  <Type Value="4246" Name="MTT50 RFC" />
+  <Type Value="4247" Name="MTT50 RESV" />
+  <Type Value="4248" Name="MTT50 RTD" />
+  <Type Value="4260" Name="MTT51 STAT" />
+  <Type Value="4280" Name="RXT 2600 SHDSL" />
+  <Type Value="4281" Name="RXT 2600 PING" />
+  <Type Value="4300" Name="WiFi AutoTest" />
+  <Type Value="4301" Name="WiFi APScan" />
+  <Type Value="4302" Name="WiFi ClientScan" />
+  <Type Value="4303" Name="WiFi V-PERF" />
+  <Type Value="4304" Name="WiFi PoE" />
+  <Type Value="4305" Name="WiFi Spectrum Analysis" />
+  <Type Value="4306" Name="WiFi Ping" />
+  <Type Value="4307" Name="WiFi Trace Route" />
+  <Type Value="4308" Name="WiFi ARP" />
+  <Type Value="4309" Name="WiFi Speed Test" />
+  <Type Value="4320" Name="MTT GPON" />
+  <Type Value="4321" Name="MTT GPON PLOAM" />
+  <Type Value="4322" Name="MTT GPON OMCI" />
+  <Type Value="4323" Name="MTT GPON OPM" />
+  <Type Value="4324" Name="MTT GPON Wizard" />
+  <Type Value="4340" Name="MTT SHDSL" />
+  <Type Value="4360" Name="MTT520 DSL" />
+  <Type Value="4361" Name="MTT520 TDR" />
+  <Type Value="4362" Name="MTT520 DMM" />
+  <Type Value="4363" Name="MTT520 PSD" />
+  <Type Value="4364" Name="MTT520 RFL" />
+  <Type Value="4365" Name="MTT520 IMPN" />
+  <Type Value="4366" Name="MTT520 LB" />
+  <Type Value="4367" Name="MTT520 LOSS" />
+  <Type Value="4368" Name="MTT520 Noise" />
+  <Type Value="4369" Name="MTT520 Ringers" />
+  <Type Value="4380" Name="MTT522 DSL" />
+  <Type Value="4381" Name="MTT522 TDR" />
+  <Type Value="4382" Name="MTT522 DMM" />
+  <Type Value="4383" Name="MTT522 PSD" />
+  <Type Value="4384" Name="MTT522 RFL" />
+  <Type Value="4385" Name="MTT522 IMPN" />
+  <Type Value="4386" Name="MTT522 LB" />
+  <Type Value="4387" Name="MTT522 LOSS" />
+  <Type Value="4388" Name="MTT522 Noise" />
+  <Type Value="4389" Name="MTT522 Ringers" />
+  <Type Value="4400" Name="MTT523 DSL" />
+  <Type Value="4401" Name="MTT523 TDR" />
+  <Type Value="4402" Name="MTT523 DMM" />
+  <Type Value="4403" Name="MTT523 PSD" />
+  <Type Value="4404" Name="MTT523 RFL" />
+  <Type Value="4405" Name="MTT523 IMPN" />
+  <Type Value="4406" Name="MTT523 LB" />
+  <Type Value="4407" Name="MTT523 LOSS" />
+  <Type Value="4408" Name="MTT523 Noise" />
+  <Type Value="4409" Name="MTT523 Ringers" />
+  <Type Value="4420" Name="MTT521 DSL" />
+  <Type Value="4421" Name="MTT521 TDR" />
+  <Type Value="4422" Name="MTT521 DMM" />
+  <Type Value="4423" Name="MTT521 PSD" />
+  <Type Value="4424" Name="MTT521 RFL" />
+  <Type Value="4425" Name="MTT521 IMPN" />
+  <Type Value="4426" Name="MTT521 LB" />
+  <Type Value="4427" Name="MTT521 LOSS" />
+  <Type Value="4428" Name="MTT521 Noise" />
+  <Type Value="4429" Name="MTT521 Ringers" />
+  <Type Value="4440" Name="G703 OWD" />
+  <Type Value="4441" Name="G703 PULSE" />
+  <Type Value="4442" Name="G703 RSLT" />
+  <Type Value="4443" Name="G703 RTD" />
+  <Type Value="4460" Name="C3794 RTD" />
+  <Type Value="4461" Name="C3794 OWD" />
+  <Type Value="4462" Name="C3794 RSLT" />
+  <Type Value="4463" Name="C3794 Monitor RSLT" />
+  <Type Value="4500" Name="V-TEST_1GC3" Group="Ethernet" GroupType="V-Test"/>
+  <Type Value="4501" Name="V-TEST_1GC4" Group="Ethernet" GroupType="V-Test"/>
+  <Type Value="4502" Name="V-TEST_2G5F1" Group="Ethernet" GroupType="V-Test"/>
+  <Type Value="4503" Name="V-PERF_2G5F1" Group="Ethernet" GroupType="V-Perf"/>
+  <Type Value="4550" Name="BERT_10GSFPCU1"/>
+  <Type Value="4551" Name="Throughput_10GSFPCU1"/>
+  <Type Value="4552" Name="RFC2544_10GSFPCU1"/>
+  <Type Value="4553" Name="VSAM_10GSFPCU1"/>
+  <Type Value="4554" Name="Loop_10GSFPCU1"/>
+  <Type Value="4555" Name="Ping_10GSFPCU1"/>
+  <Type Value="4556" Name="Trace Route_10GSFPCU1"/>
+  <Type Value="4557" Name="Arp_10GSFPCU1"/>
+  <Type Value="4558" Name="VoIP Check_10GSFPCU1"/>
+  <Type Value="4559" Name="VoIP Client_10GSFPCU1"/>
+  <Type Value="4560" Name="VoIP Phone_10GSFPCU1"/>
+  <Type Value="4561" Name="VoIP Nextragen_10GSFPCU1"/>
+  <Type Value="4562" Name="IpSec_10GSFPCU1"/>
+  <Type Value="4563" Name="V-PERF_10GSFPCU1"/>
+  <Type Value="4564" Name="Vftp_10GSFPCU1"/>
+  <Type Value="4565" Name="V-TEST_10GSFPCU1"/>
+  <Type Value="4600" Name="BERT_10GSFPCU2"/>
+  <Type Value="4601" Name="Throughput_10GSFPCU2"/>
+  <Type Value="4602" Name="RFC2544_10GSFPCU2"/>
+  <Type Value="4603" Name="VSAM_10GSFPCU2"/>
+  <Type Value="4604" Name="Loop_10GSFPCU2"/>
+  <Type Value="4605" Name="Ping_10GSFPCU2"/>
+  <Type Value="4606" Name="Trace Route_10GSFPCU2"/>
+  <Type Value="4607" Name="Arp_10GSFPCU2"/>
+  <Type Value="4608" Name="VoIP Check_10GSFPCU2"/>
+  <Type Value="4609" Name="VoIP Client_10GSFPCU2"/>
+  <Type Value="4610" Name="VoIP Phone_10GSFPCU2"/>
+  <Type Value="4611" Name="VoIP Nextragen_10GSFPCU2"/>
+  <Type Value="4612" Name="IpSec_10GSFPCU2"/>
+  <Type Value="4613" Name="V-PERF_10GSFPCU2"/>
+  <Type Value="4614" Name="Vftp_10GSFPCU2"/>
+  <Type Value="4615" Name="V-TEST_10GSFPCU2"/>
+  <Type Value="10000" Name="IP ARP" />
+  <Type Value="10001" Name="IP Ftp Get" />
+  <Type Value="10002" Name="IP Ftp Put" />
+  <Type Value="10003" Name="IP Http Get" />
+  <Type Value="10004" Name="IP Web" />
+  <Type Value="10005" Name="IP Ping" />
+  <Type Value="10006" Name="IP Trace Route" />
+  <Type Value="10007" Name="IP VoIP Check" />
+  <Type Value="10008" Name="IP VoIP Client" />
+  <Type Value="10009" Name="IP VoIP Server" />
+  <Type Value="10010" Name="IP VoIP Phone" />
+  <Type Value="10011" Name="IP IPTV Probe" />
+  <Type Value="10012" Name="IP IPTV Analysis" />
+  <Type Value="10013" Name="IP IPTV Scan" />
+  <Type Value="10014" Name="IP IPTV View" />
+  <Type Value="10015" Name="IP NetWiz Discovery" />
+  <Type Value="10016" Name="IP NetWiz CableTest" />
+  <Type Value="10017" Name="IP Tcp Throughput" />
+  <Type Value="10018" Name="IP Pcap" />
+  <Type Value="10019" Name="Wifi Spectrum Analysis" />
+  <Type Value="10020" Name="Wifi Service Set Identifier" />
+  <Type Value="40001" Name="OTDR V-Scout" />
+  <Type Value="40002" Name="OTDR SORS" Group="Optical" GroupType="OTDR"/>
+  <Type Value="40003" Name="OTDR OLTS" Group="Optical" GroupType="OLTS"/>
+  <Type Value="40004" Name="OTDR SCOPE" Group="Optical" GroupType="Fiberscope"/>
+  <Type Value="50001" Name="V100 CX Analog Channel" Group="CX Series" GroupType="Single Channel"/>
+  <Type Value="50002" Name="V100 CX Digital Channel" Group="CX Series" GroupType="Single Channel"/>
+  <Type Value="50003" Name="V100 CX Installation Check" Group="CX Series" GroupType="Installation Check" />
+  <Type Value="50004" Name="V100 CX System Scan" Group="CX Series" GroupType="System Scan" />
+  <Type Value="50005" Name="V100 CX Ingress" Group="CX Series" GroupType="Spectrum"/>
+  <Type Value="50006" Name="V100 CX Ingress(R)" />
+  <Type Value="50007" Name="V100 CX Cable Modem" Group="CX Series" GroupType="Cable Modem"/>
+  <Type Value="50008" Name="V100 CX Tilt" Group="CX Series" GroupType="Tilt"/>
+  <Type Value="50009" Name="V100 CX Reverse Path Analysis" />
+  <Type Value="50010" Name="V100 CX CM Ping" Group="CX Series" GroupType="Cable Modem"/>
+  <Type Value="50011" Name="V100 CX CM Web or FTP" Group="CX Series" GroupType="Cable Modem"/>
+  <Type Value="50012" Name="V100 CX CM IPTV" Group="CX Series" GroupType="Cable Modem"/>
+  <Type Value="50013" Name="V100 CX CM VoIP" Group="CX Series" GroupType="Cable Modem"/>
+  <Type Value="50014" Name="V100 CX CM Trace Route" Group="CX Series" GroupType="Cable Modem"/>
+  <Type Value="50015" Name="V100 CX HIP" Group="CX Series" GroupType="HIP"/>
+  <Type Value="50016" Name="V100 CX Up Ranging" />
+  <Type Value="50017" Name="V100 CX RP Balancing" />
+  <Type Value="50018" Name="V100 CX HIP AutoTest" Group="CX Series" GroupType="HIP"/>
+  <Type Value="50019" Name="V100 CX Leakage" />
+  <Type Value="50020" Name="V100 CX HIP C&amp;M" />
+  <Type Value="50021" Name="V100 CX OFDM" />
+  <Type Value="50022" Name="V100 CX In Service Sweep" />
+  <Type Value="50023" Name="V100 CX Cable Modem D3" Group="CX Series" GroupType="Cable Modem"/>
+  <Type Value="50024" Name="V100 CX HIP D3" Group="CX Series" GroupType="HIP"/>
+  <Type Value="50025" Name="V100 CX HIP AutoTest D3" Group="CX Series" GroupType="HIP"/>
+  <Type Value="50026" Name="V100 CX HIP Multi D3" Group="CX Series" GroupType="HIP Multi"/>
+  <Type Value="50027" Name="V100 CX Passive Sweep" />
+  <Type Value="50100" Name="V100 BX Measurements" Group="BX/MTTplus DSL Series" GroupType="Measurements"/>
+  <Type Value="50101" Name="V100 BX Measurements TI" Group="BX/MTTplus DSL Series" GroupType="Measurements"/>
+  <Type Value="50102" Name="V100 BX Measurements VDSL" Group="BX/MTTplus DSL Series" GroupType="Measurements"/>
+  <Type Value="50103" Name="V100 BX ATM OAM" Group="BX/MTTplus DSL Series" GroupType="ATM OAM"/>
+  <Type Value="50104" Name="V100 BX ATM OAM TI" Group="BX/MTTplus DSL Series" GroupType="ATM OAM"/>
+  <Type Value="50105" Name="V100 BX ATM OAM VDSL" Group="BX/MTTplus DSL Series" GroupType="ATM OAM"/>
+  <Type Value="50106" Name="V100 BX ATM VCC" Group="BX/MTTplus DSL Series" GroupType="ATM VCC"/>
+  <Type Value="50107" Name="V100 BX DELT" Group="BX/MTTplus DSL Series" GroupType="DELT"/>
+  <Type Value="50108" Name="V100 BX SELT" Group="BX/MTTplus DSL Series" GroupType="SELT"/>
+  <Type Value="50109" Name="V100 BX Ping" />
+  <Type Value="50110" Name="V100 BX Ping TI" />
+  <Type Value="50111" Name="V100 BX Ping VDSL" />
+  <Type Value="50112" Name="V100 BX Trace Route" />
+  <Type Value="50113" Name="V100 BX Trace Route TI" />
+  <Type Value="50114" Name="V100 BX Trace Route VDSL" />
+  <Type Value="50115" Name="V100 BX Web or FTP" />
+  <Type Value="50116" Name="V100 BX Web or FTP TI" />
+  <Type Value="50117" Name="V100 BX Web or FTP VDSL" />
+  <Type Value="50118" Name="V100 BX VoIP" />
+  <Type Value="50119" Name="V100 BX VoIP TI" />
+  <Type Value="50120" Name="V100 BX VoIP VDSL" />
+  <Type Value="50121" Name="V100 BX IPTV" />
+  <Type Value="50122" Name="V100 BX IPTV TI" />
+  <Type Value="50123" Name="V100 BX IPTV VDSL" />
+  <Type Value="50124" Name="V100 BX PassThrough Ping" />
+  <Type Value="50125" Name="V100 BX PassThrough Ping TI" />
+  <Type Value="50126" Name="V100 BX PassThrough Ping VDSL" />
+  <Type Value="50127" Name="V100 BX PassThrough Trace Route" />
+  <Type Value="50128" Name="V100 BX PassThrough Trace Route TI" />
+  <Type Value="50129" Name="V100 BX PassThrough Trace Route VDSL" />
+  <Type Value="50130" Name="V100 BX PassThrough Web or FTP" />
+  <Type Value="50131" Name="V100 BX PassThrough Web or FTP TI" />
+  <Type Value="50132" Name="V100 BX PassThrough Web or FTP VDSL" />
+  <Type Value="50133" Name="V100 BX ATM VCC CNXT" Group="BX/MTTplus DSL Series" GroupType="ATM VCC"/>
+  <Type Value="50134" Name="V100 BX PassThrough VoIP TI" />
+  <Type Value="50135" Name="V100 BX PassThrough VoIP VDSL" />
+  <Type Value="50136" Name="V100 BX PassThrough IPTV" />
+  <Type Value="50137" Name="V100 BX PassThrough IPTV TI" />
+  <Type Value="50138" Name="V100 BX PassThrough IPTV VDSL" />
+  <Type Value="50200" Name="V100 MX BERT" Group="Ethernet" GroupType="BERT"/>
+  <Type Value="50201" Name="V100 MX FC BERT" Group="Fiber Channel" GroupType="BERT"/>
+  <Type Value="50202" Name="V100 MX RFC2544" Group="Ethernet" GroupType="RFC2544"/>
+  <Type Value="50203" Name="V100 MX Throughput" Group="Ethernet" GroupType="Throughput"/>
+  <Type Value="50204" Name="V100 MX Scan" />
+  <Type Value="50205" Name="V100 MX Monitor" />
+  <Type Value="50206" Name="V100 MX Ping" />
+  <Type Value="50207" Name="V100 MX ARPWiz" />
+  <Type Value="50209" Name="V100 MX Trace Route" />
+  <Type Value="50210" Name="V100 MX Web or FTP" />
+  <Type Value="50211" Name="V100 MX VoIP" />
+  <Type Value="50212" Name="V100 MX IPTV" />
+  <Type Value="50213" Name="V100 MX NetWiz" />
+  <Type Value="50214" Name="V100 MX SIP" />
+  <Type Value="50215" Name="V100 MX FC RFC2544" Group="Fiber Channel" GroupType="RFC2544"/>
+  <Type Value="50216" Name="V100 MX FC Throughput" Group="Fiber Channel" GroupType="Throughput"/>
+  <Type Value="50217" Name="V100 MX 1588v2" />
+  <Type Value="50218" Name="V100 MX VSAM" Group="Ethernet" GroupType="V-SAM"/>
+  <Type Value="50300" Name="V100 IP Ping" />
+  <Type Value="50301" Name="V100 IP Web or FTP" />
+  <Type Value="50302" Name="V100 IP IPTV" />
+  <Type Value="50303" Name="V100 IP VoIP" />
+  <Type Value="50304" Name="V100 IP Trace Route" />
+  <Type Value="50305" Name="V100 IP ARP" />
+  <Type Value="50306" Name="V100 Netwiz" />
+  <Type Value="50307" Name="V100 IP SIP" />
+  <Type Value="50400" Name="V100 TX Result" />
+  <Type Value="50401" Name="V100 TX130 Result" />
+  <Type Value="50402" Name="V100 TX ISDN" />
+  <Type Value="50403" Name="V100 TX130 ISDN" />
+  <Type Value="50404" Name="V100 TX Jitter" />
+  <Type Value="50405" Name="V100 TX130 Jitter" />
+  <Type Value="50406" Name="V100 TX PTM" />
+  <Type Value="50407" Name="V100 TX130 IBERT" />
+  <Type Value="50408" Name="V100 TX MTJ" />
+  <Type Value="50409" Name="V100 TX JTF" />
+  <Type Value="50410" Name="V100 TX ESMC" />
+</Result>

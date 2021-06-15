@@ -1,0 +1,52 @@
+{
+  "advancedInfo": {
+    "jobID": {
+      "value": "123",
+      "enable": false
+    },
+    "nodeID": {
+      "value": "goug087y",
+      "enable": false
+    },
+    "accountNumber": {
+      "value": "pijpojip",
+      "enable": false
+    },
+    "address": {
+      "value": "098u089",
+      "enable": false
+    },
+    "comments": {
+      "value": "098u08",
+      "enable": false
+    },
+    "locator": {
+      "value": "lkjhlkjhkljh",
+      "enable": false
+    },
+    "advType": {
+      "value": "kjlkjp[oi",
+      "enable": false
+    },
+    "techID": {
+      "value": "oijpojip",
+      "enable": false
+    },
+    "techName": {
+      "value": "poijpi",
+      "enable": false
+    },
+    "gpsLatitude": {
+      "value": "-120.764321",
+      "enable": false
+    },
+    "gpsLongitude": {
+      "value": "130.12345",
+      "enable": false
+    },
+    "gpsAltitude": {
+      "value": "50.9",
+      "enable": false
+    }
+  }
+}

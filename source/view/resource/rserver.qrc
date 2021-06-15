@@ -1,0 +1,23 @@
+
+<RCC>
+    <qresource prefix="/images">
+    	<file>checkbox_checked.png</file>
+	<file>checkbox_unchecked.png</file>
+	<file>button_green_press.png</file>
+	<file>button_green_release.png</file>
+	<file>button_green_select.png</file>
+	<file>button_gray_press.png</file>
+	<file>button_gray_release.png</file>
+	<file>button_gray_select.png</file>
+	<file>MISC_PROGCLK_11states.png</file>
+	<file>security.png</file>
+	<file>PageLeftPress.png</file>
+	<file>PageLeftRelease.png</file>
+	<file>PageRightPress.png</file>
+	<file>PageRightRelease.png</file>
+	<file>drop-down.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file>stylesheet.qss</file>
+    </qresource>
+</RCC>

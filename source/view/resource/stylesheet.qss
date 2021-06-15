@@ -1,0 +1,324 @@
+
+QRserver--QRserverUi * {
+	outline:none;
+}
+
+QRserver--QRserverUi QLabel#QParmLineEditName {
+	color:black;
+	border:1px solid black;
+	background-color:rgb(135, 131, 135);
+	qproperty-alignment:'Qt::AlignLeft | Qt::AlignVCenter';
+}
+
+QRserver--QRserverUi QLabel#RegisterInfo {
+	color:black;
+	background-color:rgb(99, 94, 128);
+	padding-left:1px;
+	padding-right:1px;
+	qproperty-alignment:'Qt::AlignLeft | Qt::AlignVCenter';
+}
+
+QRserver--QRserverUi QLabel#ClientInfo {
+    color:black;
+    background-color:rgb(99, 94, 128);
+    padding-left:1px;
+    padding-right:1px;
+    qproperty-alignment:'Qt::AlignLeft | Qt::AlignVCenter';
+}
+
+QRserver--QRserverUi QLabel#LockDownInfo {
+	background-color:rgb(99, 94, 128);
+	qproperty-alignment:'Qt::AlignLeft | Qt::AlignVCenter';
+	margin-top: 5px;
+	margin-right: 2px;
+	margin-bottom: 5px;
+	margin-left: 2px;
+	font-size: 16px;
+	min-height: 20px;
+}
+
+QRserver--QRserverUi QBaseLineEdit {
+	min-height:28px;
+	color: black;
+	border:1px solid black;
+	background-color:white;
+	padding-left:1px;
+	padding-right:1px;
+	qproperty-alignment:'Qt::AlignLeft | Qt::AlignVCenter';
+}
+
+QRserver--QRserverUi QBaseLineEdit:disabled {
+	color:rgb(160,160,164);
+}
+
+QRserver--QRserverUi QBaseLineEdit#UploadFileFilterPattern {
+	max-width: 160px;
+	max-height: 26px;
+	border:2px solid white;
+	background-color:rgb(204, 207, 213);
+}
+
+QRserver--QRserverUi QParmLineEdit {
+	min-height:28px;
+}
+
+QRserver--QRserverUi QWidget#ToolboxBtnWidget {
+	background-color:rgb(99, 94, 128);
+	border-left:1px solid white;
+}
+
+QRserver--QRserverUi #ToolboxBtnWidget > QPushButton {
+	width: 120px;
+	height: 40px;
+	color: white;
+	border: none;
+	background-image:url(:/images/button_green_press.png);
+}
+
+QRserver--QRserverUi #ToolboxBtnWidget > QPushButton:disabled {
+	color:rgba(160,160,164,0);
+	background-image:url(:/images/button_gray_press.png);
+}
+
+QRserver--QRserverUi #ToolboxBtnWidget > QPushButton:pressed {
+	background-image:url(:/images/button_green_release.png);
+}
+
+QRserver--QRserverUi QPushButton#UploadFileBtnRefresh {
+	width: 80px;
+	height: 26px;
+	color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	background-color:rgb(47, 75, 98);
+}
+
+QRserver--QRserverUi QPageBar {
+	min-width:150px;
+	min-height:30px;
+	font-size:14px;
+	color: white;
+}
+
+QRserver--QRserverUi QPushButton#QPageBarBtnLeft,#QPageBarBtnRight {
+	width: 26px;
+	height: 20px;
+	color: white;
+	border: none;
+}
+
+QRserver--QRserverUi QPushButton#QPageBarBtnLeft {
+	background-image:url(:/images/PageLeftRelease.png);
+}
+
+QRserver--QRserverUi QPushButton#QPageBarBtnLeft:pressed {
+	background-image:url(:/images/PageLeftPress.png);
+}
+
+QRserver--QRserverUi QPushButton#QPageBarBtnRight {
+	background-image:url(:/images/PageRightRelease.png);
+}
+
+QRserver--QRserverUi QPushButton#QPageBarBtnRight:pressed {
+	background-image:url(:/images/PageRightPress.png);
+}
+
+QRserver--QRserverUi QTabWidget::pane {
+	border-top:2px solid rgb(0, 0, 255);
+	background-color:rgb(99, 94, 128);
+}
+
+QRserver--QRserverUi QTabBar::tab{
+	height:30px;
+	color: white;
+	border-right-style: solid;
+	border-top-style: solid;
+	border-width:1px;
+	border-color:black;
+	background-color:rgb(135, 131, 135);
+}
+/*
+QRserver--QRserverUi #QRserverQTab>QTabBar::tab{
+	min-width:164.5px;
+}
+
+QRserver--QRserverUi #QUploadQTab>QTabBar::tab{
+	min-width:329px;
+}
+*/
+QRserver--QRserverUi QTabBar::tab:selected {
+	background-color:rgb(0, 0, 255);
+}
+
+QRserver--QRserverUi QTabBar::tab:disabled {
+	color:rgba(160,160,164,0);
+	background-image:url(:/images/security.png);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:left;
+}
+
+QRserver--QRserverUi QTabBar::tear {
+	width: 0px;
+	border: none;
+}
+
+QRserver--QRserverUi QTabBar::scroller {
+	width: 0px;
+	border: none;
+}
+
+QRserver--QRserverUi QLabel#QBaseMessageBoxLabelTitle,#QResultFilterDialogLabelTitle,
+							#QDetailInfoBoxLabelTitle {
+	min-height:40px;
+	font-size:20px;
+	color:white;
+	background-color:rgb(0,255,0);
+	qproperty-alignment:AlignCenter;
+}
+
+QRserver--QRserverUi QLabel#QBaseMessageBoxLabelText {
+	font-size:15px;
+	color:blue;
+	background-color:rgb(255,255,255);
+	qproperty-alignment:AlignCenter;
+}
+
+QRserver--QRserverUi QLabel#QBaseMessageBoxLabelInformative {
+	height:20px;
+	font-size:10px;
+	color:blue;
+	background-color:white;
+	qproperty-alignment:AlignCenter;
+	qproperty-wordWrap:true;
+}
+
+QRserver--QRserverUi QWidget#QBaseMessageBoxBtnWidget,#QResultFilterDialogBtnWidget,
+							#QDetailInfoBoxBtnWidget {
+	min-height:40px;
+	background-color:rgb(160,160,164);
+}
+
+QRserver--QRserverUi QDialog#QBaseMessageBox,#QResultFilterDialog,#QDetailInfoBox {
+	min-width:500px;
+	min-height:300px;
+	border-style: solid;
+	border-width:2px;
+	border-color:rgb(160,160,164);
+	background-color:rgb(160,160,164);
+}
+
+QRserver--QRserverUi #QBaseMessageBoxBtnWidget > QPushButton,#QResultFilterDialogBtnWidget > QPushButton,
+						#QDetailInfoBoxBtnWidget > QPushButton {
+	max-width: 120px;
+	height: 40px;
+	color: black;
+	border: none;
+	background-color:rgb(160,160,164);
+	background-image:url(:/images/button_gray_release.png);
+}
+
+QRserver--QRserverUi #QBaseMessageBoxBtnWidget > QPushButton:pressed,#QResultFilterDialogBtnWidget > QPushButton:pressed,
+						#QDetailInfoBoxBtnWidget > QPushButton:pressed {
+	background-image:url(:/images/button_gray_press.png);
+}
+
+QRserver--QRserverUi QDialog#QResultFilterDialog {
+	min-width:400px;
+	min-height:240px;
+}
+
+QRserver--QRserverUi QWidget#QResultFilterDialogCenterWidget {
+	background-color:white;
+}
+
+QRserver--QRserverUi QLabel#QResultFilterDialogLabelJobId,#QResultFilterDialogLabelLocation {
+	min-height:28px;
+	font-size:15px;
+	padding-left:1px;
+	color:black;
+	background-color:rgb(160,160,164);
+	qproperty-alignment:'Qt::AlignLeft | Qt::AlignVCenter';
+}
+
+QRserver--QRserverUi QBaseComboBox{
+	min-height:28px;
+	border:1px solid black;
+	padding-left:2px;
+	padding-left:2px;
+} 
+
+QRserver--QRserverUi QBaseComboBox::drop-down{
+	top:4px;
+	right:4px;
+	image:url(:/images/drop-down.png) 
+}
+
+QRserver--QRserverUi QPageListWidget {
+	min-height:295;
+	min-width:265;
+	background-color:white;
+	border:2px solid black;
+}
+
+QRserver--QRserverUi QPageListWidgetHeader {
+	min-height:45px;
+	background-color:white;
+	border:2px solid black;
+}
+
+QRserver--QRserverUi QPageListWidgetItem {
+	min-height:26px;
+}
+
+QRserver--QRserverUi QPageBar#QPageListWidgetQPageBar {
+	border:2px solid black;
+	color: black;
+}
+
+QRserver--QRserverUi QHeaderView::section {
+	height: 30px;
+	background-color:rgb(26, 68, 113);
+	color: white;
+} 
+
+QRserver--QRserverUi QTableView::indicator {
+        width: 25px;
+        height: 25px;
+}
+
+QRserver--QRserverUi QTableView::indicator:unchecked {
+        image: url(:/images/checkbox_unchecked.png);
+}
+
+QRserver--QRserverUi QTableView::indicator:checked {
+        image: url(:/images/checkbox_checked.png);
+}
+
+QRserver--QRserverUi QTableView { 
+	border:0px;	
+}
+
+QRserver--QRserverUi #QUploadFileTableWidget QTableView {
+	background-color:white;
+}
+
+QRserver--QRserverUi #QDownloadProfileTableWidget QTableView { 
+	background-color:rgb(99, 93, 132); 	
+	gridline-color: rgb(128,128,128);
+}
+
+QRserver--QRserverUi #QSoftwareTableWidget QTableView { 
+	background-color:rgb(99, 93, 132); 
+}
+
+QRserver--QRserverUi QTableView::item:selected { 
+	background-color:rgb(150, 152, 158);
+}
+
+QRserver--QRserverUi #QDetailInfoBox QTableView { 
+	background-color:rgb(160,160,164); 	
+	gridline-color: rgb(128,128,128);
+}
+

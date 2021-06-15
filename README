@@ -1,0 +1,148 @@
+About
+------------------
+r-server client
+
+
+Prerequisites
+------------------
+	Ubuntu:
+		sudo apt-get install qtchooser libqt4-dev libqtwebkit-dev astyle libqjson-dev
+	
+	build mosquitto-1.5.2 for x86
+		cd thirdpart/linux/mosquitto-1.5.2
+		sudo apt-get install uuid-dev
+		make -j4; sudo make install
+		
+	eclipse:
+		Install JSON Editor
+		Repository : JSON Editor - http://boothen.github.io/Json-Eclipse-Plugin/
+		
+	Build qmqtt for ARM:
+		export QTDIR=@your_qt_directory    (your_qt_directory=/media/work/mttplus/platforms/qt-arm,etc.)
+		export QMAKESPEC=$QTDIR/mkspecs/default
+		$QTDIR/bin/qmake && cd src && $QTDIR/bin/qmake && cd mqtt && $QTDIR/bin/qmake && cd ../../ && cd examples && $QTDIR/bin/qmake && cd mqtt && $QTDIR/bin/qmake && cd client $QTDIR/bin/qmake && cd ../../../
+		make -j4; make install
+		
+	Build cwidget for x86:
+		qmake cwidget-x86.pro
+		make -j4; make install
+	
+	
+Directory structure
+------------------
+	.dep
+	.build
+	.install
+	.moc
+	.style
+	source
+	include
+	doc
+	project
+	tools
+	thirdparty
+	target //release directory for svn external
+	debug //debug symbol library and app,for gdb usage
+
+Installation
+------------------
+
+
+Build Instructions
+------------------
+1.Format source/header files
+	make styles
+2.Target
+	make engine/gui/remoteexecutor
+
+
+Debug in X86 Instructions
+------------------
+1.	source ./tools/linux/env.sh
+2.	mkdir -p .build/home/;tar -xJf testcase/rserverengine/qrserver/qupload/example.tar.xz -C .build/home/
+3.	The mx300-rslt compressed in example.tar.xz whose serial number is TS200000000000 and date is 2018-11-11:00-00-00.
+
+
+Manual for remoteexeutor
+------------------
+            NAME
+                   remoteexecutor remote call the R-Server client function.
+            SYNOPSIS
+                   remoteexecutor --cmd='{command}' --input='{intput}' --timeout='{milliseconds}'
+            DESCRIPTION
+                commands:
+                1. 'QUploadResultCMD', upload a single result,"input" should be the key file absolute file path name for the result.
+                2. 'QPrintResultKeyFileCMD' ,print the key file for all the supported types of results.
+                3. 'QGetResultCMD' , print all the results in the test unit.
+            Exit status:
+                Succeed = 0,
+                ArgumentError,
+                Failed,
+                ClientClosed,
+                NetworkError,
+                IPCError,
+                Timeout,
+                OutputError,
+                InvalidCommand,
+                CustomError,
+                EngineIsDead, (for the most of the cases, the option for R-Server is not enabled)
+                NotChecked,
+                Unregistered,
+                RegisteredUnauthorized,
+                UnknownError
+                Output
+                The default output is stdout, in Json format, the root cause will be print if exit status is not "Succeed". The stderr used as the internal debug print information, should not parse this channel unless you failed to call this APP.
+            Examples:
+
+                    "remoteexecutor --cmd='QUploadResultCMD' --input='.build/home/100ge/mx300-rslt/100gport/thrpt-result/thrpt100g1.html' 2>/dev/null;"
+                    "remoteexecutor --cmd='QPrintResultKeyFileCMD' 2>/dev/null;"
+                    "remoteexecutor --cmd='QGetResultCMD' 2>/dev/null;"
+
+Build Demo Delta package
+------------------
+1.Help
+	./tools/linux/mkdemodelta.sh
+
+
+Notes:
+1.RXT/Mttplus SSMTT-XX not support delta-upgrade.
+2.Mttplus-900(wifi) not support delta-upgrade.
+
+todo list
+------------------
+1.upload/download profile:
+	voip nextragen     /home/xxg/mx300-prof/xxportx/ipvoip-nextragen-setup
+	C37.94             /home/c37_94/c37_94-prof
+	G.703              /home/codir/codir-prof
+	cpri               /home/cpri/2g5-cpril1-prof 
+	                   /home/cpri/2g5-cpril2dual-prof 
+	                   /home/cpri/2g5-cpril2mon-prof 
+	                   /home/cpri/2g5-cpril2-prof
+	DS1                /home/2g5/html-files/tx300-ds1-prof
+	DS3                /home/2g5/html-files/tx300-ds3-prof
+	sonet              /home/2g5/html-files/tx300-sonet-prof
+	Advanced Mode      /home/2g5/html-files/tx300-prof (profile include pdh/sonet/sdh/otn)
+	vperf              /home/root/mttwifi-prof/vperf-setup
+	setup              /home/root/mttwifi-prof/wifi-setup
+	speedtest          /home/root/mttwifi-prof/speedtest-setup
+	ip trace           /home/root/v300-prof/wifi/iptrace-setup
+	ip ping            /home/root/v300-prof/wifi/ipping-setup
+	ip arpwiz          /home/root/v300-prof/wifi/iparpwiz-setup
+	gpon               /home/gpon/gpon-prof/
+
+*wifi profile include WX-150.*
+	
+2.40G/100GE profile support.
+
+3.eRstMTT260(SHDSL) result
+
+4.mttplus tdr-160/tdr-161
+
+5.TX300s profile path to be confirm
+
+6.V-Connect GPS
+
+7.timebombed when app running
+
+8.SPF+ copper result support
+

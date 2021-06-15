@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<data port="1gc1port" type="rfc2544-result" version="1.0">
+    <v300_oeminfo save_date="2021-01-28:14-11-19" save_time="2021-01-28:14-11-19"
+        serial_number="TPQ000RO810166000" software_version="3.5.8-1"/>
+    <v300_advinfo node_id="b" job_id="a" location="d" comment="e" locator="" advtype=""
+        account_id="c" tech_id="123" tech_name="456"/>
+    <v300_gpsData Latitude="37.2317" Longitude="-121.821" Altitude="53.1"/>
+    <result_status TestResult="PASS" IsNA="false"/>
+    <!--
+        embedded your result
+        <result_specific></result_specific>
+    -->
+</data>

@@ -1,0 +1,5806 @@
+{
+	"fileTypeList": [
+		{
+			"fileType": "eRstBert1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/bert-result"
+				}
+			],
+			"typeName": "1GC1 Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstThrpt1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/thrpt-result"
+				}
+			],
+			"typeName": "1GC1 Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstRfc25441GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/rfc2544-result"
+				}
+			],
+			"typeName": "1GC1 Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVsam1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/y1564-result"
+				}
+			],
+			"typeName": "1GC1 Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstLoop1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/loopback-result"
+				}
+			],
+			"typeName": "1GC1 Loop",
+			"measureType": "LOOP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstScan1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/scan-result"
+				}
+			],
+			"typeName": "1GC1 Scan",
+			"measureType": "SCAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpPing1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/ipping-result"
+				}
+			],
+			"typeName": "1GC1 IpPing",
+			"measureType": "IPPING",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpTrace1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/iptrace-result"
+				}
+			],
+			"typeName": "1GC1 IpTrace",
+			"measureType": "IPTRACE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpArp1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/iparpwiz-result"
+				}
+			],
+			"typeName": "1GC1 IpArp",
+			"measureType": "IPARP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipCheck1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/ipvoip-check-result"
+				}
+			],
+			"typeName": "1GC1 IpVoipCheck",
+			"measureType": "IPVOIPCHECK",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipClient1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/ipvoip-client-result"
+				}
+			],
+			"typeName": "1GC1 IpVoipClient",
+			"measureType": "IPVOIPCLIENT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipIpPhone1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/ipvoip-ipphone-result"
+				}
+			],
+			"typeName": "1GC1 IpVoipIpPhone",
+			"measureType": "IPVOIPIPPHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipNextragen1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/ipvoip-nextragen-result"
+				}
+			],
+			"typeName": "1GC1 IpVoipNextragen",
+			"measureType": "IPVOIPNEXTRAGEN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvProbe1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/iptv-probe-result"
+				}
+			],
+			"typeName": "1GC1 IptvProbe",
+			"measureType": "IPTVPROBE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvAnalys1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/iptv-analys-result"
+				}
+			],
+			"typeName": "1GC1 IptvAnalys",
+			"measureType": "IPTVANALYS",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPcap1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/pcap-result"
+				}
+			],
+			"typeName": "1GC1 Pcap",
+			"measureType": "PCAP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstEsmc1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/esmc-result"
+				}
+			],
+			"typeName": "1GC1 Esmc",
+			"measureType": "ESMC",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPtpv21GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/ptpv2-result"
+				}
+			],
+			"typeName": "1GC1 Ptpv2",
+			"measureType": "PTPV2",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstWan1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/wan-result"
+				},
+				{
+					"regExp": "wanderRst/1gport1"
+				},
+				{
+					"regExp": "1ge/wanderRst"
+				}
+			],
+			"typeName": "1GC1 Wan",
+			"measureType": "WAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVperf1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/vperf-result"
+				}
+			],
+			"typeName": "1GC1 Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstFtpget1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/ftpget-result"
+				}
+			],
+			"typeName": "1GC1 Ftpget",
+			"measureType": "FTPGET",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstFtpput1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/ftpput-result"
+				}
+			],
+			"typeName": "1GC1 Ftpput",
+			"measureType": "FTPPUT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstHttpget1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/httpget-result"
+				}
+			],
+			"typeName": "1GC1 Httpget",
+			"measureType": "HTTPGET",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPtpv2PassThrough1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/ptpv2-pass-through-result"
+				}
+			],
+			"typeName": "1GC1 Ptpv2 PassThrough",
+			"measureType": "PTPV2",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstL2cp1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/l2cp-result"
+				}
+			],
+			"typeName": "1GC1 L2cp",
+			"measureType": "L2CP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstNwdisc1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/nwdisc-result"
+				}
+			],
+			"typeName": "1GC1 NetWiz",
+			"measureType": "NetWiz",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstAdvmonitor1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/monitor-result"
+				},
+				{
+					"regExp": "mx300-rslt/1gc1port/advmonitor-result"
+				}
+			],
+			"typeName": "1GC1 Advmonitor",
+			"measureType": "ADVMONITOR",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVsuite1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc1port/vsuite-result"
+				}
+			],
+			"typeName": "1GC1 Vsuite",
+			"measureType": "VSUITE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstBert1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/bert-result"
+				}
+			],
+			"typeName": "1GC2 Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstThrpt1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/thrpt-result"
+				}
+			],
+			"typeName": "1GC2 Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstRfc25441GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/rfc2544-result"
+				}
+			],
+			"typeName": "1GC2 Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVsam1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/y1564-result"
+				}
+			],
+			"typeName": "1GC2 Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstLoop1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/loopback-result"
+				}
+			],
+			"typeName": "1GC2 Loop",
+			"measureType": "LOOP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstScan1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/scan-result"
+				}
+			],
+			"typeName": "1GC2 Scan",
+			"measureType": "SCAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpPing1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/ipping-result"
+				}
+			],
+			"typeName": "1GC2 IpPing",
+			"measureType": "IPPING",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpTrace1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/iptrace-result"
+				}
+			],
+			"typeName": "1GC2 IpTrace",
+			"measureType": "IPTRACE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpArp1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/iparpwiz-result"
+				}
+			],
+			"typeName": "1GC2 IpArp",
+			"measureType": "IPARP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipCheck1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/ipvoip-check-result"
+				}
+			],
+			"typeName": "1GC2 IpVoipCheck",
+			"measureType": "IPVOIPCHECK",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipClient1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/ipvoip-client-result"
+				}
+			],
+			"typeName": "1GC2 IpVoipClient",
+			"measureType": "IPVOIPCLIENT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipIpPhone1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/ipvoip-ipphone-result"
+				}
+			],
+			"typeName": "1GC2 IpVoipIpPhone",
+			"measureType": "IPVOIPIPPHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipNextragen1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/ipvoip-nextragen-result"
+				}
+			],
+			"typeName": "1GC2 IpVoipNextragen",
+			"measureType": "IPVOIPNEXTRAGEN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvProbe1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/iptv-probe-result"
+				}
+			],
+			"typeName": "1GC2 IptvProbe",
+			"measureType": "IPTVPROBE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvAnalys1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/iptv-analys-result"
+				}
+			],
+			"typeName": "1GC2 IptvAnalys",
+			"measureType": "IPTVANALYS",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPcap1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/pcap-result"
+				}
+			],
+			"typeName": "1GC2 Pcap",
+			"measureType": "PCAP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstEsmc1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/esmc-result"
+				}
+			],
+			"typeName": "1GC2 Esmc",
+			"measureType": "ESMC",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPtpv21GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/ptpv2-result"
+				}
+			],
+			"typeName": "1GC2 Ptpv2",
+			"measureType": "PTPV2",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstWan1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/wan-result"
+				},
+				{
+					"regExp": "wanderRst/1gport2"
+				}
+			],
+			"typeName": "1GC2 Wan",
+			"measureType": "WAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVperf1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/vperf-result"
+				}
+			],
+			"typeName": "1GC2 Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstFtpget1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/ftpget-result"
+				}
+			],
+			"typeName": "1GC2 Ftpget",
+			"measureType": "FTPGET",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstFtpput1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/ftpput-result"
+				}
+			],
+			"typeName": "1GC2 Ftpput",
+			"measureType": "FTPPUT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstHttpget1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/httpget-result"
+				}
+			],
+			"typeName": "1GC2 Httpget",
+			"measureType": "HTTPGET",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstL2cp1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/l2cp-result"
+				}
+			],
+			"typeName": "1GC2 L2cp",
+			"measureType": "L2CP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstAdvmonitor1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/monitor-result"
+				}
+			],
+			"typeName": "1GC2 Advmonitor",
+			"measureType": "ADVMONITOR",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVsuite1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gc2port/vsuite-result"
+				}
+			],
+			"typeName": "1GC2 Vsuite",
+			"measureType": "VSUITE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstBert1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/bert-result"
+				}
+			],
+			"typeName": "1GF1 Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstThrpt1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/thrpt-result"
+				}
+			],
+			"typeName": "1GF1 Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstRfc25441GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/rfc2544-result"
+				}
+			],
+			"typeName": "1GF1 Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVsam1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/y1564-result"
+				}
+			],
+			"typeName": "1GF1 Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstLoop1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/loopback-result"
+				}
+			],
+			"typeName": "1GF1 Loop",
+			"measureType": "LOOP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstScan1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/scan-result"
+				}
+			],
+			"typeName": "1GF1 Scan",
+			"measureType": "SCAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpPing1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/ipping-result"
+				}
+			],
+			"typeName": "1GF1 IpPing",
+			"measureType": "IPPING",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpTrace1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/iptrace-result"
+				}
+			],
+			"typeName": "1GF1 IpTrace",
+			"measureType": "IPTRACE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpArp1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/iparpwiz-result"
+				}
+			],
+			"typeName": "1GF1 IpArp",
+			"measureType": "IPARP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipCheck1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/ipvoip-check-result"
+				}
+			],
+			"typeName": "1GF1 IpVoipCheck",
+			"measureType": "IPVOIPCHECK",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipClient1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/ipvoip-client-result"
+				}
+			],
+			"typeName": "1GF1 IpVoipClient",
+			"measureType": "IPVOIPCLIENT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipIpPhone1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/ipvoip-ipphone-result"
+				}
+			],
+			"typeName": "1GF1 IpVoipIpPhone",
+			"measureType": "IPVOIPIPPHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipNextragen1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/ipvoip-nextragen-result"
+				}
+			],
+			"typeName": "1GF1 IpVoipNextragen",
+			"measureType": "IPVOIPNEXTRAGEN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvProbe1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/iptv-probe-result"
+				}
+			],
+			"typeName": "1GF1 IptvProbe",
+			"measureType": "IPTVPROBE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvAnalys1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/iptv-analys-result"
+				}
+			],
+			"typeName": "1GF1 IptvAnalys",
+			"measureType": "IPTVANALYS",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPcap1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/pcap-result"
+				}
+			],
+			"typeName": "1GF1 Pcap",
+			"measureType": "PCAP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstEsmc1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/esmc-result"
+				}
+			],
+			"typeName": "1GF1 Esmc",
+			"measureType": "ESMC",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPtpv21GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/ptpv2-result"
+				}
+			],
+			"typeName": "1GF1 Ptpv2",
+			"measureType": "PTPV2",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstWan1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/wan-result"
+				},
+				{
+					"regExp": "wanderRst/1gport1"
+				}
+			],
+			"typeName": "1GF1 Wan",
+			"measureType": "WAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVperf1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/vperf-result"
+				}
+			],
+			"typeName": "1GF1 Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstFtpget1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/ftpget-result"
+				}
+			],
+			"typeName": "1GF1 Ftpget",
+			"measureType": "FTPGET",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstFtpput1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/ftpput-result"
+				}
+			],
+			"typeName": "1GF1 Ftpput",
+			"measureType": "FTPPUT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstHttpget1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/httpget-result"
+				}
+			],
+			"typeName": "1GF1 Httpget",
+			"measureType": "HTTPGET",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPtpv2PassThrough1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/ptpv2-pass-through-result"
+				}
+			],
+			"typeName": "1GF1 Ptpv2 PassThrough",
+			"measureType": "PTPV2",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstL2cp1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/l2cp-result"
+				}
+			],
+			"typeName": "1GF1 L2cp",
+			"measureType": "L2CP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstNwdisc1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/nwdisc-result"
+				}
+			],
+			"typeName": "1GF1 NetWiz",
+			"measureType": "NetWiz",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstAdvmonitor1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/monitor-result"
+				}
+			],
+			"typeName": "1GF1 Advmonitor",
+			"measureType": "ADVMONITOR",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVsuite1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/vsuite-result"
+				}
+			],
+			"typeName": "1GF1 Vsuite",
+			"measureType": "VSUITE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstBert1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/bert-result"
+				}
+			],
+			"typeName": "1GF2 Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstThrpt1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/thrpt-result"
+				}
+			],
+			"typeName": "1GF2 Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstRfc25441GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/rfc2544-result"
+				}
+			],
+			"typeName": "1GF2 Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVsam1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/y1564-result"
+				}
+			],
+			"typeName": "1GF2 Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstLoop1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/loopback-result"
+				}
+			],
+			"typeName": "1GF2 Loop",
+			"measureType": "LOOP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstScan1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/scan-result"
+				}
+			],
+			"typeName": "1GF2 Scan",
+			"measureType": "SCAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpPing1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/ipping-result"
+				}
+			],
+			"typeName": "1GF2 IpPing",
+			"measureType": "IPPING",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpTrace1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/iptrace-result"
+				}
+			],
+			"typeName": "1GF2 IpTrace",
+			"measureType": "IPTRACE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpArp1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/iparpwiz-result"
+				}
+			],
+			"typeName": "1GF2 IpArp",
+			"measureType": "IPARP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipCheck1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/ipvoip-check-result"
+				}
+			],
+			"typeName": "1GF2 IpVoipCheck",
+			"measureType": "IPVOIPCHECK",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipClient1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/ipvoip-client-result"
+				}
+			],
+			"typeName": "1GF2 IpVoipClient",
+			"measureType": "IPVOIPCLIENT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipIpPhone1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/ipvoip-ipphone-result"
+				}
+			],
+			"typeName": "1GF2 IpVoipIpPhone",
+			"measureType": "IPVOIPIPPHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipNextragen1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/ipvoip-nextragen-result"
+				}
+			],
+			"typeName": "1GF2 IpVoipNextragen",
+			"measureType": "IPVOIPNEXTRAGEN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvProbe1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/iptv-probe-result"
+				}
+			],
+			"typeName": "1GF2 IptvProbe",
+			"measureType": "IPTVPROBE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvAnalys1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/iptv-analys-result"
+				}
+			],
+			"typeName": "1GF2 IptvAnalys",
+			"measureType": "IPTVANALYS",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPcap1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/pcap-result"
+				}
+			],
+			"typeName": "1GF2 Pcap",
+			"measureType": "PCAP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstEsmc1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/esmc-result"
+				}
+			],
+			"typeName": "1GF2 Esmc",
+			"measureType": "ESMC",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPtpv21GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/ptpv2-result"
+				}
+			],
+			"typeName": "1GF2 Ptpv2",
+			"measureType": "PTPV2",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstWan1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/wan-result"
+				},
+				{
+					"regExp": "wanderRst/1gport2"
+				}
+			],
+			"typeName": "1GF2 Wan",
+			"measureType": "WAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVperf1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/vperf-result"
+				}
+			],
+			"typeName": "1GF2 Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstFtpget1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/ftpget-result"
+				}
+			],
+			"typeName": "1GF2 Ftpget",
+			"measureType": "FTPGET",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstFtpput1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/ftpput-result"
+				}
+			],
+			"typeName": "1GF2 Ftpput",
+			"measureType": "FTPPUT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstHttpget1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/httpget-result"
+				}
+			],
+			"typeName": "1GF2 Httpget",
+			"measureType": "HTTPGET",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstL2cp1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/l2cp-result"
+				}
+			],
+			"typeName": "1GF2 L2cp",
+			"measureType": "L2CP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstAdvmonitor1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/monitor-result"
+				}
+			],
+			"typeName": "1GF2 Advmonitor",
+			"measureType": "ADVMONITOR",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVsuite1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/vsuite-result"
+				}
+			],
+			"typeName": "1GF2 Vsuite",
+			"measureType": "VSUITE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstBert10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/bert-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/bert-result"
+				}
+			],
+			"typeName": "10G Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstThrpt10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/thrpt-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/thrpt-result"
+				}
+			],
+			"typeName": "10G Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstRfc254410G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/rfc2544-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/rfc2544-result"
+				}
+			],
+			"typeName": "10G Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVsam10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/y1564-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/y1564-result"
+				}
+			],
+			"typeName": "10G Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstLoop10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/loopback-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/loopback-result"
+				}
+			],
+			"typeName": "10G Loop",
+			"measureType": "LOOP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstScan10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/scan-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/scan-result"
+				}
+			],
+			"typeName": "10G Scan",
+			"measureType": "SCAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpPing10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/ipping-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/ipping-result"
+				}
+			],
+			"typeName": "10G IpPing",
+			"measureType": "IPPING",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpTrace10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/iptrace-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/iptrace-result"
+				}
+			],
+			"typeName": "10G IpTrace",
+			"measureType": "IPTRACE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpArp10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/iparpwiz-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/iparpwiz-result"
+				}
+			],
+			"typeName": "10G IpArp",
+			"measureType": "IPARP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipCheck10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/ipvoip-check-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/ipvoip-check-result"
+				}
+			],
+			"typeName": "10G IpVoipCheck",
+			"measureType": "IPVOIPCHECK",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipClient10G",
+			"regExpList": [
+				{
+					"regExp": "10/mx300-rslt/10gport/ipvoip-client-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/ipvoip-client-result"
+				}
+			],
+			"typeName": "10G IpVoipClient",
+			"measureType": "IPVOIPCLIENT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipIpPhone10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/ipvoip-ipphone-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/ipvoip-ipphone-result"
+				}
+			],
+			"typeName": "10G IpVoipIpPhone",
+			"measureType": "IPVOIPIPPHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipNextragen10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/ipvoip-nextragen-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/ipvoip-nextragen-result"
+				}
+			],
+			"typeName": "10G IpVoipNextragen",
+			"measureType": "IPVOIPNEXTRAGEN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvProbe10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/iptv-probe-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/iptv-probe-result"
+				}
+			],
+			"typeName": "10G IptvProbe",
+			"measureType": "IPTVPROBE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvAnalys10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/iptv-analys-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/iptv-analys-result"
+				}
+			],
+			"typeName": "10G IptvAnalys",
+			"measureType": "IPTVANALYS",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPcap10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/pcap-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/iptv-analys-result"
+				}
+			],
+			"typeName": "10G Pcap",
+			"measureType": "PCAP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstEsmc10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/esmc-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/esmc-result"
+				}
+			],
+			"typeName": "10G Esmc",
+			"measureType": "ESMC",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPtpv210G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/ptpv2-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/ptpv2-result"
+				}
+			],
+			"typeName": "10G Ptpv2",
+			"measureType": "PTPV2",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstWan10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/wan-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/wan-result"
+				},
+				{
+					"regExp": "wanderRst/10gport1"
+				}
+			],
+			"typeName": "10G Wan",
+			"measureType": "WAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVperf10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/vperf-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/vperf-result"
+				}
+			],
+			"typeName": "10G Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstAdvmonitor10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/monitor-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/monitor-result"
+				}
+			],
+			"typeName": "10G Advmonitor",
+			"measureType": "ADVMONITOR",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstL2cp10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/l2cp-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/l2cp-result"
+				}
+			],
+			"typeName": "10G L2cp",
+			"measureType": "L2CP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstFtpget10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/ftpget-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/ftpget-result"
+				}
+			],
+			"typeName": "10G Ftpget",
+			"measureType": "FTPGET",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstFtpput10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/ftpput-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/ftpput-result"
+				}
+			],
+			"typeName": "10G Ftpput",
+			"measureType": "FTPPUT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstHttpget10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport/httpget-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport/httpget-result"
+				}
+			],
+			"typeName": "10G Httpget",
+			"measureType": "HTTPGET",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstBert10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/bert-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/bert-result"
+				}
+			],
+			"typeName": "10G2 Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstThrpt10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/thrpt-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/thrpt-result"
+				}
+			],
+			"typeName": "10G2 Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstRfc254410G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/rfc2544-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/rfc2544-result"
+				}
+			],
+			"typeName": "10G2 Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVsam10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/y1564-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/y1564-result"
+				}
+			],
+			"typeName": "10G2 Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstLoop10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/loopback-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/loopback-result"
+				}
+			],
+			"typeName": "10G2 Loop",
+			"measureType": "LOOP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstScan10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/scan-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/scan-result"
+				}
+			],
+			"typeName": "10G2 Scan",
+			"measureType": "SCAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpPing10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/ipping-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/ipping-result"
+				}
+			],
+			"typeName": "10G2 IpPing",
+			"measureType": "IPPING",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpTrace10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/iptrace-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/iptrace-result"
+				}
+			],
+			"typeName": "10G2 IpTrace",
+			"measureType": "IPTRACE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpArp10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/iparpwiz-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/iparpwiz-result"
+				}
+			],
+			"typeName": "10G2 IpArp",
+			"measureType": "IPARP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipCheck10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/ipvoip-check-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/ipvoip-check-result"
+				}
+			],
+			"typeName": "10G2 IpVoipCheck",
+			"measureType": "IPVOIPCHECK",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipClient10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/ipvoip-client-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/ipvoip-client-result"
+				}
+			],
+			"typeName": "10G2 IpVoipClient",
+			"measureType": "IPVOIPCLIENT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipIpPhone10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/ipvoip-ipphone-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/ipvoip-ipphone-result"
+				}
+			],
+			"typeName": "10G2 IpVoipIpPhone",
+			"measureType": "IPVOIPIPPHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipNextragen10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/ipvoip-nextragen-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/ipvoip-nextragen-result"
+				}
+			],
+			"typeName": "10G2 IpVoipNextragen",
+			"measureType": "IPVOIPNEXTRAGEN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvProbe10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/iptv-probe-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/iptv-probe-result"
+				}
+			],
+			"typeName": "10G2 IptvProbe",
+			"measureType": "IPTVPROBE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvAnalys10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/iptv-analys-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/iptv-analys-result"
+				}
+			],
+			"typeName": "10G2 IptvAnalys",
+			"measureType": "IPTVANALYS",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPcap10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/pcap-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/pcap-result"
+				}
+			],
+			"typeName": "10G2 Pcap",
+			"measureType": "PCAP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstEsmc10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/esmc-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/esmc-result"
+				}
+			],
+			"typeName": "10G2 Esmc",
+			"measureType": "ESMC",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPtpv210G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/ptpv2-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/ptpv2-result"
+				}
+			],
+			"typeName": "10G2 Ptpv2",
+			"measureType": "PTPV2",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstWan10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/wan-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/wan-result"
+				},
+				{
+					"regExp": "wanderRst/10gport2"
+				}
+			],
+			"typeName": "10G2 Wan",
+			"measureType": "WAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVperf10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/vperf-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/vperf-result"
+				}
+			],
+			"typeName": "10G2 Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstAdvmonitor10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/monitor-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/monitor-result"
+				}
+			],
+			"typeName": "10G2 Advmonitor",
+			"measureType": "ADVMONITOR",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstL2cp10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/l2cp-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/l2cp-result"
+				}
+			],
+			"typeName": "10G2 L2cp",
+			"measureType": "L2CP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstFtpget10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/ftpget-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/ftpget-result"
+				}
+			],
+			"typeName": "10G2 Ftpget",
+			"measureType": "FTPGET",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstFtpput10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/ftpput-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/ftpput-result"
+				}
+			],
+			"typeName": "10G2 Ftpput",
+			"measureType": "FTPPUT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstHttpget10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-rslt/10gport2/httpget-result"
+				},
+				{
+					"regExp": "/home/mx300-rslt/10gport2/httpget-result"
+				}
+			],
+			"typeName": "10G2 Httpget",
+			"measureType": "HTTPGET",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstBert2p5G1",
+			"regExpList": [
+				{
+					"regExp": "2g5/html-files/p1/bert"
+				},
+				{
+					"regExp": "2g5/html-files/p2/bert"
+				},
+				{
+					"regExp": "10g/html-files/p1/bert"
+				},
+				{
+					"regExp": "pdh/html-files/p1/bert"
+				},
+				{
+					"regExp": "sdh/html-files/sdh-bert"
+				},
+				{
+					"regExp": "pdh/html-files/pdh-bert"
+				}
+			],
+			"typeName": "Bert",
+			"measureType": "BERT",
+			"measureMode": "OTN/SDH/SONET/PDH/Dsn"
+		},
+		{
+			"fileType": "eRstPulse2p5G1",
+			"regExpList": [
+				{
+					"regExp": "2g5/html-files/p1/pulse"
+				},
+				{
+					"regExp": "2g5/html-files/p2/pulse"
+				},
+				{
+					"regExp": "10g/html-files/p1/pulse"
+				},
+				{
+					"regExp": "pdh/html-files/p1/pulse"
+				},
+				{
+					"regExp": "pdh/html-files/pdh-pulse"
+				}
+			],
+			"typeName": "Pulse",
+			"measureType": "PULSE",
+			"measureMode": "OTN/SDH/SONET/PDH/Dsn"
+		},
+		{
+			"fileType": "eRstIsdn2p5G1",
+			"regExpList": [
+				{
+					"regExp": "2g5/html-files/p1/isdn"
+				},
+				{
+					"regExp": "2g5/html-files/p2/isdn"
+				},
+				{
+					"regExp": "10g/html-files/p1/isdn"
+				},
+				{
+					"regExp": "pdh/html-files/p1/isdn"
+				},
+				{
+					"regExp": "pdh/html-files/pdh-isdn"
+				}
+			],
+			"typeName": "Isdn",
+			"measureType": "ISDN",
+			"measureMode": "OTN/SDH/SONET/PDH/Dsn"
+		},
+		{
+			"fileType": "eRstJit2p5G1",
+			"regExpList": [
+				{
+					"regExp": "2g5/html-files/p1/jit"
+				},
+				{
+					"regExp": "2g5/html-files/p2/jit"
+				},
+				{
+					"regExp": "10g/html-files/p1/jit"
+				},
+				{
+					"regExp": "pdh/html-files/p1/jit"
+				},
+				{
+					"regExp": "sdh/html-files/sdh-jit"
+				},
+				{
+					"regExp": "pdh/html-files/pdh-jit"
+				}
+			],
+			"typeName": "Jit",
+			"measureType": "JIT",
+			"measureMode": "OTN/SDH/SONET/PDH/Dsn"
+		},
+		{
+			"fileType": "eRstWan2p5G1",
+			"regExpList": [
+				{
+					"regExp": "2g5/html-files/p1/wan"
+				},
+				{
+					"regExp": "2g5/html-files/p2/wan"
+				},
+				{
+					"regExp": "10g/html-files/p1/wan"
+				},
+				{
+					"regExp": "pdh/html-files/p1/wan"
+				},
+				{
+					"regExp": "sdh/html-files/sdh-wan"
+				},
+				{
+					"regExp": "pdh/html-files/pdh-wan"
+				}
+			],
+			"typeName": "Wan",
+			"measureType": "WAN",
+			"measureMode": "OTN/SDH/SONET/PDH/Dsn"
+		},
+		{
+			"fileType": "eRstMtj2p5G1",
+			"regExpList": [
+				{
+					"regExp": "2g5/html-files/p1/mjt"
+				},
+				{
+					"regExp": "2g5/html-files/p2/mjt"
+				},
+				{
+					"regExp": "10g/html-files/p1/mjt"
+				},
+				{
+					"regExp": "pdh/html-files/p1/mjt"
+				},
+				{
+					"regExp": "sdh/html-files/sdh-mjt"
+				},
+				{
+					"regExp": "pdh/html-files/pdh-mjt"
+				}
+			],
+			"typeName": "Mjt",
+			"measureType": "MJT",
+			"measureMode": "OTN/SDH/SONET/PDH/Dsn"
+		},
+		{
+			"fileType": "eRstJtf2p5G1",
+			"regExpList": [
+				{
+					"regExp": "2g5/html-files/p1/jtf"
+				},
+				{
+					"regExp": "2g5/html-files/p2/jtf"
+				},
+				{
+					"regExp": "10g/html-files/p1/jtf"
+				},
+				{
+					"regExp": "pdh/html-files/p1/jtf"
+				},
+				{
+					"regExp": "sdh/html-files/sdh-jtf"
+				},
+				{
+					"regExp": "pdh/html-files/pdh-jtf"
+				}
+			],
+			"typeName": "Jtf",
+			"measureType": "JTF",
+			"measureMode": "OTN/SDH/SONET/PDH/Dsn"
+		},
+		{
+			"fileType": "eRstDs12p5G1",
+			"regExpList": [
+				{
+					"regExp": "2g5/html-files/p1/ds1"
+				},
+				{
+					"regExp": "2g5/html-files/p2/ds1"
+				},
+				{
+					"regExp": "10g/html-files/p1/ds1"
+				},
+				{
+					"regExp": "pdh/html-files/p1/ds1"
+				}
+			],
+			"typeName": "Ds1",
+			"measureType": "DS1",
+			"measureMode": "OTN/SDH/SONET/PDH/Dsn"
+		},
+		{
+			"fileType": "eRstDs32p5G1",
+			"regExpList": [
+				{
+					"regExp": "2g5/html-files/p1/ds3"
+				},
+				{
+					"regExp": "2g5/html-files/p2/ds3"
+				},
+				{
+					"regExp": "10g/html-files/p1/ds3"
+				},
+				{
+					"regExp": "pdh/html-files/p1/ds3"
+				}
+			],
+			"typeName": "Ds3",
+			"measureType": "DS3",
+			"measureMode": "OTN/SDH/SONET/PDH/Dsn"
+		},
+		{
+			"fileType": "eRstSonet2p5G1",
+			"regExpList": [
+				{
+					"regExp": "2g5/html-files/p1/sonet"
+				},
+				{
+					"regExp": "2g5/html-files/p2/sonet"
+				},
+				{
+					"regExp": "10g/html-files/p1/sonet"
+				},
+				{
+					"regExp": "pdh/html-files/p1/sonet"
+				}
+			],
+			"typeName": "Sonet",
+			"measureType": "SONET",
+			"measureMode": "OTN/SDH/SONET/PDH/Dsn"
+		},
+		{
+			"fileType": "eRstOwd2p5G2",
+			"regExpList": [
+				{
+					"regExp": "2g5/html-files/p1/owd"
+				},
+				{
+					"regExp": "2g5/html-files/p2/owd"
+				}
+			],
+			"typeName": "Owd",
+			"measureType": "OWD",
+			"measureMode": "OTN/SDH/SONET/PDH/Dsn"
+		},
+		{
+			"fileType": "eRstSdhBert100G",
+			"regExpList": [
+				{
+					"regExp": "100g/html-files/bert"
+				}
+			],
+			"typeName": "100G SdhBert",
+			"measureType": "BERT",
+			"measureMode": "OTN/SDH/SONET/PDH/Dsn"
+		},
+		{
+			"fileType": "eRstOtuxP1",
+			"regExpList": [
+				{
+					"regExp": "10g/html-files/p1/otux"
+				}
+			],
+			"typeName": "Otux",
+			"measureType": "OTUX",
+			"measureMode": "OTU-Xe(1e/2e)"
+		},
+		{
+			"fileType": "eRstOTU3Transport",
+			"regExpList": [
+				{
+					"regExp": "otu3port/transport-result"
+				}
+			],
+			"typeName": "OTU3 Transport",
+			"measureType": "TRANSPORT",
+			"measureMode": "OTN/SDH/SONET/PDH/Dsn"
+		},
+		{
+			"fileType": "eRstOTU4Transport",
+			"regExpList": [
+				{
+					"regExp": "otu4port/transport-result"
+				}
+			],
+			"typeName": "OTU4 Transport",
+			"measureType": "TRANSPORT",
+			"measureMode": "OTN/SDH/SONET/PDH/Dsn"
+		},
+		{
+			"fileType": "eRstFcBert1GF1",
+			"regExpList": [
+				{
+					"regExp": "fx300-rslt/1gf1port/fbert-result"
+				}
+			],
+			"typeName": "1GF1 FcBert",
+			"measureType": "FCBERT",
+			"measureMode": "Fiber Channel"
+		},
+		{
+			"fileType": "eRstFcThrpt1GF1",
+			"regExpList": [
+				{
+					"regExp": "fx300-rslt/1gf1port/fthrpt-result"
+				}
+			],
+			"typeName": "1GF1 FcThrpt",
+			"measureType": "FCTHRPT",
+			"measureMode": "Fiber Channel"
+		},
+		{
+			"fileType": "eRstFcLoop1GF1",
+			"regExpList": [
+				{
+					"regExp": "1gf1port/floopback-result"
+				}
+			],
+			"typeName": "1GF1 FcLoop",
+			"measureType": "FCLOOP",
+			"measureMode": "Fiber Channel"
+		},
+		{
+			"fileType": "eRstFcRfc25441GF1",
+			"regExpList": [
+				{
+					"regExp": "1gf1port/frfc2544-result"
+				}
+			],
+			"typeName": "1GF1 FcRfc2544",
+			"measureType": "FCRFC2544",
+			"measureMode": "Fiber Channel"
+		},
+		{
+			"fileType": "eRstFcPort1GF1",
+			"regExpList": [
+				{
+					"regExp": "1gf1port/fport-result"
+				}
+			],
+			"typeName": "1GF1 FcPort",
+			"measureType": "FCPORT",
+			"measureMode": "Fiber Channel"
+		},
+		{
+			"fileType": "eRstFcBert1GF2",
+			"regExpList": [
+				{
+					"regExp": "1gf2port/fbert-result"
+				}
+			],
+			"typeName": "1GF2 FcBert",
+			"measureType": "FCBERT",
+			"measureMode": "Fiber Channel"
+		},
+		{
+			"fileType": "eRstFcThrpt1GF2",
+			"regExpList": [
+				{
+					"regExp": "1gf2port/fthrpt-result"
+				}
+			],
+			"typeName": "1GF2 FcThrpt",
+			"measureType": "FCTHRPT",
+			"measureMode": "Fiber Channel"
+		},
+		{
+			"fileType": "eRst1FcLoopGF2",
+			"regExpList": [
+				{
+					"regExp": "1gf2port/floopback-result"
+				}
+			],
+			"typeName": "1GF2 FcLoop",
+			"measureType": "FCLOOP",
+			"measureMode": "Fiber Channel"
+		},
+		{
+			"fileType": "eRstFcRfc25441GF2",
+			"regExpList": [
+				{
+					"regExp": "1gf2port/frfc2544-result"
+				}
+			],
+			"typeName": "1GF2 FcRfc2544",
+			"measureType": "FCRFC2544",
+			"measureMode": "Fiber Channel"
+		},
+		{
+			"fileType": "eRstFcPort1GF2",
+			"regExpList": [
+				{
+					"regExp": "1gf2port/fport-result"
+				}
+			],
+			"typeName": "1GF2 FcPort",
+			"measureType": "FCPORT",
+			"measureMode": "Fiber Channel"
+		},
+		{
+			"fileType": "eRstFcBert10GF1",
+			"regExpList": [
+				{
+					"regExp": "10gport/fbert-result"
+				}
+			],
+			"typeName": "10GF1 FcBert",
+			"measureType": "FCBERT",
+			"measureMode": "Fiber Channel"
+		},
+		{
+			"fileType": "eRstFcThrpt10GF1",
+			"regExpList": [
+				{
+					"regExp": "10gport/fthrpt-result"
+				}
+			],
+			"typeName": "10GF1 FcThrpt",
+			"measureType": "FCTHRPT",
+			"measureMode": "Fiber Channel"
+		},
+		{
+			"fileType": "eRstFcLoop10GF1",
+			"regExpList": [
+				{
+					"regExp": "10gport/floopback-result"
+				}
+			],
+			"typeName": "10GF1 FcLoop",
+			"measureType": "FCLOOP",
+			"measureMode": "Fiber Channel"
+		},
+		{
+			"fileType": "eRstFcRfc254410GF1",
+			"regExpList": [
+				{
+					"regExp": "10gport/frfc2544-result"
+				}
+			],
+			"typeName": "10GF1 FcRfc2544",
+			"measureType": "FCRFC2544",
+			"measureMode": "Fiber Channel"
+		},
+		{
+			"fileType": "eRstFcPort10GF1",
+			"regExpList": [
+				{
+					"regExp": "10gport/fport-result"
+				}
+			],
+			"typeName": "10GF1 FcPort",
+			"measureType": "FCPORT",
+			"measureMode": "Fiber Channel"
+		},
+		{
+			"fileType": "eRstFcBert10GF2",
+			"regExpList": [
+				{
+					"regExp": "10gport2/fbert-result"
+				}
+			],
+			"typeName": "10GF2 FcBert",
+			"measureType": "FCBERT",
+			"measureMode": "Fiber Channel"
+		},
+		{
+			"fileType": "eRstFcThrpt10GF2",
+			"regExpList": [
+				{
+					"regExp": "10gport2/fthrpt-result"
+				}
+			],
+			"typeName": "10GF2 FcThrpt",
+			"measureType": "FCTHRPT",
+			"measureMode": "Fiber Channel"
+		},
+		{
+			"fileType": "eRstFcLoop10GF2",
+			"regExpList": [
+				{
+					"regExp": "10gport2/floopback-result"
+				}
+			],
+			"typeName": "10GF2 FcLoop",
+			"measureType": "FCLOOP",
+			"measureMode": "Fiber Channel"
+		},
+		{
+			"fileType": "eRstFcRfc254410GF2",
+			"regExpList": [
+				{
+					"regExp": "10gport2/frfc2544-result"
+				}
+			],
+			"typeName": "10GF2 FcRfc2544",
+			"measureType": "FCRFC2544",
+			"measureMode": "Fiber Channel"
+		},
+		{
+			"fileType": "eRstFcPort10GF2",
+			"regExpList": [
+				{
+					"regExp": "10gport2/fport-result"
+				}
+			],
+			"typeName": "10GF2 FcPort",
+			"measureType": "FCPORT",
+			"measureMode": "Fiber Channel"
+		},
+		{
+			"fileType": "eRstCpri1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf1port/cpri-result"
+				}
+			],
+			"typeName": "1GF1 Cpri",
+			"measureType": "CPRI",
+			"measureMode": "CPRI"
+		},
+		{
+			"fileType": "eRstCpri1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/1gf2port/cpri-result"
+				}
+			],
+			"typeName": "1GF2 Cpri",
+			"measureType": "CPRI",
+			"measureMode": "CPRI"
+		},
+		{
+			"fileType": "eRstBert40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/bert-result"
+				}
+			],
+			"typeName": "40GE Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstThrpt40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/thrpt-result"
+				}
+			],
+			"typeName": "40GE Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstLoop40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/loopback-result"
+				}
+			],
+			"typeName": "40GE Loop",
+			"measureType": "LOOP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstRfc254440GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/rfc2544-result"
+				}
+			],
+			"typeName": "40GE Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVsam40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/y1564-result"
+				}
+			],
+			"typeName": "40GE Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstScan40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/scan-result"
+				}
+			],
+			"typeName": "40GE Scan",
+			"measureType": "SCAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpPing40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/ipping-result"
+				}
+			],
+			"typeName": "40GE IpPing",
+			"measureType": "IPPING",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpTrace40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/iptrace-result"
+				}
+			],
+			"typeName": "40GE IpTrace",
+			"measureType": "IPTRACE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpArp40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/iparpwiz-result"
+				}
+			],
+			"typeName": "40GE IpArp",
+			"measureType": "IPARP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipCheck40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/ipvoip-check-result"
+				}
+			],
+			"typeName": "40GE IpVoipCheck",
+			"measureType": "IPVOIPCHECK",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipClient40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/ipvoip-client-result"
+				}
+			],
+			"typeName": "40GE IpVoipClient",
+			"measureType": "IPVOIPCLIENT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipIpPhone40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/ipvoip-ipphone-result"
+				}
+			],
+			"typeName": "40GE IpVoipIpPhone",
+			"measureType": "IPVOIPIPPHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipNextragen40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/ipvoip-nextragen-result"
+				}
+			],
+			"typeName": "40GE IpVoipNextragen",
+			"measureType": "IPVOIPNEXTRAGEN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvProbe40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/iptv-probe-result"
+				}
+			],
+			"typeName": "40GE IptvProbe",
+			"measureType": "IPTVPROBE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvAnalys40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/iptv-analys-result"
+				}
+			],
+			"typeName": "40GE IptvAnalys",
+			"measureType": "IPTVANALYS",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPcap40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/pcap-result"
+				}
+			],
+			"typeName": "40GE Pcap",
+			"measureType": "PCAP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstEsmc40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/esmc-result"
+				}
+			],
+			"typeName": "40GE Esmc",
+			"measureType": "ESMC",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPtpv240GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/ptpv2-result"
+				}
+			],
+			"typeName": "40GE Ptpv2",
+			"measureType": "PTPV2",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstWan40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/wan-result"
+				}
+			],
+			"typeName": "40GE Wan",
+			"measureType": "WAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVperf40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/vperf-result"
+				}
+			],
+			"typeName": "40GE Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstAdvmonitor40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/monitor-result"
+				}
+			],
+			"typeName": "40GE Advmonitor",
+			"measureType": "ADVMONITOR",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstLaneBert40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/lanebert-result"
+				}
+			],
+			"typeName": "40GE LaneBert",
+			"measureType": "LANEBERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPcs40GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport/pcs-result"
+				}
+			],
+			"typeName": "40GE Pcs",
+			"measureType": "PCS",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstBert40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/bert-result"
+				}
+			],
+			"typeName": "40GE2 Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstThrpt40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/thrpt-result"
+				}
+			],
+			"typeName": "40GE2 Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstLoop40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/loopback-result"
+				}
+			],
+			"typeName": "40GE2 Loop",
+			"measureType": "LOOP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstRfc254440GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/rfc2544-result"
+				}
+			],
+			"typeName": "40GE2 Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVsam40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/y1564-result"
+				}
+			],
+			"typeName": "40GE2 Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstScan40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/scan-result"
+				}
+			],
+			"typeName": "40GE2 Scan",
+			"measureType": "SCAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpPing40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/ipping-result"
+				}
+			],
+			"typeName": "40GE2 IpPing",
+			"measureType": "IPPING",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpTrace40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/iptrace-result"
+				}
+			],
+			"typeName": "40GE2 IpTrace",
+			"measureType": "IPTRACE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpArp40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/iparpwiz-result"
+				}
+			],
+			"typeName": "40GE2 IpArp",
+			"measureType": "IPARP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipCheck40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/ipvoip-check-result"
+				}
+			],
+			"typeName": "40GE2 IpVoipCheck",
+			"measureType": "IPVOIPCHECK",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipClient40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/ipvoip-client-result"
+				}
+			],
+			"typeName": "40GE2 IpVoipClient",
+			"measureType": "IPVOIPCLIENT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipIpPhone40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/ipvoip-ipphone-result"
+				}
+			],
+			"typeName": "40GE2 IpVoipIpPhone",
+			"measureType": "IPVOIPIPPHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipNextragen40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/ipvoip-nextragen-result"
+				}
+			],
+			"typeName": "40GE2 IpVoipNextragen",
+			"measureType": "IPVOIPNEXTRAGEN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvProbe40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/iptv-probe-result"
+				}
+			],
+			"typeName": "40GE2 IptvProbe",
+			"measureType": "IPTVPROBE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvAnalys40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/iptv-analys-result"
+				}
+			],
+			"typeName": "40GE2 IptvAnalys",
+			"measureType": "IPTVANALYS",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPcap40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/pcap-result"
+				}
+			],
+			"typeName": "40GE2 Pcap",
+			"measureType": "PCAP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstEsmc40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/esmc-result"
+				}
+			],
+			"typeName": "40GE2 Esmc",
+			"measureType": "ESMC",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPtpv240GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/ptpv2-result"
+				}
+			],
+			"typeName": "40GE2 Ptpv2",
+			"measureType": "PTPV2",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstWan40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/wan-result"
+				}
+			],
+			"typeName": "40GE2 Wan",
+			"measureType": "WAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVperf40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/vperf-result"
+				}
+			],
+			"typeName": "40GE2 Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstAdvmonitor40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/monitor-result"
+				}
+			],
+			"typeName": "40GE2 Advmonitor",
+			"measureType": "ADVMONITOR",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstLaneBert40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/lanebert-result"
+				}
+			],
+			"typeName": "40GE2 LaneBert",
+			"measureType": "LANEBERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPcs40GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/40gport2/pcs-result"
+				}
+			],
+			"typeName": "40GE2 Pcs",
+			"measureType": "PCS",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstBert100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/bert-result"
+				}
+			],
+			"typeName": "100GE Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstThrpt100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/thrpt-result"
+				}
+			],
+			"typeName": "100GE Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstLoop100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/loopback-result"
+				}
+			],
+			"typeName": "100GE Loop",
+			"measureType": "LOOP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstRfc2544100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/rfc2544-result"
+				}
+			],
+			"typeName": "100GE Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVsam100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/y1564-result"
+				}
+			],
+			"typeName": "100GE Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstScan100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/scan-result"
+				}
+			],
+			"typeName": "100GE Scan",
+			"measureType": "SCAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpPing100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/ipping-result"
+				}
+			],
+			"typeName": "100GE IpPing",
+			"measureType": "IPPING",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpTrace100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/iptrace-result"
+				}
+			],
+			"typeName": "100GE IpTrace",
+			"measureType": "IPTRACE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpArp100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/iparpwiz-result"
+				}
+			],
+			"typeName": "100GE IpArp",
+			"measureType": "IPARP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipCheck100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/ipvoip-check-result"
+				}
+			],
+			"typeName": "100GE IpVoipCheck",
+			"measureType": "IPVOIPCHECK",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipClient100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/ipvoip-client-result"
+				}
+			],
+			"typeName": "100GE IpVoipClient",
+			"measureType": "IPVOIPCLIENT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipIpPhone100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/ipvoip-ipphone-result"
+				}
+			],
+			"typeName": "100GE IpVoipIpPhone",
+			"measureType": "IPVOIPIPPHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipNextragen100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/ipvoip-nextragen-result"
+				}
+			],
+			"typeName": "100GE IpVoipNextragen",
+			"measureType": "IPVOIPNEXTRAGEN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvProbe100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/iptv-probe-result"
+				}
+			],
+			"typeName": "100GE IptvProbe",
+			"measureType": "IPTVPROBE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvAnalys100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/iptv-analys-result"
+				}
+			],
+			"typeName": "100GE IptvAnalys",
+			"measureType": "IPTVANALYS",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPcap100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/pcap-result"
+				}
+			],
+			"typeName": "100GE Pcap",
+			"measureType": "PCAP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstEsmc100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/esmc-result"
+				}
+			],
+			"typeName": "100GE Esmc",
+			"measureType": "ESMC",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPtpv2100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/ptpv2-result"
+				}
+			],
+			"typeName": "100GE Ptpv2",
+			"measureType": "PTPV2",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstWan100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/wan-result"
+				}
+			],
+			"typeName": "100GE Wan",
+			"measureType": "WAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVperf100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/vperf-result"
+				}
+			],
+			"typeName": "100GE Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstAdvmonitor100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/monitor-result"
+				}
+			],
+			"typeName": "100GE Advmonitor",
+			"measureType": "ADVMONITOR",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstLaneBert100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/lanebert-result"
+				}
+			],
+			"typeName": "100GE LaneBert",
+			"measureType": "LANEBERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPcs100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/pcs-result"
+				}
+			],
+			"typeName": "100GE Pcs",
+			"measureType": "PCS",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstBert100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/bert-result"
+				}
+			],
+			"typeName": "100GE2 Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstThrpt100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/thrpt-result"
+				}
+			],
+			"typeName": "100GE2 Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstLoop100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/loopback-result"
+				}
+			],
+			"typeName": "100GE2 Loop",
+			"measureType": "LOOP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstRfc2544100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/rfc2544-result"
+				}
+			],
+			"typeName": "100GE2 Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVsam100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/y1564-result"
+				}
+			],
+			"typeName": "100GE2 Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstScan100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/scan-result"
+				}
+			],
+			"typeName": "100GE2 Scan",
+			"measureType": "SCAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpPing100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/ipping-result"
+				}
+			],
+			"typeName": "100GE2 IpPing",
+			"measureType": "IPPING",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpTrace100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/iptrace-result"
+				}
+			],
+			"typeName": "100GE2 IpTrace",
+			"measureType": "IPTRACE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpArp100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/iparpwiz-result"
+				}
+			],
+			"typeName": "100GE2 IpArp",
+			"measureType": "IPARP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipCheck100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/ipvoip-check-result"
+				}
+			],
+			"typeName": "100GE2 IpVoipCheck",
+			"measureType": "IPVOIPCHECK",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipClient100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/ipvoip-client-result"
+				}
+			],
+			"typeName": "100GE2 IpVoipClient",
+			"measureType": "IPVOIPCLIENT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipIpPhone100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/ipvoip-ipphone-result"
+				}
+			],
+			"typeName": "100GE2 IpVoipIpPhone",
+			"measureType": "IPVOIPIPPHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipNextragen100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/ipvoip-nextragen-result"
+				}
+			],
+			"typeName": "100GE2 IpVoipNextragen",
+			"measureType": "IPVOIPNEXTRAGEN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvProbe100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/iptv-probe-result"
+				}
+			],
+			"typeName": "100GE2 IptvProbe",
+			"measureType": "IPTVPROBE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvAnalys100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/iptv-analys-result"
+				}
+			],
+			"typeName": "100GE2 IptvAnalys",
+			"measureType": "IPTVANALYS",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPcap100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/pcap-result"
+				}
+			],
+			"typeName": "100GE2 Pcap",
+			"measureType": "PCAP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstEsmc100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/esmc-result"
+				}
+			],
+			"typeName": "100GE2 Esmc",
+			"measureType": "ESMC",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPtpv2100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/ptpv2-result"
+				}
+			],
+			"typeName": "100GE2 Ptpv2",
+			"measureType": "PTPV2",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstWan100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/wan-result"
+				}
+			],
+			"typeName": "100GE2 Wan",
+			"measureType": "WAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVperf100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/vperf-result"
+				}
+			],
+			"typeName": "100GE2 Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstAdvmonitor100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/monitor-result"
+				}
+			],
+			"typeName": "100GE2 Advmonitor",
+			"measureType": "ADVMONITOR",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstLaneBert100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/lanebert-result"
+				}
+			],
+			"typeName": "100GE2 LaneBert",
+			"measureType": "LANEBERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPcs100GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport2/pcs-result"
+				}
+			],
+			"typeName": "100GE2 Pcs",
+			"measureType": "PCS",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstBert25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/(10|25)gport/bert-result"
+				}
+			],
+			"typeName": "25G Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstThrpt25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/(10|25)gport/thrpt-result"
+				}
+			],
+			"typeName": "25G Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstLoop25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport/loopback-result"
+				}
+			],
+			"typeName": "25G Loop",
+			"measureType": "LOOP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstRfc254425G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/(10|25)gport/rfc2544-result"
+				}
+			],
+			"typeName": "25G Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVsam25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/(10|25)gport/y1564-result"
+				}
+			],
+			"typeName": "25G Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstScan25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport/scan-result"
+				}
+			],
+			"typeName": "25G Scan",
+			"measureType": "SCAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpPing25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport/ipping-result"
+				}
+			],
+			"typeName": "25G IpPing",
+			"measureType": "IPPING",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpTrace25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport/iptrace-result"
+				}
+			],
+			"typeName": "25G IpTrace",
+			"measureType": "IPTRACE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpArp25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport/iparpwiz-result"
+				}
+			],
+			"typeName": "25G IpArp",
+			"measureType": "IPARP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipCheck25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport/ipvoip-check-result"
+				}
+			],
+			"typeName": "25G IpVoipCheck",
+			"measureType": "IPVOIPCHECK",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipClient25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport/ipvoip-client-result"
+				}
+			],
+			"typeName": "25G IpVoipClient",
+			"measureType": "IPVOIPCLIENT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipIpPhone25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport/ipvoip-ipphone-result"
+				}
+			],
+			"typeName": "25G IpVoipIpPhone",
+			"measureType": "IPVOIPIPPHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipNextragen25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport/ipvoip-nextragen-result"
+				}
+			],
+			"typeName": "25G IpVoipNextragen",
+			"measureType": "IPVOIPNEXTRAGEN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvProbe25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport/iptv-probe-result"
+				}
+			],
+			"typeName": "25G IptvProbe",
+			"measureType": "IPTVPROBE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvAnalys25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport/iptv-analys-result"
+				}
+			],
+			"typeName": "25G IptvAnalys",
+			"measureType": "IPTVANALYS",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPcap25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport/pcap-result"
+				}
+			],
+			"typeName": "25G Pcap",
+			"measureType": "PCAP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstEsmc25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport/esmc-result"
+				}
+			],
+			"typeName": "25G Esmc",
+			"measureType": "ESMC",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPtpv225G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport/ptpv2-result"
+				}
+			],
+			"typeName": "25G Ptpv2",
+			"measureType": "PTPV2",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstWan25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport/wan-result"
+				}
+			],
+			"typeName": "25G Wan",
+			"measureType": "WAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVperf25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport/vperf-result"
+				}
+			],
+			"typeName": "25G Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstBert25G2",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/(10|25)gport2/bert-result"
+				}
+			],
+			"typeName": "25G2 Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstThrpt25G2",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/(10|25)gport2/thrpt-result"
+				}
+			],
+			"typeName": "25G2 Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstLoop25G2",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport2/loopback-result"
+				}
+			],
+			"typeName": "25G2 Loop",
+			"measureType": "LOOP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstRfc254425G2",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/(10|25)gport2/rfc2544-result"
+				}
+			],
+			"typeName": "25G2 Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVsam25G2",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/(10|25)gport2/y1564-result"
+				}
+			],
+			"typeName": "25G2 Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstScan25G2",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport2/scan-result"
+				}
+			],
+			"typeName": "25G2 Scan",
+			"measureType": "SCAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpPing25G2",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport2/ipping-result"
+				}
+			],
+			"typeName": "25G2 IpPing",
+			"measureType": "IPPING",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpTrace25G2",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport2/iptrace-result"
+				}
+			],
+			"typeName": "25G2 IpTrace",
+			"measureType": "IPTRACE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpArp25G2",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport2/iparpwiz-result"
+				}
+			],
+			"typeName": "25G2 IpArp",
+			"measureType": "IPARP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipCheck25G2",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport2/ipvoip-check-result"
+				}
+			],
+			"typeName": "25G2 IpVoipCheck",
+			"measureType": "IPVOIPCHECK",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipClient25G2",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport2/ipvoip-client-result"
+				}
+			],
+			"typeName": "25G2 IpVoipClient",
+			"measureType": "IPVOIPCLIENT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipIpPhone25G2",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport2/ipvoip-ipphone-result"
+				}
+			],
+			"typeName": "25G2 IpVoipIpPhone",
+			"measureType": "IPVOIPIPPHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipNextragen25G2",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport2/ipvoip-nextragen-result"
+				}
+			],
+			"typeName": "25G2 IpVoipNextragen",
+			"measureType": "IPVOIPNEXTRAGEN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvProbe25G2",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport2/iptv-probe-result"
+				}
+			],
+			"typeName": "25G2 IptvProbe",
+			"measureType": "IPTVPROBE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvAnalys25G2",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport2/iptv-analys-result"
+				}
+			],
+			"typeName": "25G2 IptvAnalys",
+			"measureType": "IPTVANALYS",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPcap25G2",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport2/pcap-result"
+				}
+			],
+			"typeName": "25G2 Pcap",
+			"measureType": "PCAP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstEsmc25G2",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport2/esmc-result"
+				}
+			],
+			"typeName": "25G2 Esmc",
+			"measureType": "ESMC",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPtpv225G2",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport2/ptpv2-result"
+				}
+			],
+			"typeName": "25G2 Ptpv2",
+			"measureType": "PTPV2",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstWan25G2",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport2/wan-result"
+				}
+			],
+			"typeName": "25G2 Wan",
+			"measureType": "WAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVperf25G2",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-rslt/10gport2/vperf-result"
+				}
+			],
+			"typeName": "25G2 Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstBert50GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/bert-result"
+				}
+			],
+			"typeName": "50GE Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstThrpt50GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/thrpt-result"
+				}
+			],
+			"typeName": "50GE Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstLoop50GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/loopback-result"
+				}
+			],
+			"typeName": "50GE Loop",
+			"measureType": "LOOP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstRfc254450GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/rfc2544-result"
+				}
+			],
+			"typeName": "50GE Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVsam50GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/y1564-result"
+				}
+			],
+			"typeName": "50GE Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstScan50GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/scan-result"
+				}
+			],
+			"typeName": "50GE Scan",
+			"measureType": "SCAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpPing50GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/ipping-result"
+				}
+			],
+			"typeName": "50GE IpPing",
+			"measureType": "IPPING",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpTrace50GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/iptrace-result"
+				}
+			],
+			"typeName": "50GE IpTrace",
+			"measureType": "IPTRACE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpArp50GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/iparpwiz-result"
+				}
+			],
+			"typeName": "50GE IpArp",
+			"measureType": "IPARP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipCheck50GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/ipvoip-check-result"
+				}
+			],
+			"typeName": "50GE IpVoipCheck",
+			"measureType": "IPVOIPCHECK",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipClient50GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/ipvoip-client-result"
+				}
+			],
+			"typeName": "50GE IpVoipClient",
+			"measureType": "IPVOIPCLIENT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipIpPhone50GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/ipvoip-ipphone-result"
+				}
+			],
+			"typeName": "50GE IpVoipIpPhone",
+			"measureType": "IPVOIPIPPHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipNextragen50GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/ipvoip-nextragen-result"
+				}
+			],
+			"typeName": "50GE IpVoipNextragen",
+			"measureType": "IPVOIPNEXTRAGEN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvProbe50GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/iptv-probe-result"
+				}
+			],
+			"typeName": "50GE IptvProbe",
+			"measureType": "IPTVPROBE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvAnalys50GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/iptv-analys-result"
+				}
+			],
+			"typeName": "50GE IptvAnalys",
+			"measureType": "IPTVANALYS",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPcap50GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/pcap-result"
+				}
+			],
+			"typeName": "50GE Pcap",
+			"measureType": "PCAP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstEsmc50GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/esmc-result"
+				}
+			],
+			"typeName": "50GE Esmc",
+			"measureType": "ESMC",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPtpv250GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/ptpv2-result"
+				}
+			],
+			"typeName": "50GE Ptpv2",
+			"measureType": "PTPV2",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstWan50GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/wan-result"
+				}
+			],
+			"typeName": "50GE Wan",
+			"measureType": "WAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVperf50GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/vperf-result"
+				}
+			],
+			"typeName": "50GE Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPcs50GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport/pcs-result"
+				}
+			],
+			"typeName": "50GE Pcs",
+			"measureType": "PCS",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstBert50GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/bert-result"
+				}
+			],
+			"typeName": "50GE2 Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstThrpt50GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/thrpt-result"
+				}
+			],
+			"typeName": "50GE2 Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstLoop50GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/loopback-result"
+				}
+			],
+			"typeName": "50GE2 Loop",
+			"measureType": "LOOP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstRfc254450GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/rfc2544-result"
+				}
+			],
+			"typeName": "50GE2 Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVsam50GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/y1564-result"
+				}
+			],
+			"typeName": "50GE2 Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstScan50GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/scan-result"
+				}
+			],
+			"typeName": "50GE2 Scan",
+			"measureType": "SCAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpPing50GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/ipping-result"
+				}
+			],
+			"typeName": "50GE2 IpPing",
+			"measureType": "IPPING",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpTrace50GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/iptrace-result"
+				}
+			],
+			"typeName": "50GE2 IpTrace",
+			"measureType": "IPTRACE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpArp50GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/iparpwiz-result"
+				}
+			],
+			"typeName": "50GE2 IpArp",
+			"measureType": "IPARP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipCheck50GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/ipvoip-check-result"
+				}
+			],
+			"typeName": "50GE2 IpVoipCheck",
+			"measureType": "IPVOIPCHECK",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipClient50GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/ipvoip-client-result"
+				}
+			],
+			"typeName": "50GE2 IpVoipClient",
+			"measureType": "IPVOIPCLIENT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipIpPhone50GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/ipvoip-ipphone-result"
+				}
+			],
+			"typeName": "50GE2 IpVoipIpPhone",
+			"measureType": "IPVOIPIPPHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipNextragen50GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/ipvoip-nextragen-result"
+				}
+			],
+			"typeName": "50GE2 IpVoipNextragen",
+			"measureType": "IPVOIPNEXTRAGEN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvProbe50GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/iptv-probe-result"
+				}
+			],
+			"typeName": "50GE2 IptvProbe",
+			"measureType": "IPTVPROBE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIptvAnalys50GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/iptv-analys-result"
+				}
+			],
+			"typeName": "50GE2 IptvAnalys",
+			"measureType": "IPTVANALYS",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPcap50GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/pcap-result"
+				}
+			],
+			"typeName": "50GE2 Pcap",
+			"measureType": "PCAP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstEsmc50GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/esmc-result"
+				}
+			],
+			"typeName": "50GE2 Esmc",
+			"measureType": "ESMC",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPtpv250GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/ptpv2-result"
+				}
+			],
+			"typeName": "50GE2 Ptpv2",
+			"measureType": "PTPV2",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstWan50GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/wan-result"
+				}
+			],
+			"typeName": "50GE2 Wan",
+			"measureType": "WAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVperf50GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/vperf-result"
+				}
+			],
+			"typeName": "50GE2 Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstPcs50GE2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/50gport2/pcs-result"
+				}
+			],
+			"typeName": "50GE2 Pcs",
+			"measureType": "PCS",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstEcpriThrpt10GE",
+			"regExpList": [
+				{
+					"regExp": "10ge/mx300-rslt/10gport/thrpt-result"
+				}
+			],
+			"typeName": "10GE EcpriThrpt",
+			"measureType": "ECPRITHRPT",
+			"measureMode": "eCPRI"
+		},
+		{
+			"fileType": "eRstEcpriPcap10GE",
+			"regExpList": [
+				{
+					"regExp": "10ge/mx300-rslt/10gport/pcap-result"
+				}
+			],
+			"typeName": "10GE EcpriPcap",
+			"measureType": "ECPRITHRPT",
+			"measureMode": "eCPRI"
+		},
+		{
+			"fileType": "eRstEcpriThrpt25GE",
+			"regExpList": [
+				{
+					"regExp": "25ge/mx300-rslt/25gport/thrpt-result"
+				}
+			],
+			"typeName": "25GE EcpriThrpt",
+			"measureType": "ECPRITHRPT",
+			"measureMode": "eCPRI"
+		},
+		{
+			"fileType": "eRstEcpriPcap25GE",
+			"regExpList": [
+				{
+					"regExp": "25ge/mx300-rslt/25gport/pcap-result"
+				}
+			],
+			"typeName": "25GE EcpriPcap",
+			"measureType": "ECPRITHRPT",
+			"measureMode": "eCPRI"
+		},
+		{
+			"fileType": "eRstEcpriThrpt10GE2",
+			"regExpList": [
+				{
+					"regExp": "10ge/mx300-rslt/10gport2/thrpt-result"
+				}
+			],
+			"typeName": "10GE2 EcpriThrpt",
+			"measureType": "ECPRITHRPT",
+			"measureMode": "eCPRI"
+		},
+		{
+			"fileType": "eRstEcpriPcap10GE2",
+			"regExpList": [
+				{
+					"regExp": "10ge/mx300-rslt/10gport2/pcap-result"
+				}
+			],
+			"typeName": "10GE2 EcpriPcap",
+			"measureType": "ECPRITHRPT",
+			"measureMode": "eCPRI"
+		},
+		{
+			"fileType": "eRstEcpriThrpt25GE2",
+			"regExpList": [
+				{
+					"regExp": "25ge/mx300-rslt/25gport2/thrpt-result"
+				}
+			],
+			"typeName": "25GE2 EcpriThrpt",
+			"measureType": "ECPRITHRPT",
+			"measureMode": "eCPRI"
+		},
+		{
+			"fileType": "eRstEcpriPcap25GE2",
+			"regExpList": [
+				{
+					"regExp": "25ge/mx300-rslt/25gport2/pcap-result"
+				}
+			],
+			"typeName": "25GE2 EcpriPcap",
+			"measureType": "ECPRITHRPT",
+			"measureMode": "eCPRI"
+		},
+		{
+			"fileType": "eRstComFiberscopt",
+			"regExpList": [
+				{
+					"regExp": "v300-rslt/fiberscope"
+				}
+			],
+			"typeName": "Com Fiberscopt",
+			"measureType": "FIBERSCOPT",
+			"measureMode": "Common"
+		},
+		{
+			"fileType": "eRstComOpm",
+			"regExpList": [
+				{
+					"regExp": "v300-rslt/opm"
+				}
+			],
+			"typeName": "Com Opm",
+			"measureType": "OPM",
+			"measureMode": "Common"
+		},
+		{
+			"fileType": "eRstComOdm",
+			"regExpList": [
+				{
+					"regExp": "v300-rslt/odm"
+				}
+			],
+			"typeName": "Com Odm",
+			"measureType": "ODM",
+			"measureMode": "Common"
+		},
+		{
+			"fileType": "eRstComScreen",
+			"regExpList": [
+				{
+					"regExp": "root/screen"
+				}
+			],
+			"typeName": "Com Screen",
+			"measureType": "SCREEN",
+			"measureMode": "Common"
+		},
+		{
+			"fileType": "eRstComWifiIpPing",
+			"regExpList": [
+				{
+					"regExp": "v300-rslt/wifiport/ipping-result"
+				}
+			],
+			"typeName": "ComWifi IpPing",
+			"measureType": "IPPING",
+			"measureMode": "Common"
+		},
+		{
+			"fileType": "eRstComWifiIpTrace",
+			"regExpList": [
+				{
+					"regExp": "v300-rslt/wifiport/iptrace-result"
+				}
+			],
+			"typeName": "ComWifi IpTrace",
+			"measureType": "IPTRACE",
+			"measureMode": "Common"
+		},
+		{
+			"fileType": "eRstComWifiIpArp",
+			"regExpList": [
+				{
+					"regExp": "v300-rslt/wifiport/iparpwiz-result"
+				}
+			],
+			"typeName": "ComWifi IpArp",
+			"measureType": "IPARP",
+			"measureMode": "Common"
+		},
+		{
+			"fileType": "eRstComWifiSSID",
+			"regExpList": [
+				{
+					"regExp": "undefine"
+				}
+			],
+			"typeName": "",
+			"measureType": "",
+			"measureMode": ""
+		},
+		{
+			"fileType": "eRstCpriFramedL1P1Rst",
+			"regExpList": [
+				{
+					"regExp": "cpri/p1/2g5-cpril1-rslt"
+				}
+			],
+			"typeName": "L1 CpriFramed Rst",
+			"measureType": "CPRIFRAMED RST",
+			"measureMode": "CPRI"
+		},
+		{
+			"fileType": "eRstCpriFramedL1P1Rtd",
+			"regExpList": [
+				{
+					"regExp": "cpri/p1/2g5-cpril1-rtd"
+				}
+			],
+			"typeName": "L1 CpriFramed Rtd",
+			"measureType": "CPRIFRAMED RTD",
+			"measureMode": "CPRI"
+		},
+		{
+			"fileType": "eRstCpriFramedL1P2Rst",
+			"regExpList": [
+				{
+					"regExp": "cpri/p2/2g5-cpril1-rslt"
+				}
+			],
+			"typeName": "L1 CpriFramed Rst",
+			"measureType": "CPRIFRAMED RST",
+			"measureMode": "CPRI"
+		},
+		{
+			"fileType": "eRstCpriFramedL1P2Rtd",
+			"regExpList": [
+				{
+					"regExp": "cpri/p2/2g5-cpril1-rtd"
+				}
+			],
+			"typeName": "L1 CpriFramed Rtd",
+			"measureType": "CPRIFRAMED RTD",
+			"measureMode": "CPRI"
+		},
+		{
+			"fileType": "RstCpriFramedL2P1Rst",
+			"regExpList": [
+				{
+					"regExp": "cpri/p1/2g5-cpril2-rslt"
+				}
+			],
+			"typeName": "L2 CpriFramed Rst",
+			"measureType": "CPRIFRAMED RST",
+			"measureMode": "CPRI"
+		},
+		{
+			"fileType": "RstCpriFramedL2P1Wan",
+			"regExpList": [
+				{
+					"regExp": "cpri/p2/2g5-cpril2-wan"
+				}
+			],
+			"typeName": "L2 CpriFramed Wan",
+			"measureType": "CPRIFRAMED Wan",
+			"measureMode": "CPRI"
+		},
+		{
+			"fileType": "eRstCpriFramedL2P2Rst",
+			"regExpList": [
+				{
+					"regExp": "cpri/p2/2g5-cpril2-rslt"
+				}
+			],
+			"typeName": "L2 CpriFramed Rst",
+			"measureType": "CPRIFRAMED RST",
+			"measureMode": "CPRI"
+		},
+		{
+			"fileType": "eRstVipag10GP1",
+			"regExpList": [
+				{
+					"regExp": "1ge/mx300-rslt/10gport/vipag-result"
+				}
+			],
+			"typeName": "10GP1 Vipag",
+			"measureType": "VIPAG",
+			"measureMode": "VIPAG"
+		},
+		{
+			"fileType": "eRstVipag10GP2",
+			"regExpList": [
+				{
+					"regExp": "1ge/mx300-rslt/10gport2/vipag-result"
+				}
+			],
+			"typeName": "10GP2 Vipag",
+			"measureType": "VIPAG",
+			"measureMode": "VIPAG"
+		},
+		{
+			"fileType": "eRstVipag1GP1",
+			"regExpList": [
+				{
+					"regExp": "1ge/mx300-rslt/1gc1port/vipag-result"
+				}
+			],
+			"typeName": "1GP1 Vipag",
+			"measureType": "VIPAG",
+			"measureMode": "VIPAG"
+		},
+		{
+			"fileType": "eRstVipag100GE",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/100gport/vipag-result"
+				}
+			],
+			"typeName": "100GE Vipag",
+			"measureType": "VIPAG",
+			"measureMode": "VIPAG"
+		},
+		{
+			"fileType": "eRstOdu0Bert",
+			"regExpList": [
+				{
+					"regExp": "odu0-rslt/odu0p1-bert"
+				},
+				{
+					"regExp": "odu0-rslt/odu0p2-bert"
+				}
+			],
+			"typeName": "Odu0 Bert",
+			"measureType": "BERT",
+			"measureMode": "ODU0"
+		},
+		{
+			"fileType": "eRstOSARst",
+			"regExpList": [
+				{
+					"regExp": "osa/html-files"
+				}
+			],
+			"typeName": "OSA",
+			"measureType": "OSA",
+			"measureMode": "OSA"
+		},
+		{
+			"fileType": "eRstOCCRst",
+			"regExpList": [
+				{
+					"regExp": "occ/html-files"
+				}
+			],
+			"typeName": "OCC",
+			"measureType": "OCC",
+			"measureMode": "OSA"
+		},
+		{
+			"fileType": "eRstMTTWiFiAutoTest",
+			"regExpList": [
+				{
+					"regExp": "wifi/autotest-result"
+				}
+			],
+			"typeName": "WiFi AutoTest",
+			"measureType": "WiFi AutoTest",
+			"measureMode": "WIFI"
+		},
+		{
+			"fileType": "eRstMTTWiFiAPScan",
+			"regExpList": [
+				{
+					"regExp": "wifi/apscan-result"
+				}
+			],
+			"typeName": "WiFi APScan",
+			"measureType": "WiFi APScan",
+			"measureMode": "WIFI"
+		},
+		{
+			"fileType": "eRstMTTWiFiClientScan",
+			"regExpList": [
+				{
+					"regExp": "wifi/clientscan-result"
+				}
+			],
+			"typeName": "WiFi ClientScan",
+			"measureType": "WiFi ClientScan",
+			"measureMode": "WIFI"
+		},
+		{
+			"fileType": "eRstMTTWiFiVPerf",
+			"regExpList": [
+				{
+					"regExp": "wifi/vperf-result"
+				}
+			],
+			"typeName": "WiFi VPerf",
+			"measureType": "WiFi VPerf",
+			"measureMode": "WIFI"
+		},
+		{
+			"fileType": "eRstMTTWiFiPoE",
+			"regExpList": [
+				{
+					"regExp": "wifi/poe-result"
+				}
+			],
+			"typeName": "WiFi PoE",
+			"measureType": "WiFi PoE",
+			"measureMode": "WIFI"
+		},
+		{
+			"fileType": "eRstMTTWiFiSpectrumAnalysis",
+			"regExpList": [
+				{
+					"regExp": "wifi/wsa-result"
+				}
+			],
+			"typeName": "WiFi Spectrum Analysis",
+			"measureType": "WiFi Spectrum Analysis",
+			"measureMode": "WIFI"
+		},
+
+		{
+			"fileType": "eRstMTTWiFiPing",
+			"regExpList": [
+				{
+					"regExp": "wifi/ipping-result"
+				}
+			],
+			"typeName": "WiFi Ping",
+			"measureType": "WiFi Ping",
+			"measureMode": "WIFI"
+		},
+		{
+			"fileType": "eRstMTTWiFiTraceRoute",
+			"regExpList": [
+				{
+					"regExp": "wifi/iptrace-result"
+				}
+			],
+			"typeName": "WiFi Trace Route",
+			"measureType": "WiFi Trace Route",
+			"measureMode": "WIFI"
+		},
+		{
+			"fileType": "eRstMTTWiFiARP",
+			"regExpList": [
+				{
+					"regExp": "wifi/iparpwiz-result"
+				}
+			],
+			"typeName": "WiFi ARP",
+			"measureType": "WiFi ARP",
+			"measureMode": "WIFI"
+		},
+		{
+			"fileType": "eRstMTTWiFiSpeedTest",
+			"regExpList": [
+				{
+					"regExp": "wifi/speedtest-result"
+				}
+			],
+			"typeName": "WiFi Speed Test",
+			"measureType": "WiFi Speed Test",
+			"measureMode": "WIFI"
+		},
+		{
+			"fileType": "eRstMTTGpon",
+			"regExpList": [
+				{
+					"regExp": "gpon/p1/gpon-rslt"
+				}
+			],
+			"typeName": "GPON",
+			"measureType": "GPON",
+			"measureMode": "GPON"
+		},
+		{
+			"fileType": "eRstMTTGponPLOAM",
+			"regExpList": [
+				{
+					"regExp": "gpon/p1/ploam-rslt"
+				}
+			],
+			"typeName": "GPON PLOAM",
+			"measureType": "GPON PLOAM",
+			"measureMode": "GPON"
+		},
+		{
+			"fileType": "eRstMTTGponOMCI",
+			"regExpList": [
+				{
+					"regExp": "gpon/p1/omci-rslt"
+				}
+			],
+			"typeName": "GPON OMCI",
+			"measureType": "GPON OMCI",
+			"measureMode": "GPON"
+		},
+		{
+			"fileType": "eRstMTTGponOPM",
+			"regExpList": [
+				{
+					"regExp": "gpon/p1/opm-rslt"
+				}
+			],
+			"typeName": "GPON OPM",
+			"measureType": "GPON OPM",
+			"measureMode": "GPON"
+		},
+		{
+			"fileType": "eRstMTTGponWizard",
+			"regExpList": [
+				{
+					"regExp": "gpon/p1/wizard-rslt"
+				}
+			],
+			"typeName": "GPON Wizard",
+			"measureType": "GPON Wizard",
+			"measureMode": "GPON"
+		},
+		{
+			"fileType": "eRstMTT520DSL",
+			"regExpList": [
+				{
+					"regExp": "mtt520-result/DSL"
+				}
+			],
+			"typeName": "MTT520 DSL",
+			"measureType": "MTT520 DSL",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT520TDR",
+			"regExpList": [
+				{
+					"regExp": "mtt520-result/TDR"
+				}
+			],
+			"typeName": "MTT520 TDR",
+			"measureType": "MTT520 TDR",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT520DMM",
+			"regExpList": [
+				{
+					"regExp": "mtt520-result/DMM"
+				}
+			],
+			"typeName": "MTT520 DMM",
+			"measureType": "MTT520 DMM",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT520PSD",
+			"regExpList": [
+				{
+					"regExp": "mtt520-result/PSD"
+				}
+			],
+			"typeName": "MTT520 PSD",
+			"measureType": "MTT520 PSD",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT520RFL",
+			"regExpList": [
+				{
+					"regExp": "mtt520-result/RFL"
+				}
+			],
+			"typeName": "MTT520 RFL",
+			"measureType": "MTT520 RFL",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT520IMPN",
+			"regExpList": [
+				{
+					"regExp": "mtt520-result/IMPN"
+				}
+			],
+			"typeName": "MTT520 IMPN",
+			"measureType": "MTT520 IMPN",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT520LB",
+			"regExpList": [
+				{
+					"regExp": "mtt520-result/LB"
+				}
+			],
+			"typeName": "MTT520 LB",
+			"measureType": "MTT520 LB",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT520LOSS",
+			"regExpList": [
+				{
+					"regExp": "mtt520-result/LOSS"
+				}
+			],
+			"typeName": "MTT520 LOSS",
+			"measureType": "MTT520 LOSS",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT520Noise",
+			"regExpList": [
+				{
+					"regExp": "mtt520-result/Noise"
+				}
+			],
+			"typeName": "MTT520 Noise",
+			"measureType": "MTT520 Noise",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT520Ringers",
+			"regExpList": [
+				{
+					"regExp": "mtt520-result/Ringers"
+				}
+			],
+			"typeName": "MTT520 Ringers",
+			"measureType": "MTT520 Ringers",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT522DSL",
+			"regExpList": [
+				{
+					"regExp": "mtt522-result/DSL"
+				}
+			],
+			"typeName": "MTT522 DSL",
+			"measureType": "MTT522 DSL",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT522TDR",
+			"regExpList": [
+				{
+					"regExp": "mtt522-result/TDR"
+				}
+			],
+			"typeName": "MTT522 TDR",
+			"measureType": "MTT522 TDR",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT522DMM",
+			"regExpList": [
+				{
+					"regExp": "mtt522-result/DMM"
+				}
+			],
+			"typeName": "MTT522 DMM",
+			"measureType": "MTT522 DMM",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT522PSD",
+			"regExpList": [
+				{
+					"regExp": "mtt522-result/PSD"
+				}
+			],
+			"typeName": "MTT522 PSD",
+			"measureType": "MTT522 PSD",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT522RFL",
+			"regExpList": [
+				{
+					"regExp": "mtt522-result/RFL"
+				}
+			],
+			"typeName": "MTT522 RFL",
+			"measureType": "MTT522 RFL",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT522IMPN",
+			"regExpList": [
+				{
+					"regExp": "mtt522-result/IMPN"
+				}
+			],
+			"typeName": "MTT522 IMPN",
+			"measureType": "MTT522 IMPN",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT522LB",
+			"regExpList": [
+				{
+					"regExp": "mtt522-result/LB"
+				}
+			],
+			"typeName": "MTT522 LB",
+			"measureType": "MTT522 LB",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT522LOSS",
+			"regExpList": [
+				{
+					"regExp": "mtt522-result/LOSS"
+				}
+			],
+			"typeName": "MTT522 LOSS",
+			"measureType": "MTT522 LOSS",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT522Noise",
+			"regExpList": [
+				{
+					"regExp": "mtt522-result/Noise"
+				}
+			],
+			"typeName": "MTT522 Noise",
+			"measureType": "MTT522 Noise",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT522Ringers",
+			"regExpList": [
+				{
+					"regExp": "mtt522-result/Ringers"
+				}
+			],
+			"typeName": "MTT522 Ringers",
+			"measureType": "MTT522 Ringers",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT523DSL",
+			"regExpList": [
+				{
+					"regExp": "mtt523-result/DSL"
+				}
+			],
+			"typeName": "MTT523 DSL",
+			"measureType": "MTT523 DSL",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT523TDR",
+			"regExpList": [
+				{
+					"regExp": "mtt523-result/TDR"
+				}
+			],
+			"typeName": "MTT523 TDR",
+			"measureType": "MTT523 TDR",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT523DMM",
+			"regExpList": [
+				{
+					"regExp": "mtt523-result/DMM"
+				}
+			],
+			"typeName": "MTT523 DMM",
+			"measureType": "MTT523 DMM",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT523PSD",
+			"regExpList": [
+				{
+					"regExp": "mtt523-result/PSD"
+				}
+			],
+			"typeName": "MTT523 PSD",
+			"measureType": "MTT523 PSD",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT523RFL",
+			"regExpList": [
+				{
+					"regExp": "mtt523-result/RFL"
+				}
+			],
+			"typeName": "MTT523 RFL",
+			"measureType": "MTT523 RFL",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT523IMPN",
+			"regExpList": [
+				{
+					"regExp": "mtt523-result/IMPN"
+				}
+			],
+			"typeName": "MTT523 IMPN",
+			"measureType": "MTT523 IMPN",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT523LB",
+			"regExpList": [
+				{
+					"regExp": "mtt523-result/LB"
+				}
+			],
+			"typeName": "MTT523 LB",
+			"measureType": "MTT523 LB",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT523LOSS",
+			"regExpList": [
+				{
+					"regExp": "mtt523-result/LOSS"
+				}
+			],
+			"typeName": "MTT523 LOSS",
+			"measureType": "MTT523 LOSS",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT523Noise",
+			"regExpList": [
+				{
+					"regExp": "mtt523-result/Noise"
+				}
+			],
+			"typeName": "MTT523 Noise",
+			"measureType": "MTT523 Noise",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT523Ringers",
+			"regExpList": [
+				{
+					"regExp": "mtt523-result/Ringers"
+				}
+			],
+			"typeName": "MTT523 Ringers",
+			"measureType": "MTT523 Ringers",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT521DSL",
+			"regExpList": [
+				{
+					"regExp": "mtt521-result/DSL"
+				}
+			],
+			"typeName": "MTT521 DSL",
+			"measureType": "MTT521 DSL",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT521TDR",
+			"regExpList": [
+				{
+					"regExp": "mtt521-result/TDR"
+				}
+			],
+			"typeName": "MTT521 TDR",
+			"measureType": "MTT521 TDR",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT521DMM",
+			"regExpList": [
+				{
+					"regExp": "mtt521-result/DMM"
+				}
+			],
+			"typeName": "MTT521 DMM",
+			"measureType": "MTT521 DMM",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT521PSD",
+			"regExpList": [
+				{
+					"regExp": "mtt521-result/PSD"
+				}
+			],
+			"typeName": "MTT521 PSD",
+			"measureType": "MTT521 PSD",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT521RFL",
+			"regExpList": [
+				{
+					"regExp": "mtt521-result/RFL"
+				}
+			],
+			"typeName": "MTT521 RFL",
+			"measureType": "MTT521 RFL",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT521IMPN",
+			"regExpList": [
+				{
+					"regExp": "mtt521-result/IMPN"
+				}
+			],
+			"typeName": "MTT521 IMPN",
+			"measureType": "MTT521 IMPN",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT521LB",
+			"regExpList": [
+				{
+					"regExp": "mtt521-result/LB"
+				}
+			],
+			"typeName": "MTT521 LB",
+			"measureType": "MTT521 LB",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT521LOSS",
+			"regExpList": [
+				{
+					"regExp": "mtt521-result/LOSS"
+				}
+			],
+			"typeName": "MTT521 LOSS",
+			"measureType": "MTT521 LOSS",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT521Noise",
+			"regExpList": [
+				{
+					"regExp": "mtt521-result/Noise"
+				}
+			],
+			"typeName": "MTT521 Noise",
+			"measureType": "MTT521 Noise",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstMTT521Ringers",
+			"regExpList": [
+				{
+					"regExp": "mtt521-result/Ringers"
+				}
+			],
+			"typeName": "MTT521 Ringers",
+			"measureType": "MTT521 Ringers",
+			"measureMode": "MTT52X"
+		},
+		{
+			"fileType": "eRstG703OWD",
+			"regExpList": [
+				{
+					"regExp": "codir/p\\d/codir-owd"
+				}
+			],
+			"typeName": "G703 OWD",
+			"measureType": "G703 OWD",
+			"measureMode": "G703"
+		},
+		{
+			"fileType": "eRstG703PULSE",
+			"regExpList": [
+				{
+					"regExp": "codir/p\\d/codir-pulse"
+				}
+			],
+			"typeName": "G703 PULSE",
+			"measureType": "G703 PULSE",
+			"measureMode": "G703"
+		},
+		{
+			"fileType": "eRstG703RSLT",
+			"regExpList": [
+				{
+					"regExp": "codir/p\\d/codir-rslt"
+				}
+			],
+			"typeName": "G703 RSLT",
+			"measureType": "G703 RSLT",
+			"measureMode": "G703"
+		},
+		{
+			"fileType": "eRstG703RTD",
+			"regExpList": [
+				{
+					"regExp": "codir/p\\d/codir-rtd"
+				}
+			],
+			"typeName": "G703 RTD",
+			"measureType": "G703 RTD",
+			"measureMode": "G703"
+		},
+		{
+			"fileType": "eRstC3794RTD",
+			"regExpList": [
+				{
+					"regExp": "c37_94/p\\d/c37_94-rtd"
+				},
+				{
+					"regExp": "c37_94/html-files/c37_94-rtd"
+				}
+			],
+			"typeName": "C3794 RTD",
+			"measureType": "C3794 RTD",
+			"measureMode": "C3794"
+		},
+		{
+			"fileType": "eRstC3794OWD",
+			"regExpList": [
+				{
+					"regExp": "c37_94/p\\d/c37_94-owd"
+				}
+			],
+			"typeName": "C3794 OWD",
+			"measureType": "C3794 OWD",
+			"measureMode": "C3794"
+		},
+		{
+			"fileType": "eRstC3794RSLT",
+			"regExpList": [
+				{
+					"regExp": "c37_94/p\\d/c37_94-rslt"
+				},
+				{
+					"regExp": "c37_94/html-files/c37_94-bert"
+				}
+			],
+			"typeName": "C3794 RSLT",
+			"measureType": "C3794 RSLT",
+			"measureMode": "C3794"
+		},
+		{
+			"fileType": "eRstC3794MonitorRSLT",
+			"regExpList": [
+				{
+					"regExp": "c37_94/p\\d/c37_94mon-rslt"
+				}
+			],
+			"typeName": "C3794 Monitor RSLT",
+			"measureType": "C3794 MONITOR RSLT",
+			"measureMode": "C3794"
+		},
+		{
+			"fileType": "eRstOTDRSORS",
+			"regExpList": [
+				{
+					"regExp": "/sors/"
+				}
+			],
+			"typeName": "SOR",
+			"measureType": "SOR",
+			"measureMode": "OTDR"
+		},
+		{
+			"fileType": "eRstOTDROLTS",
+			"regExpList": [
+				{
+					"regExp": "/olts/"
+				}
+			],
+			"typeName": "OLTS",
+			"measureType": "OLTS",
+			"measureMode": "OTDR"
+		},
+		{
+			"fileType": "eRstOTDRSCOPE",
+			"regExpList": [
+				{
+					"regExp": "/scope/"
+				}
+			],
+			"typeName": "SCOPE",
+			"measureType": "SCOPE",
+			"measureMode": "OTDR"
+		},
+		{
+			"fileType": "eRstBertCSP1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp1port/bert-result"
+				}
+			],
+			"typeName": "CSP1 Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstThrptCSP1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp1port/thrpt-result"
+				}
+			],
+			"typeName": "CSP1 Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstRfc2544CSP1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp1port/rfc2544-result"
+				}
+			],
+			"typeName": "CSP1 Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVsamCSP1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp1port/y1564-result"
+				}
+			],
+			"typeName": "CSP1 Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstLoopCSP1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp1port/loopback-result"
+				}
+			],
+			"typeName": "CSP1 Loop",
+			"measureType": "LOOP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpPingCSP1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp1port/ipping-result"
+				}
+			],
+			"typeName": "CSP1 IpPing",
+			"measureType": "IPPING",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpTraceCSP1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp1port/iptrace-result"
+				}
+			],
+			"typeName": "CSP1 IpTrace",
+			"measureType": "IPTRACE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpArpCSP1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp1port/iparpwiz-result"
+				}
+			],
+			"typeName": "CSP1 IpArp",
+			"measureType": "IPARP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipCheckCSP1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp1port/ipvoip-check-result"
+				}
+			],
+			"typeName": "CSP1 IpVoipCheck",
+			"measureType": "IPVOIPCHECK",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipClientCSP1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp1port/ipvoip-client-result"
+				}
+			],
+			"typeName": "CSP1 IpVoipClient",
+			"measureType": "IPVOIPCLIENT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipIpPhoneCSP1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp1port/ipvoip-ipphone-result"
+				}
+			],
+			"typeName": "CSP1 IpVoipIpPhone",
+			"measureType": "IPVOIPIPPHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipNextragenCSP1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp1port/ipvoip-nextragen-result"
+				}
+			],
+			"typeName": "CSP1 IpVoipNextragen",
+			"measureType": "IPVOIPNEXTRAGEN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpSecCSP1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp1port/ipsec-result"
+				}
+			],
+			"typeName": "CSP1 IpSec",
+			"measureType": "IPSEC",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVperfCSP1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp1port/vperf-result"
+				}
+			],
+			"typeName": "CSP1 Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstFtpgetCSP1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp1port/ftpget-result"
+				}
+			],
+			"typeName": "CSP1 Ftpget",
+			"measureType": "FTPGET",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstFtpputCSP1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp1port/ftpput-result"
+				}
+			],
+			"typeName": "CSP1 Ftpput",
+			"measureType": "FTPPUT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstHttpgetCSP1",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp1port/httpget-result"
+				}
+			],
+			"typeName": "CSP1 Httpget",
+			"measureType": "HTTPGET",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstBertCSP2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp2port/bert-result"
+				}
+			],
+			"typeName": "CSP2 Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstThrptCSP2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp2port/thrpt-result"
+				}
+			],
+			"typeName": "CSP2 Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstRfc2544CSP2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp2port/rfc2544-result"
+				}
+			],
+			"typeName": "CSP2 Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVsamCSP2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp2port/y1564-result"
+				}
+			],
+			"typeName": "CSP2 Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstLoopCSP2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp2port/loopback-result"
+				}
+			],
+			"typeName": "CSP2 Loop",
+			"measureType": "LOOP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpPingCSP2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp2port/ipping-result"
+				}
+			],
+			"typeName": "CSP2 IpPing",
+			"measureType": "IPPING",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpTraceCSP2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp2port/iptrace-result"
+				}
+			],
+			"typeName": "CSP2 IpTrace",
+			"measureType": "IPTRACE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpArpCSP2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp2port/iparpwiz-result"
+				}
+			],
+			"typeName": "CSP2 IpArp",
+			"measureType": "IPARP",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipCheckCSP2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp2port/ipvoip-check-result"
+				}
+			],
+			"typeName": "CSP2 IpVoipCheck",
+			"measureType": "IPVOIPCHECK",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipClientCSP2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp2port/ipvoip-client-result"
+				}
+			],
+			"typeName": "CSP2 IpVoipClient",
+			"measureType": "IPVOIPCLIENT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipIpPhoneCSP2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp2port/ipvoip-ipphone-result"
+				}
+			],
+			"typeName": "CSP2 IpVoipIpPhone",
+			"measureType": "IPVOIPIPPHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpVoipNextragenCSP2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp2port/ipvoip-nextragen-result"
+				}
+			],
+			"typeName": "CSP2 IpVoipNextragen",
+			"measureType": "IPVOIPNEXTRAGEN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstIpSecCSP2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp2port/ipsec-result"
+				}
+			],
+			"typeName": "CSP2 IpSec",
+			"measureType": "IPSEC",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstVperfCSP2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp2port/vperf-result"
+				}
+			],
+			"typeName": "CSP2 Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstFtpgetCSP2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp2port/ftpget-result"
+				}
+			],
+			"typeName": "CSP2 Ftpget",
+			"measureType": "FTPGET",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstFtpputCSP2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp2port/ftpput-result"
+				}
+			],
+			"typeName": "CSP2 Ftpput",
+			"measureType": "FTPPUT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eRstHttpgetCSP2",
+			"regExpList": [
+				{
+					"regExp": "mx300-rslt/csp2port/httpget-result"
+				}
+			],
+			"typeName": "CSP2 Httpget",
+			"measureType": "HTTPGET",
+			"measureMode": "Ethernet"
+		}
+	]
+}

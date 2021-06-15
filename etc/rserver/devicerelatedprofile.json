@@ -1,0 +1,271 @@
+{
+	"deviceRealtedProfileList": [
+		{
+			"pathName": "/home/1ge/mx300-prof/1gc1port/bert-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gc2port/bert-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gf1port/bert-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gf2port/bert-setup"
+		},
+		{
+			"pathName": "/home/10g/mx300-prof/10gport/bert-setup"
+		},
+		{
+			"pathName": "/home/10g/mx300-prof/10gport2/bert-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gc1port/rfc2544-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gc2port/rfc2544-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gf1port/rfc2544-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gf2port/rfc2544-setup"
+		},
+		{
+			"pathName": "/home/10g/mx300-prof/10gport/rfc2544-setup"
+		},
+		{
+			"pathName": "/home/10g/mx300-prof/10gport2/rfc2544-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gc1port/thrpt-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gc2port/thrpt-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gf1port/thrpt-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gf2port/thrpt-setup"
+		},
+		{
+			"pathName": "/home/10g/mx300-prof/10gport/thrpt-setup"
+		},
+		{
+			"pathName": "/home/10g/mx300-prof/10gport2/thrpt-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gc1port/y1564-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gc2port/y1564-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gf1port/y1564-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gf2port/y1564-setup"
+		},
+		{
+			"pathName": "/home/10g/mx300-prof/10gport/y1564-setup"
+		},
+		{
+			"pathName": "/home/10g/mx300-prof/10gport2/y1564-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gc1port/scan-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gc2port/scan-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gf1port/scan-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gf2port/scan-setup"
+		},
+		{
+			"pathName": "/home/10g/mx300-prof/10gport/scan-setup"
+		},
+		{
+			"pathName": "/home/10g/mx300-prof/10gport2/scan-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gc1port/vperf-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gc2port/vperf-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gf1port/vperf-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gf2port/vperf-setup"
+		},
+		{
+			"pathName": "/home/10g/mx300-prof/10gport/vperf-setup"
+		},
+		{
+			"pathName": "/home/10g/mx300-prof/10gport2/vperf-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gc1port/ftpget-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gc2port/ftpget-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gf1port/ftpget-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gf2port/ftpget-setup"
+		},
+		{
+			"pathName": "/home/10g/mx300-prof/10gport/ftpget-setup"
+		},
+		{
+			"pathName": "/home/10g/mx300-prof/10gport2/ftpget-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gc1port/ftpput-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gc2port/ftpput-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gf1port/ftpput-setup"
+		},
+		{
+			"pathName": "/home/1ge/mx300-prof/1gf2port/ftpput-setup"
+		},
+		{
+			"pathName": "/home/10g/mx300-prof/10gport/ftpput-setup"
+		},
+		{
+			"pathName": "/home/10g/mx300-prof/10gport2/ftpput-setup"
+		},
+		{
+			"pathName": "/home/1ge/fx300-prof/1gf1port/fbert-setup"
+		},
+		{
+			"pathName": "/home/1ge/fx300-prof/1gf2port/fbert-setup"
+		},
+		{
+			"pathName": "/home/10g/fx300-prof/10gport/fbert-setup"
+		},
+		{
+			"pathName": "/home/10g/fx300-prof/10gport2/fbert-setup"
+		},
+		{
+			"pathName": "/home/1ge/fx300-prof/1gf1port/frfc2544-setup"
+		},
+		{
+			"pathName": "/home/1ge/fx300-prof/1gf2port/frfc2544-setup"
+		},
+		{
+			"pathName": "/home/10g/fx300-prof/10gport/frfc2544-setup"
+		},
+		{
+			"pathName": "/home/10g/fx300-prof/10gport2/frfc2544-setup"
+		},
+		{
+			"pathName": "/home/1ge/fx300-prof/1gf1port/fthrpt-setup"
+		},
+		{
+			"pathName": "/home/1ge/fx300-prof/1gf2port/fthrpt-setup"
+		},
+		{
+			"pathName": "/home/10g/fx300-prof/10gport/fthrpt-setup"
+		},
+		{
+			"pathName": "/home/10g/fx300-prof/10gport2/fthrpt-setup"
+		},
+		
+		{
+			"pathName": "/home/25g/mx300-prof/10gport/bert-setup"
+		},
+		{
+			"pathName": "/home/25g/mx300-prof/10gport2/bert-setup"
+		},
+		{
+			"pathName": "/home/25g/mx300-prof/10gport/rfc2544-setup"
+		},
+		{
+			"pathName": "/home/25g/mx300-prof/10gport2/rfc2544-setup"
+		},
+		{
+			"pathName": "/home/25g/mx300-prof/10gport/thrpt-setup"
+		},
+		{
+			"pathName": "/home/25g/mx300-prof/10gport2/thrpt-setup"
+		},
+		{
+			"pathName": "/home/25g/mx300-prof/10gport/scan-setup"
+		},
+		{
+			"pathName": "/home/25g/mx300-prof/10gport2/scan-setup"
+		},
+		{
+			"pathName": "/home/25g/mx300-prof/10gport/y1564-setup"
+		},
+		{
+			"pathName": "/home/25g/mx300-prof/10gport2/y1564-setup"
+		},
+		
+		{
+			"pathName": "/home/50g/mx300-prof/50gport/bert-setup"
+		},
+		{
+			"pathName": "/home/50g/mx300-prof/50gport2/bert-setup"
+		},
+		{
+			"pathName": "/home/50g/mx300-prof/50gport/rfc2544-setup"
+		},
+		{
+			"pathName": "/home/50g/mx300-prof/50gport2/rfc2544-setup"
+		},
+		{
+			"pathName": "/home/50g/mx300-prof/50gport/thrpt-setup"
+		},
+		{
+			"pathName": "/home/50g/mx300-prof/50gport2/thrpt-setup"
+		},
+		{
+			"pathName": "/home/50g/mx300-prof/50gport/scan-setup"
+		},
+		{
+			"pathName": "/home/50g/mx300-prof/50gport2/scan-setup"
+		},
+		{
+			"pathName": "/home/50g/mx300-prof/50gport/y1564-setup"
+		},
+		{
+			"pathName": "/home/50g/mx300-prof/50gport2/y1564-setup"
+		},
+
+		{
+			"pathName": "/home/mtt520/mtt520-setup/DSL/threshold"
+		},
+		{
+			"pathName": "/home/mtt520/mtt520-setup/DMM/threshold"
+		},
+		{
+			"pathName": "/home/mtt521/mtt521-setup/DSL/threshold"
+		},
+		{
+			"pathName": "/home/mtt521/mtt521-setup/DMM/threshold"
+		},
+		{
+			"pathName": "/home/mtt522/mtt522-setup/DSL/threshold"
+		},
+		{
+			"pathName": "/home/mtt522/mtt522-setup/DMM/threshold"
+		},
+		{
+			"pathName": "/home/mtt523/mtt523-setup/DSL/threshold"
+		},
+		{
+			"pathName": "/home/mtt523/mtt523-setup/DMM/threshold"
+		}
+	]
+}

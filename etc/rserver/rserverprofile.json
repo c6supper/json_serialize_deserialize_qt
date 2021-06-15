@@ -1,0 +1,843 @@
+{
+	"fileTypeList": [
+		{
+			"fileType": "eProfBert1GC",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/1gc\\dport/bert-setup"
+				}
+			],
+			"typeName": "1GC Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfBert1GF",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/1gf\\dport/bert-setup"
+				}
+			],
+			"typeName": "1GF Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfBertEth10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-prof/10gport\\d?/bert-setup"
+				},
+				{
+					"regExp": "/home/mx300-prof/10gport\\d?/bert-setup"
+				}
+			],
+			"typeName": "10G Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfRfc25441GC",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/1gc\\dport/rfc2544-setup"
+				}
+			],
+			"typeName": "1GC Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfRfc25441GF",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/1gf\\dport/rfc2544-setup"
+				}
+			],
+			"typeName": "1GF Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfRfc2544Eth10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-prof/10gport\\d?/rfc2544-setup"
+				},
+				{
+					"regExp": "/home/mx300-prof/10gport\\d?/rfc2544-setup"
+				}
+			],
+			"typeName": "10G Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfThrpt1GC",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/1gc\\dport/thrpt-setup"
+				}
+			],
+			"typeName": "1GC Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfThrpt1GF",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/1gf\\dport/thrpt-setup"
+				}
+			],
+			"typeName": "1GF Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfThrptEth10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-prof/10gport\\d?/thrpt-setup"
+				},
+				{
+					"regExp": "/home/mx300-prof/10gport\\d?/thrpt-setup"
+				}
+			],
+			"typeName": "10G Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfScan1GC",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/1gc\\dport/scan-setup"
+				}
+			],
+			"typeName": "1GC Scan",
+			"measureType": "SCAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfScan1GF",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/1gf\\dport/scan-setup"
+				}
+			],
+			"typeName": "1GF Scan",
+			"measureType": "SCAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfScanEth10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-prof/10gport\\d?/scan-setup"
+				},
+				{
+					"regExp": "/home/mx300-prof/10gport\\d?/scan-setup"
+				}
+			],
+			"typeName": "10G Scan",
+			"measureType": "SCAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfVsam1GC",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/1gc\\dport/y1564-setup"
+				}
+			],
+			"typeName": "1GC Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfVsam1GF",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/1gf\\dport/y1564-setup"
+				}
+			],
+			"typeName": "1GF Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfVsamEth10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-prof/10gport\\d?/y1564-setup"
+				},
+				{
+					"regExp": "/home/mx300-prof/10gport\\d?/y1564-setup"
+				}
+			],
+			"typeName": "10G Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfVperf1GC",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/1gc\\dport/vperf-setup"
+				}
+			],
+			"typeName": "1GC Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfVperf1GF",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/1gf\\dport/vperf-setup"
+				}
+			],
+			"typeName": "1GF Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfVperfEth10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-prof/10gport\\d?/vperf-setup"
+				},
+				{
+					"regExp": "/home/mx300-prof/10gport\\d?/vperf-setup"
+				}
+			],
+			"typeName": "10G Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfFcBert1GF1",
+			"regExpList": [
+				{
+					"regExp": "fx300-prof/1gf1port/fbert-setup"
+				}
+			],
+			"typeName": "1GF1 FcBert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfFcBert1GF2",
+			"regExpList": [
+				{
+					"regExp": "fx300-prof/1gf2port/fbert-setup"
+				}
+			],
+			"typeName": "1GF2 FcBert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfFcBert10G",
+			"regExpList": [
+				{
+					"regExp": "fx300-prof/10gport/fbert-setup"
+				}
+			],
+			"typeName": "10G1 FcBert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfFcBert10G2",
+			"regExpList": [
+				{
+					"regExp": "fx300-prof/10gport2/fbert-setup"
+				}
+			],
+			"typeName": "10G2 FcBert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfFcRfc25441GF1",
+			"regExpList": [
+				{
+					"regExp": "fx300-prof/1gf1port/frfc2544-setup"
+				}
+			],
+			"typeName": "1GF1 FcRfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfFcRfc25441GF2",
+			"regExpList": [
+				{
+					"regExp": "fx300-prof/1gf2port/frfc2544-setup"
+				}
+			],
+			"typeName": "1GF2 FcRfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfFcRfc254410G",
+			"regExpList": [
+				{
+					"regExp": "fx300-prof/10gport/frfc2544-setup"
+				}
+			],
+			"typeName": "10G1 FcRfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfFcRfc254410G2",
+			"regExpList": [
+				{
+					"regExp": "fx300-prof/10gport2/frfc2544-setup"
+				}
+			],
+			"typeName": "10G2 FcRfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfFcThrpt1GF1",
+			"regExpList": [
+				{
+					"regExp": "fx300-prof/1gf1port/fthrpt-setup"
+				}
+			],
+			"typeName": "1GF1 FcThrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfFcThrpt1GF2",
+			"regExpList": [
+				{
+					"regExp": "fx300-prof/1gf2port/fthrpt-setup"
+				}
+			],
+			"typeName": "1GF2 FcThrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfFcThrpt10G",
+			"regExpList": [
+				{
+					"regExp": "fx300-prof/10gport/fthrpt-setup"
+				}
+			],
+			"typeName": "10G1 FcThrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfFcThrpt10G2",
+			"regExpList": [
+				{
+					"regExp": "fx300-prof/10gport2/fthrpt-setup"
+				}
+			],
+			"typeName": "10G2 FcThrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfIPPhone1GC1",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/1gc1port/ipvoip-ipphone-setup"
+				}
+			],
+			"typeName": "1GC1 IP Phone",
+			"measureType": "IP PHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfIPPhone1GC2",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/1gc2port/ipvoip-ipphone-setup"
+				}
+			],
+			"typeName": "1GC2 IP Phone",
+			"measureType": "IP PHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfIPPhone1GF1",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/1gf1port/ipvoip-ipphone-setup"
+				}
+			],
+			"typeName": "1GF1 IP Phone",
+			"measureType": "IP PHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfIPPhone1GF2",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/1gf2port/ipvoip-ipphone-setup"
+				}
+			],
+			"typeName": "1GF2 IP Phone",
+			"measureType": "IP PHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfIPPhone10G",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-prof/10gport/ipvoip-ipphone-setup"
+				},
+				{
+					"regExp": "/home/mx300-prof/10gport/ipvoip-ipphone-setup"
+				}
+			],
+			"typeName": "10G1 IP Phone",
+			"measureType": "IP PHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfIPPhone10G2",
+			"regExpList": [
+				{
+					"regExp": "10g/mx300-prof/10gport2/ipvoip-ipphone-setup"
+				},
+				{
+					"regExp": "/home/mx300-prof/10gport2/ipvoip-ipphone-setup"
+				}
+			],
+			"typeName": "10G2 IP Phone",
+			"measureType": "IP PHONE",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfBertEth25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-prof/(10|25)gport\\d?/bert-setup"
+				}
+			],
+			"typeName": "25G Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfRfc2544Eth25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-prof/(10|25)gport\\d?/rfc2544-setup"
+				}
+			],
+			"typeName": "25G Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfThrptEth25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-prof/(10|25)gport\\d?/thrpt-setup"
+				}
+			],
+			"typeName": "25G Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfScanEth25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-prof/10gport\\d?/scan-setup"
+				}
+			],
+			"typeName": "25G Scan",
+			"measureType": "SCAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfVsamEth25G",
+			"regExpList": [
+				{
+					"regExp": "25g/mx300-prof/(10|25)gport\\d?/y1564-setup"
+				}
+			],
+			"typeName": "25G Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfBertEth50G",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/50gport\\d?/bert-setup"
+				}
+			],
+			"typeName": "50G Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfRfc2544Eth50G",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/50gport\\d?/rfc2544-setup"
+				}
+			],
+			"typeName": "50G Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfThrptEth50G",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/50gport\\d?/thrpt-setup"
+				}
+			],
+			"typeName": "50G Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfScanEth50G",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/50gport\\d?/scan-setup"
+				}
+			],
+			"typeName": "50G Scan",
+			"measureType": "SCAN",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfVsamEth50G",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/50gport\\d?/y1564-setup"
+				}
+			],
+			"typeName": "50G Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfLocator",
+			"regExpList": [
+				{
+					"regExp": "undefine"
+				}
+			],
+			"typeName": "",
+			"measureType": "",
+			"measureMode": ""
+		},
+		{
+			"fileType": "eProfType",
+			"regExpList": [
+				{
+					"regExp": "undefine"
+				}
+			],
+			"typeName": "",
+			"measureType": "",
+			"measureMode": ""
+		},
+		{
+			"fileType": "eProfIPTVChannelTable",
+			"regExpList": [
+				{
+					"regExp": "undefine"
+				}
+			],
+			"typeName": "",
+			"measureType": "",
+			"measureMode": ""
+		},
+		{
+			"fileType": "eProfIPPhone",
+			"regExpList": [
+				{
+					"regExp": "undefine"
+				}
+			],
+			"typeName": "",
+			"measureType": "",
+			"measureMode": ""
+		},
+		{
+			"fileType": "eProfVoIPClient",
+			"regExpList": [
+				{
+					"regExp": "undefine"
+				}
+			],
+			"typeName": "",
+			"measureType": "",
+			"measureMode": ""
+		},
+		{
+			"fileType": "eProfVoIPCheck",
+			"regExpList": [
+				{
+					"regExp": "undefine"
+				}
+			],
+			"typeName": "",
+			"measureType": "",
+			"measureMode": ""
+		},
+
+		{
+			"fileType": "eProfDSLIp",
+			"regExpList": [
+				{
+					"regExp": "undefine"
+				}
+			],
+			"typeName": "DSL IP",
+			"measureType": "DSL",
+			"measureMode": "DSL"
+		},
+		{
+			"fileType": "eProfDSLPassThrough",
+			"regExpList": [
+				{
+					"regExp": "undefine"
+				}
+			],
+			"typeName": "DSL Pass Through",
+			"measureType": "DSL",
+			"measureMode": "DSL"
+		},
+		{
+			"fileType": "eProfVDSLIp",
+			"regExpList": [
+				{
+					"regExp": "undefine"
+				}
+			],
+			"typeName": "VDSL IP",
+			"measureType": "DSL",
+			"measureMode": "DSL"
+		},
+		{
+			"fileType": "eProfVDSLPassThrough",
+			"regExpList": [
+				{
+					"regExp": "undefine"
+				}
+			],
+			"typeName": "VDSL Pass Through",
+			"measureType": "DSL",
+			"measureMode": "DSL"
+		},
+		{
+			"fileType": "eProfTIIp",
+			"regExpList": [
+				{
+					"regExp": "undefine"
+				}
+			],
+			"typeName": "TI IP",
+			"measureType": "DSL",
+			"measureMode": "DSL"
+		},
+		{
+			"fileType": "eProfTIPassThrough",
+			"regExpList": [
+				{
+					"regExp": "undefine"
+				}
+			],
+			"typeName": "TI Pass Through",
+			"measureType": "DSL",
+			"measureMode": "DSL"
+		},
+		{
+			"fileType": "eProfLinkUpThreshold",
+			"regExpList": [
+				{
+					"regExp": "-setup/DSL/threshold"
+				}
+			],
+			"typeName": "Link Up Threshold",
+			"measureType": "DSL",
+			"measureMode": "DSL"
+		},
+		{
+			"fileType": "eProfDMMAutoTestThreshold",
+			"regExpList": [
+				{
+					"regExp": "-setup/DMM/threshold"
+				}
+			],
+			"typeName": "DMM Auto Test Threshold",
+			"measureType": "DSL",
+			"measureMode": "DSL"
+		},
+		{
+			"fileType": "eProfBertCSP",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/csp\\dport/bert-setup"
+				}
+			],
+			"typeName": "CSP Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfRfc2544CSP",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/csp\\dport/rfc2544-setup"
+				}
+			],
+			"typeName": "CSP Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfThrptCSP",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/csp\\dport/thrpt-setup"
+				}
+			],
+			"typeName": "CSP Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfVsamCSP",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/csp\\dport/y1564-setup"
+				}
+			],
+			"typeName": "CSP Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfVperfCSP",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/csp\\dport/vperf-setup"
+				}
+			],
+			"typeName": "CSP Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfBert40G",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/40gport/bert-setup"
+				}
+			],
+			"typeName": "40G Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfRfc254440G",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/40gport/rfc2544-setup"
+				}
+			],
+			"typeName": "40G Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfThrpt40G",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/40gport/thrpt-setup"
+				}
+			],
+			"typeName": "40G Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfVsam40G",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/40gport/y1564-setup"
+				}
+			],
+			"typeName": "40G Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfBert100G",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/100gport/bert-setup"
+				}
+			],
+			"typeName": "100G Bert",
+			"measureType": "BERT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfRfc2544100G",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/100gport/rfc2544-setup"
+				}
+			],
+			"typeName": "100G Rfc2544",
+			"measureType": "RFC2544",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfThrpt100G",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/100gport/thrpt-setup"
+				}
+			],
+			"typeName": "100G Thrpt",
+			"measureType": "THRPT",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfVsam100G",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/100gport/y1564-setup"
+				}
+			],
+			"typeName": "100G Vsam",
+			"measureType": "VSAM",
+			"measureMode": "Ethernet"
+		},
+		{
+			"fileType": "eProfVperf100G",
+			"regExpList": [
+				{
+					"regExp": "mx300-prof/100gport/vperf-setup"
+				}
+			],
+			"typeName": "100G Vperf",
+			"measureType": "VPERF",
+			"measureMode": "Ethernet"
+		}
+	]
+}

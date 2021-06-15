@@ -1,0 +1,90 @@
+Register/Unregister/Check with R-Server
+
+*Actions*:
+
+* Ask Haobo to check if the R-Server Client in meter is the right version .
+* Make sure the "Admin Mode" is disabled in R-Server.
+* Delete the meter in R-Server.
+* Meter check with R-Server.
+* Register meter to R-Server .
+* Browse the R-Server, check meter's information. 
+* Approve the meter in R-Sever, fill in all the informations, like tech Id etc.
+* Meter check with R-Server.
+* Unregister meter.
+* Meter check with R-Server.
+
+*Expected results*:
+
+* None
+* None
+* None
+* meter should show  warning message, not registered.
+* meter should show warning message, "Registered , waiting for authorizing"
+* Platform and module  serial number could be seen in R-Server,the version characters should be X.X.X as in older R-Server(192.168.68.33). "XXXX:X.X.X" in latest R-Server(192.168.8.33), all of the modules information could also seen as in New R-Server.
+* None
+* meter should show warning message, "Registered and authorized", and the blank should shown the information that have been fill in the server.
+* meter should show warning message, "unRegistered successfully".
+* meter should show  warning message, not registered.
+
+Upload Profile/Result with R-Server
+
+*Actions*:
+
+* Ask Haobo to check if the R-Server Client in meter is the right version .
+* Make sure meter is registered in R-Server.
+* Saving more than two types of results in meter (randomly), at least 1 result name should less than 26 characters, at last 1 result name should more than 64 characters.
+* Saving more than two types of profiles in meter.
+* Refresh the result / profile list in meter.
+* Upload profiles and Results in R-Server .
+* Upload and delete results in R-Server .
+* Check the profile and results in R-Server.
+*Expected results*:
+
+* None
+* None
+* None
+* None
+* meter should show the right files that have been saved.
+* Should be upload successfully to new R-Server(8.33). Warning message will be shown as file name is more than 26 characters in R-Server(68.33).
+* Should be upload successfully to new R-Server(8.33). Warning message will be shown as file name is more than 26 characters in R-Server(68.33). After uploaded, results will be deleted
+* The file content should be the same as in meter.
+
+Download Profile with R-Server
+
+*Actions*:
+
+* Ask Haobo to check if the R-Server Client in meter is the right version .
+* Make sure meter is registered in R-Server.
+* Create more than two types of profiles in R-Server (randomly).
+* Download profiles from R-Server .
+* Check with R-Server ,refresh the profile list in meter.
+* Check the profile in test applications.
+*Expected results*:
+
+* None
+* None
+* None
+* should download successfully.
+* The meter's Download menu should show no "New" label, the profile list should be the same as in R-Server.
+* The file content should be both the same as in 8.33 and 68.33.
+
+Delta upgrading with R-Server
+
+*Actions*:
+
+* Ask Haobo to check if the R-Server Client in meter is the right version .
+* Ask Haobo to prepare you the delta packages both for platform and modules.
+* Make sure meter is registered in R-Server.
+* Uploading delta packages to R-Server (both 8.33 and 68.33).
+* meter check with R-Server.
+* Upgrade all the module and platform one by one.
+* Do a upgrade once.
+*Expected results*:
+
+* None
+* None
+* None
+* None.
+* The meter's software page should show the right version both for local and server(both 68.33 and 8.33).
+* After reboot, check the version in meter ,make sure the version is the same with server.
+* Upgrade should be stopped, show warning message.

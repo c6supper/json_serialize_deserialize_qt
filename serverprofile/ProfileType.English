@@ -1,0 +1,365 @@
+<Profile>
+  <Type Value="0" Name="Channel Table" Group="CX" Extension=".csv"/>
+  <Type Value="1" Name="Analog Location" FileGroup="Location" FileGroupType="1" Group="CX" Extension=".analog.csv"/>
+  <Type Value="2" Name="Digital Location" FileGroup="Location" FileGroupType="1" Group="CX" Extension=".digital.csv"/>
+  <Type Value="3" Name="CM/D3.1 OFDM Location" FileGroup="Location" FileGroupType="1" Group="CX" Extension=".cm.csv"/>
+  <Type Value="4" Name="Return Path Location" FileGroup="Location" FileGroupType="1" Group="CX" Extension=".returnpath.csv"/>
+  <Type Value="5" Name="CX380 Spectrum" Group="CX"/>
+  <Type Value="6" Name="HIP AutoTest" FileGroup="HIP AutoTest" FileGroupType="6" Group="CX"/>
+  <Type Value="7" Name="HIP AutoTest Table" FileGroup="HIP AutoTest" FileGroupType="6" Group="CX" Extension=".csv"/>
+  <Type Value="8" Name="HIP Basic" Group="CX"/>
+  <Type Value="9" Name="VoIP Location" FileGroup="Location" FileGroupType="1" Group="CX" Extension=".voip.csv"/>
+  <Type Value="10" Name="FP Sweep" Group="CX" Extension=".csv"/>
+  <Type Value="11" Name="RP Sweep" Group="CX" Extension=".csv"/>
+  <Type Value="12" Name="Drop Certification" FileGroup="Drop Certification" FileGroupType="12" Group="CX"/>
+  <Type Value="13" Name="Drop Certification Table" FileGroup="Drop Certification" FileGroupType="12" Group="CX" Extension=".csv"/>
+  <Type Value="14" Name="ISDB OFDM Table" Group="CX" Extension=".csv"/>
+  <Type Value="15" Name="D31 OFDM Table" Group="CX" Extension=".csv"/>
+  <Type Value="16" Name="CX380J-D3.1 Channel Table" Group="CX" Extension=".csv"/>
+  <Type Value="17" Name="HIP AutoTest V2" FileGroup="HIP AutoTest V2" FileGroupType="17" Group="CX"/>
+  <Type Value="18" Name="HIP AutoTest V2 Table" FileGroup="HIP AutoTest V2" FileGroupType="17" Group="CX" Extension=".csv"/>
+  <Type Value="19" Name="VeTest Location" FileGroup="Location" FileGroupType="1" Group="CX" Extension=".vetest.csv"/>
+  <Type Value="20" Name="CaLan Sweep Location" FileGroup="Location" FileGroupType="1" Group="CX" Extension=".cs.csv"/>
+  <Type Value="21" Name="CaLan Master Profile" Group="CX"/>
+  <Type Value="22" Name="WiFi Location" FileGroup="Location" FileGroupType="1" Group="CX" Extension=".wifi.csv"/>
+  <Type Value="23" Name="HFC Cert" FileGroup="HFC Cert" FileGroupType="23" Group="CX"/>
+  <Type Value="24" Name="HFC Cert Table" FileGroup="HFC Cert" FileGroupType="23" Group="CX" Extension=".csv"/>
+
+  <Type Value="100" Name="CM System File" Group="CX" Extension=".bin"/>
+
+  <Type Value="200" Name="AT Channel Table" Group="CX" Extension=".xml"/>
+  <Type Value="201" Name="AT Location" Group="CX" Extension=".xml"/>
+
+  <Type Value="300" Name="BERT" Protocol="Ethernet" Port="1GC1 Port" Group="MX300"/>
+  <Type Value="301" Name="BERT" Protocol="Ethernet" Port="1GC2 Port" Group="MX300"/>
+  <Type Value="302" Name="BERT" Protocol="Ethernet" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="303" Name="BERT" Protocol="Ethernet" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="304" Name="BERT" Protocol="Ethernet" Port="10G Port1" Group="MX300"/>
+  <Type Value="305" Name="RFC2544" Protocol="Ethernet" Port="1GC1 Port" Group="MX300"/>
+  <Type Value="306" Name="RFC2544" Protocol="Ethernet" Port="1GC2 Port" Group="MX300"/>
+  <Type Value="307" Name="RFC2544" Protocol="Ethernet" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="308" Name="RFC2544" Protocol="Ethernet" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="309" Name="RFC2544" Protocol="Ethernet" Port="10G Port1" Group="MX300"/>
+  <Type Value="310" Name="Throughput" Protocol="Ethernet" Port="1GC1 Port" Group="MX300"/>
+  <Type Value="311" Name="Throughput" Protocol="Ethernet" Port="1GC2 Port" Group="MX300"/>
+  <Type Value="312" Name="Throughput" Protocol="Ethernet" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="313" Name="Throughput" Protocol="Ethernet" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="314" Name="Throughput" Protocol="Ethernet" Port="10G Port1" Group="MX300"/>
+  <Type Value="315" Name="Scan" Protocol="Ethernet" Port="1GC1 Port" Group="MX300"/>
+  <Type Value="316" Name="Scan" Protocol="Ethernet" Port="1GC2 Port" Group="MX300"/>
+  <Type Value="317" Name="Scan" Protocol="Ethernet" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="318" Name="Scan" Protocol="Ethernet" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="319" Name="Scan" Protocol="Ethernet" Port="10G Port1" Group="MX300"/>
+  <Type Value="320" Name="VSAM" Protocol="Ethernet" Port="1GC1 Port" Group="MX300"/>
+  <Type Value="321" Name="VSAM" Protocol="Ethernet" Port="1GC2 Port" Group="MX300"/>
+  <Type Value="322" Name="VSAM" Protocol="Ethernet" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="323" Name="VSAM" Protocol="Ethernet" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="324" Name="VSAM" Protocol="Ethernet" Port="10G Port1" Group="MX300"/>
+  <Type Value="325" Name="BERT" Protocol="Ethernet" Port="10G Port2" Group="MX300"/>
+  <Type Value="326" Name="RFC2544" Protocol="Ethernet" Port="10G Port2" Group="MX300"/>
+  <Type Value="327" Name="Throughput" Protocol="Ethernet" Port="10G Port2" Group="MX300"/>
+  <Type Value="328" Name="Scan" Protocol="Ethernet" Port="10G Port2" Group="MX300"/>
+  <Type Value="329" Name="VSAM" Protocol="Ethernet" Port="10G Port2" Group="MX300"/>
+  <Type Value="330" Name="VPERF" Protocol="Ethernet" Port="1GC1 Port" Group="MX300"/>
+  <Type Value="331" Name="VPERF" Protocol="Ethernet" Port="1GC2 Port" Group="MX300"/>
+  <Type Value="332" Name="VPERF" Protocol="Ethernet" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="333" Name="VPERF" Protocol="Ethernet" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="334" Name="VPERF" Protocol="Ethernet" Port="10G Port1" Group="MX300"/>
+  <Type Value="335" Name="VPERF" Protocol="Ethernet" Port="10G Port2" Group="MX300"/>
+  <Type Value="336" Name="BERT" Protocol="Ethernet" Port="40G" Group="MX300"/>
+  <Type Value="337" Name="RFC2544" Protocol="Ethernet" Port="40G" Group="MX300"/>
+  <Type Value="338" Name="Throughput" Protocol="Ethernet" Port="40G" Group="MX300"/>
+  <Type Value="339" Name="VSAM" Protocol="Ethernet" Port="40G" Group="MX300"/>
+  <Type Value="340" Name="BERT" Protocol="Ethernet" Port="100G" Group="MX300"/>
+  <Type Value="341" Name="RFC2544" Protocol="Ethernet" Port="100G" Group="MX300"/>
+  <Type Value="342" Name="Throughput" Protocol="Ethernet" Port="100G" Group="MX300"/>
+  <Type Value="343" Name="VSAM" Protocol="Ethernet" Port="100G" Group="MX300"/>
+  <Type Value="344" Name="VPERF" Protocol="Ethernet" Port="100G" Group="MX300"/>
+
+  <Type Value="400" Name="FC BERT" Protocol="Fiber Channel" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="401" Name="FC BERT" Protocol="Fiber Channel" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="402" Name="FC BERT" Protocol="Fiber Channel" Port="10G Port1" Group="MX300"/>
+  <Type Value="403" Name="FC BERT" Protocol="Fiber Channel" Port="10G Port2" Group="MX300"/>
+  <Type Value="404" Name="FC RFC2544" Protocol="Fiber Channel" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="405" Name="FC RFC2544" Protocol="Fiber Channel" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="406" Name="FC RFC2544" Protocol="Fiber Channel" Port="10G Port1" Group="MX300"/>
+  <Type Value="407" Name="FC RFC2544" Protocol="Fiber Channel" Port="10G Port2" Group="MX300"/>
+  <Type Value="408" Name="FC Throughput" Protocol="Fiber Channel" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="409" Name="FC Throughput" Protocol="Fiber Channel" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="410" Name="FC Throughput" Protocol="Fiber Channel" Port="10G Port1" Group="MX300"/>
+  <Type Value="411" Name="FC Throughput" Protocol="Fiber Channel" Port="10G Port2" Group="MX300"/>
+
+  <!-- <Type Value="450" Name="Ethernet IPv4" Protocol="Ethernet" Port="1GC1 Port" Group="MX300"/>
+  <Type Value="451" Name="PPPoE" Protocol="Ethernet" Port="1GC1 Port" Group="MX300"/>
+  <Type Value="452" Name="Port" Protocol="Ethernet" Port="1GC1 Port" Group="MX300"/>
+  <Type Value="453" Name="Ping" Protocol="Ethernet" Port="1GC1 Port" Group="MX300"/>
+  <Type Value="454" Name="Trace Route" Protocol="Ethernet" Port="1GC1 Port" Group="MX300"/>
+  <Type Value="455" Name="ARPWiz" Protocol="Ethernet" Port="1GC1 Port" Group="MX300"/>
+  <Type Value="456" Name="FTP Download" Protocol="Ethernet" Port="1GC1 Port" Group="MX300"/>
+  <Type Value="457" Name="FTP Upload" Protocol="Ethernet" Port="1GC1 Port" Group="MX300"/>
+  <Type Value="458" Name="Web Test" Protocol="Ethernet" Port="1GC1 Port" Group="MX300"/>
+  <Type Value="459" Name="Web Browser" Protocol="Ethernet" Port="1GC1 Port" Group="MX300"/>
+  <Type Value="460" Name="VoIP IP Phone" Protocol="Ethernet" Port="1GC1 Port" Group="MX300"/>
+  <Type Value="461" Name="VoIP Client" Protocol="Ethernet" Port="1GC1 Port" Group="MX300"/>
+  <Type Value="462" Name="VoIP Check" Protocol="Ethernet" Port="1GC1 Port" Group="MX300"/> -->
+
+  <!-- <Type Value="463" Name="Ethernet IPv4" Protocol="Ethernet" Port="1GC2 Port" Group="MX300"/>
+  <Type Value="464" Name="PPPoE" Protocol="Ethernet" Port="1GC2 Port" Group="MX300"/>
+  <Type Value="465" Name="Port" Protocol="Ethernet" Port="1GC2 Port" Group="MX300"/>
+  <Type Value="466" Name="Ping" Protocol="Ethernet" Port="1GC2 Port" Group="MX300"/>
+  <Type Value="467" Name="Trace Route" Protocol="Ethernet" Port="1GC2 Port" Group="MX300"/>
+  <Type Value="468" Name="ARPWiz" Protocol="Ethernet" Port="1GC2 Port" Group="MX300"/>
+  <Type Value="469" Name="FTP Download" Protocol="Ethernet" Port="1GC2 Port" Group="MX300"/>
+  <Type Value="470" Name="FTP Upload" Protocol="Ethernet" Port="1GC2 Port" Group="MX300"/>
+  <Type Value="471" Name="Web Test" Protocol="Ethernet" Port="1GC2 Port" Group="MX300"/>
+  <Type Value="472" Name="Web Browser" Protocol="Ethernet" Port="1GC2 Port" Group="MX300"/>
+  <Type Value="473" Name="VoIP IP Phone" Protocol="Ethernet" Port="1GC2 Port" Group="MX300"/>
+  <Type Value="474" Name="VoIP Client" Protocol="Ethernet" Port="1GC2 Port" Group="MX300"/>
+  <Type Value="475" Name="VoIP Check" Protocol="Ethernet" Port="1GC2 Port" Group="MX300"/> -->
+
+  <!-- <Type Value="476" Name="Ethernet IPv4" Protocol="Ethernet" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="477" Name="PPPoE" Protocol="Ethernet" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="478" Name="Port" Protocol="Ethernet" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="479" Name="Ping" Protocol="Ethernet" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="480" Name="Trace Route" Protocol="Ethernet" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="481" Name="ARPWiz" Protocol="Ethernet" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="482" Name="FTP Download" Protocol="Ethernet" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="483" Name="FTP Upload" Protocol="Ethernet" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="484" Name="Web Test" Protocol="Ethernet" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="485" Name="Web Browser" Protocol="Ethernet" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="486" Name="VoIP IP Phone" Protocol="Ethernet" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="487" Name="VoIP Client" Protocol="Ethernet" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="488" Name="VoIP Check" Protocol="Ethernet" Port="1GF1 Port" Group="MX300"/> -->
+
+  <!-- <Type Value="489" Name="Ethernet IPv4" Protocol="Ethernet" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="490" Name="PPPoE" Protocol="Ethernet" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="491" Name="Port" Protocol="Ethernet" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="492" Name="Ping" Protocol="Ethernet" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="493" Name="Trace Route" Protocol="Ethernet" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="494" Name="ARPWiz" Protocol="Ethernet" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="495" Name="FTP Download" Protocol="Ethernet" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="496" Name="FTP Upload" Protocol="Ethernet" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="497" Name="Web Test" Protocol="Ethernet" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="498" Name="Web Browser" Protocol="Ethernet" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="499" Name="VoIP IP Phone" Protocol="Ethernet" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="500" Name="VoIP Client" Protocol="Ethernet" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="501" Name="VoIP Check" Protocol="Ethernet" Port="1GF2 Port" Group="MX300"/> -->
+
+  <!-- <Type Value="502" Name="Ethernet IPv4" Protocol="Ethernet" Port="10G Port1" Group="MX300"/>
+  <Type Value="503" Name="PPPoE" Protocol="Ethernet" Port="10G Port1" Group="MX300"/>
+  <Type Value="504" Name="Port" Protocol="Ethernet" Port="10G Port1" Group="MX300"/>
+  <Type Value="505" Name="Ping" Protocol="Ethernet" Port="10G Port1" Group="MX300"/>
+  <Type Value="506" Name="Trace Route" Protocol="Ethernet" Port="10G Port1" Group="MX300"/>
+  <Type Value="507" Name="ARPWiz" Protocol="Ethernet" Port="10G Port1" Group="MX300"/>
+  <Type Value="508" Name="FTP Download" Protocol="Ethernet" Port="10G Port1" Group="MX300"/>
+  <Type Value="509" Name="FTP Upload" Protocol="Ethernet" Port="10G Port1" Group="MX300"/>
+  <Type Value="510" Name="Web Test" Protocol="Ethernet" Port="10G Port1" Group="MX300"/>
+  <Type Value="511" Name="Web Browser" Protocol="Ethernet" Port="10G Port1" Group="MX300"/>
+  <Type Value="512" Name="VoIP IP Phone" Protocol="Ethernet" Port="10G Port1" Group="MX300"/>
+  <Type Value="513" Name="VoIP Client" Protocol="Ethernet" Port="10G Port1" Group="MX300"/>
+  <Type Value="514" Name="VoIP Check" Protocol="Ethernet" Port="10G Port1" Group="MX300"/> -->
+
+  <!-- <Type Value="515" Name="Ethernet IPv4" Protocol="Ethernet" Port="10G Port2" Group="MX300"/>
+  <Type Value="516" Name="PPPoE" Protocol="Ethernet" Port="10G Port2" Group="MX300"/>
+  <Type Value="517" Name="Port" Protocol="Ethernet" Port="10G Port2" Group="MX300"/>
+  <Type Value="518" Name="Ping" Protocol="Ethernet" Port="10G Port2" Group="MX300"/>
+  <Type Value="519" Name="Trace Route" Protocol="Ethernet" Port="10G Port2" Group="MX300"/>
+  <Type Value="520" Name="ARPWiz" Protocol="Ethernet" Port="10G Port2" Group="MX300"/>
+  <Type Value="521" Name="FTP Download" Protocol="Ethernet" Port="10G Port2" Group="MX300"/>
+  <Type Value="522" Name="FTP Upload" Protocol="Ethernet" Port="10G Port2" Group="MX300"/>
+  <Type Value="523" Name="Web Test" Protocol="Ethernet" Port="10G Port2" Group="MX300"/>
+  <Type Value="524" Name="Web Browser" Protocol="Ethernet" Port="10G Port2" Group="MX300"/>
+  <Type Value="525" Name="VoIP IP Phone" Protocol="Ethernet" Port="10G Port2" Group="MX300"/>
+  <Type Value="526" Name="VoIP Client" Protocol="Ethernet" Port="10G Port2" Group="MX300"/>
+  <Type Value="527" Name="VoIP Check" Protocol="Ethernet" Port="10G Port2" Group="MX300"/>
+  <Type Value="528" Name="Port" Protocol="Ethernet" Port="40G" Group="MX300"/>
+  <Type Value="529" Name="Port" Protocol="Ethernet" Port="100G" Group="MX300"/> -->
+
+  <!-- NET-BOX: 570-599 -->
+  <!-- <Type Value="570" Name="Port" Protocol="Ethernet" Port="1GC3 Port" Group="MX300"/>
+  <Type Value="571" Name="Port" Protocol="Ethernet" Port="1GC4 Port" Group="MX300"/>
+  <Type Value="572" Name="Port" Protocol="Ethernet" Port="2G5F1 Port" Group="MX300"/> -->
+
+  <!-- <Type Value="575" Name="Ethernet IPv4" Protocol="Ethernet" Port="1GC3 Port" Group="MX300"/>
+  <Type Value="576" Name="Ethernet IPv4" Protocol="Ethernet" Port="1GC4 Port" Group="MX300"/>
+  <Type Value="577" Name="Ethernet IPv4" Protocol="Ethernet" Port="2G5F1 Port" Group="MX300"/> -->
+  
+  <Type Value="580" Name="VeTest" Protocol="Ethernet" Port="1G Port" Group="MX300"/>  
+  <Type Value="581" Name="VPERF" Protocol="Ethernet" Port="1G Port" Group="MX300"/>  
+  
+  <Type Value="600" Name="TX Profile" Protocol="Transport" Port="OTN" Group="TX300"/>
+  <Type Value="601" Name="TX Profile" Protocol="Transport" Port="SDH" Group="TX300"/>
+  <Type Value="602" Name="TX Profile" Protocol="Transport" Port="PDH" Group="TX300"/>
+  
+  <Type Value="650" Name="BERT" Protocol="Ethernet" Port="1GC Port" Group="MX300"/>
+  <Type Value="651" Name="BERT" Protocol="Ethernet" Port="10G Port" Group="MX300"/>
+  <Type Value="652" Name="RFC2544" Protocol="Ethernet" Port="1GC Port" Group="MX300"/>
+  <Type Value="653" Name="RFC2544" Protocol="Ethernet" Port="10G Port" Group="MX300"/>
+  <Type Value="654" Name="Throughput" Protocol="Ethernet" Port="1GC Port" Group="MX300"/>
+  <Type Value="655" Name="Throughput" Protocol="Ethernet" Port="10G Port" Group="MX300"/>
+  <Type Value="656" Name="Scan" Protocol="Ethernet" Port="1GC Port" Group="MX300"/>
+  <Type Value="657" Name="Scan" Protocol="Ethernet" Port="10G Port" Group="MX300"/>
+  <Type Value="658" Name="VSAM" Protocol="Ethernet" Port="1GC Port" Group="MX300"/>
+  <Type Value="659" Name="VSAM" Protocol="Ethernet" Port="10G Port" Group="MX300"/>
+  <Type Value="660" Name="VPERF" Protocol="Ethernet" Port="1GC Port" Group="MX300"/>
+  <Type Value="661" Name="VPERF" Protocol="Ethernet" Port="10G Port" Group="MX300"/>
+  <Type Value="662" Name="BERT" Protocol="Ethernet" Port="10GSFPCU Port" Group="MX300"/>
+  <Type Value="663" Name="RFC2544" Protocol="Ethernet" Port="10GSFPCU Port" Group="MX300"/>
+  <Type Value="664" Name="Throughput" Protocol="Ethernet" Port="10GSFPCU Port" Group="MX300"/>
+  <Type Value="665" Name="VSAM" Protocol="Ethernet" Port="10GSFPCU Port" Group="MX300"/>
+  <Type Value="666" Name="VPERF" Protocol="Ethernet" Port="10GSFPCU Port" Group="MX300"/>  
+  <Type Value="667" Name="BERT" Protocol="Ethernet" Port="25G Port" Group="MX300"/>
+  <Type Value="668" Name="RFC2544" Protocol="Ethernet" Port="25G Port" Group="MX300"/>
+  <Type Value="669" Name="Throughput" Protocol="Ethernet" Port="25G Port" Group="MX300"/>  
+  <Type Value="670" Name="Scan" Protocol="Ethernet" Port="25G Port" Group="MX300"/>
+  <Type Value="671" Name="VSAM" Protocol="Ethernet" Port="25G Port" Group="MX300"/>
+  <Type Value="672" Name="BERT" Protocol="Ethernet" Port="50G Port" Group="MX300"/>
+  <Type Value="673" Name="RFC2544" Protocol="Ethernet" Port="50G Port" Group="MX300"/>
+  <Type Value="674" Name="Throughput" Protocol="Ethernet" Port="50G Port" Group="MX300"/>
+  <Type Value="675" Name="Scan" Protocol="Ethernet" Port="50G Port" Group="MX300"/>
+  <Type Value="676" Name="VSAM" Protocol="Ethernet" Port="50G Port" Group="MX300"/>
+  <Type Value="677" Name="FC BERT" Protocol="Fiber Channel" Port="1GF Port" Group="MX300"/>
+  <Type Value="678" Name="FC BERT" Protocol="Fiber Channel" Port="10G Port" Group="MX300"/>
+  <Type Value="679" Name="FC RFC2544" Protocol="Fiber Channel" Port="1GF Port" Group="MX300"/>
+  <Type Value="680" Name="FC RFC2544" Protocol="Fiber Channel" Port="10G Port" Group="MX300"/>
+  <Type Value="681" Name="FC Throughput" Protocol="Fiber Channel" Port="1GF Port" Group="MX300"/>
+  <Type Value="682" Name="FC Throughput" Protocol="Fiber Channel" Port="10G Port" Group="MX300"/>
+  <Type Value="683" Name="BERT" Protocol="Ethernet" Port="1GF Port" Group="MX300"/>
+  <Type Value="684" Name="RFC2544" Protocol="Ethernet" Port="1GF Port" Group="MX300"/>
+  <Type Value="685" Name="Throughput" Protocol="Ethernet" Port="1GF Port" Group="MX300"/>
+  <Type Value="686" Name="Scan" Protocol="Ethernet" Port="1GF Port" Group="MX300"/>
+  <Type Value="687" Name="VSAM" Protocol="Ethernet" Port="1GF Port" Group="MX300"/> 
+  <Type Value="688" Name="VPERF" Protocol="Ethernet" Port="1GF Port" Group="MX300"/>           
+
+  <Type Value="700" Name="BERT" Protocol="Ethernet" Port="25G Port1" Group="MX300"/> <!--eProfBert25G-->
+  <Type Value="701" Name="BERT" Protocol="Ethernet" Port="25G Port2" Group="MX300"/> <!--eProfBert25G2-->
+  <Type Value="702" Name="RFC2544" Protocol="Ethernet" Port="25G Port1" Group="MX300"/> <!--eProfRfc254425G-->
+  <Type Value="703" Name="RFC2544" Protocol="Ethernet" Port="25G Port2" Group="MX300"/> <!--eProfRfc254425G2-->
+  <Type Value="704" Name="Throughput" Protocol="Ethernet" Port="25G Port1" Group="MX300"/> <!--eProfThrpt25G-->
+  <Type Value="705" Name="Throughput" Protocol="Ethernet" Port="25G Port2" Group="MX300"/> <!--eProfThrpt25G2-->
+  <Type Value="706" Name="Scan" Protocol="Ethernet" Port="25G Port1" Group="MX300"/> <!--eProfScan25G-->
+  <Type Value="707" Name="Scan" Protocol="Ethernet" Port="25G Port2" Group="MX300"/> <!--eProfScan25G2-->
+  <Type Value="708" Name="VSAM" Protocol="Ethernet" Port="25G Port1" Group="MX300"/> <!--eProfVsam25G-->
+  <Type Value="709" Name="VSAM" Protocol="Ethernet" Port="25G Port2" Group="MX300"/> <!--eProfVsam25G2-->
+  <!--Type Value="710" Name="Ethernet IPv4" Protocol="Ethernet" Port="25G Port1" Group="MX300"/--> <!--eProfEthernetIP25G--> <!--unsupported by server-->
+  <!--Type Value="711" Name="Ethernet IPv4" Protocol="Ethernet" Port="25G Port2" Group="MX300"/--> <!--eProfEthernetIP25G2--> <!--unsupported by server-->
+  <!--712 eProfPPPoE25G-->
+  <!--713 eProfPPPoE25G2-->
+  <!--714 eProfEthernetPort25G-->
+  <!--715 eProfEthernetPort25G2-->
+  <!--Type Value="716" Name="Ping" Protocol="Ethernet" Port="25G Port1" Group="MX300"/--> <!--eProfPing25G--> <!--unsupported by server-->
+  <!--Type Value="717" Name="Ping" Protocol="Ethernet" Port="25G Port2" Group="MX300"/--> <!--eProfPing25G2--> <!--unsupported by server-->
+  <!--Type Value="718" Name="Trace Route" Protocol="Ethernet" Port="25G Port1" Group="MX300"/--> <!--eProfTraceRoute25G--> <!--unsupported by server-->
+  <!--Type Value="719" Name="Trace Route" Protocol="Ethernet" Port="25G Port2" Group="MX300"/--> <!--eProfTraceRoute25G2--> <!--unsupported by server-->
+  <!--Type Value="720" Name="ARPWiz" Protocol="Ethernet" Port="25G Port1" Group="MX300"/--> <!--eProfARPWiz25G--> <!--unsupported by server-->
+  <!--Type Value="721" Name="ARPWiz" Protocol="Ethernet" Port="25G Port2" Group="MX300"/--> <!--eProfARPWiz25G2--> <!--unsupported by server-->
+  
+  <Type Value="750" Name="BERT" Protocol="Ethernet" Port="50G Port1" Group="MX300"/> <!--eProfBert50G-->
+  <Type Value="751" Name="BERT" Protocol="Ethernet" Port="50G Port2" Group="MX300"/> <!--eProfBert50G2-->
+  <Type Value="752" Name="RFC2544" Protocol="Ethernet" Port="50G Port1" Group="MX300"/> <!--eProfRfc254450G-->
+  <Type Value="753" Name="RFC2544" Protocol="Ethernet" Port="50G Port2" Group="MX300"/> <!--eProfRfc254450G2-->
+  <Type Value="754" Name="Throughput" Protocol="Ethernet" Port="50G Port1" Group="MX300"/> <!--eProfThrpt50G-->
+  <Type Value="755" Name="Throughput" Protocol="Ethernet" Port="50G Port2" Group="MX300"/> <!--eProfThrpt50G2-->
+  <Type Value="756" Name="Scan" Protocol="Ethernet" Port="50G Port1" Group="MX300"/> <!--eProfScan50G-->
+  <Type Value="757" Name="Scan" Protocol="Ethernet" Port="50G Port2" Group="MX300"/> <!--eProfScan50G2-->
+  <Type Value="758" Name="VSAM" Protocol="Ethernet" Port="50G Port1" Group="MX300"/> <!--eProfVsam50G-->
+  <Type Value="759" Name="VSAM" Protocol="Ethernet" Port="50G Port2" Group="MX300"/> <!--eProfVsam50G2-->
+  <!--Type Value="760" Name="Ethernet IPv4" Protocol="Ethernet" Port="50G Port1" Group="MX300"/--> <!--eProfEthernetIP50G-->
+  <!--Type Value="761" Name="Ethernet IPv4" Protocol="Ethernet" Port="50G Port2" Group="MX300"/--> <!--eProfEthernetIP50G2-->
+  <!--762 eProfPPPoE50G-->
+  <!--763 eProfPPPoE50G2-->
+  <!--764 eProfEthernetPort50G-->
+  <!--765 eProfEthernetPort50G2-->
+  <!--Type Value="766" Name="Ping" Protocol="Ethernet" Port="50G Port1" Group="MX300"/--> <!--eProfPing50G--> <!--unsupported by server-->
+  <!--Type Value="767" Name="Ping" Protocol="Ethernet" Port="50G Port2" Group="MX300"/--> <!--eProfPing50G2--> <!--unsupported by server-->
+  <!--Type Value="768" Name="Trace Route" Protocol="Ethernet" Port="50G Port1" Group="MX300"/--> <!--eProfTraceRoute50G--> <!--unsupported by server-->
+  <!--Type Value="769" Name="Trace Route" Protocol="Ethernet" Port="50G Port2" Group="MX300"/--> <!--eProfTraceRoute50G2--> <!--unsupported by server-->
+  <!--Type Value="770" Name="ARPWiz" Protocol="Ethernet" Port="50G Port1" Group="MX300"/--> <!--eProfARPWiz50G--> <!--unsupported by server-->
+  <!--Type Value="771" Name="ARPWiz" Protocol="Ethernet" Port="50G Port2" Group="MX300"/--> <!--eProfARPWiz50G2--> <!--unsupported by server-->
+
+  <Type Value="850" Name="BERT" Protocol="Ethernet" Port="10GSFPCU Port1" Group="MX300"/>
+  <Type Value="851" Name="RFC2544" Protocol="Ethernet" Port="10GSFPCU Port1" Group="MX300"/>
+  <Type Value="852" Name="Throughput" Protocol="Ethernet" Port="10GSFPCU Port1" Group="MX300"/>
+  <Type Value="853" Name="VSAM" Protocol="Ethernet" Port="10GSFPCU Port1" Group="MX300"/>
+  <!-- <Type Value="854" Name="Ethernet IPv4" Protocol="Ethernet" Port="10GSFPCU Port1" Group="MX300"/>
+  <Type Value="855" Name="PPPoE" Protocol="Ethernet" Port="10GSFPCU Port1" Group="MX300"/>
+  <Type Value="856" Name="Port" Protocol="Ethernet" Port="10GSFPCU Port1" Group="MX300"/>
+  <Type Value="857" Name="Ping" Protocol="Ethernet" Port="10GSFPCU Port1" Group="MX300"/>
+  <Type Value="858" Name="Trace Route" Protocol="Ethernet" Port="10GSFPCU Port1" Group="MX300"/>
+  <Type Value="859" Name="ARPWiz" Protocol="Ethernet" Port="10GSFPCU Port1" Group="MX300"/>
+  <Type Value="860" Name="VoIP IP Phone" Protocol="Ethernet" Port="10GSFPCU Port1" Group="MX300"/>
+  <Type Value="861" Name="VoIP Client" Protocol="Ethernet" Port="10GSFPCU Port1" Group="MX300"/>
+  <Type Value="862" Name="VoIP Check" Protocol="Ethernet" Port="10GSFPCU Port1" Group="MX300"/> -->
+  <Type Value="865" Name="VPERF" Protocol="Ethernet" Port="10GSFPCU Port1" Group="MX300"/>
+  <!-- <Type Value="866" Name="FTP Download" Protocol="Ethernet" Port="10GSFPCU Port1" Group="MX300"/>
+  <Type Value="867" Name="FTP Upload" Protocol="Ethernet" Port="10GSFPCU Port1" Group="MX300"/> -->
+
+  <Type Value="900" Name="BERT" Protocol="Ethernet" Port="10GSFPCU Port2" Group="MX300"/>
+  <Type Value="901" Name="RFC2544" Protocol="Ethernet" Port="10GSFPCU Port2" Group="MX300"/>
+  <Type Value="902" Name="Throughput" Protocol="Ethernet" Port="10GSFPCU Port2" Group="MX300"/>
+  <Type Value="903" Name="VSAM" Protocol="Ethernet" Port="10GSFPCU Port2" Group="MX300"/>
+  <!-- <Type Value="904" Name="Ethernet IPv4" Protocol="Ethernet" Port="10GSFPCU Port2" Group="MX300"/>
+  <Type Value="905" Name="PPPoE" Protocol="Ethernet" Port="10GSFPCU Port2" Group="MX300"/>
+  <Type Value="906" Name="Port" Protocol="Ethernet" Port="10GSFPCU Port2" Group="MX300"/>
+  <Type Value="907" Name="Ping" Protocol="Ethernet" Port="10GSFPCU Port2" Group="MX300"/>
+  <Type Value="908" Name="Trace Route" Protocol="Ethernet" Port="10GSFPCU Port2" Group="MX300"/>
+  <Type Value="909" Name="ARPWiz" Protocol="Ethernet" Port="10GSFPCU Port2" Group="MX300"/>
+  <Type Value="910" Name="VoIP IP Phone" Protocol="Ethernet" Port="10GSFPCU Port2" Group="MX300"/>
+  <Type Value="911" Name="VoIP Client" Protocol="Ethernet" Port="10GSFPCU Port2" Group="MX300"/>
+  <Type Value="912" Name="VoIP Check" Protocol="Ethernet" Port="10GSFPCU Port2" Group="MX300"/> -->
+  <Type Value="915" Name="VPERF" Protocol="Ethernet" Port="10GSFPCU Port2" Group="MX300"/>
+  <!-- <Type Value="916" Name="FTP Download" Protocol="Ethernet" Port="10GSFPCU Port2" Group="MX300"/>
+  <Type Value="917" Name="FTP Upload" Protocol="Ethernet" Port="10GSFPCU Port2" Group="MX300"/> -->
+
+  <!-- <Type Value="950" Name="Network" Protocol="Ethernet" Port="1GC1 Port" Group="MX300"/>
+  <Type Value="951" Name="Network" Protocol="Ethernet" Port="1GC2 Port" Group="MX300"/>
+  <Type Value="952" Name="Network" Protocol="Ethernet" Port="1GF1 Port" Group="MX300"/>
+  <Type Value="953" Name="Network" Protocol="Ethernet" Port="1GF2 Port" Group="MX300"/>
+  <Type Value="954" Name="Network" Protocol="Ethernet" Port="10G Port1" Group="MX300"/>
+  <Type Value="955" Name="Network" Protocol="Ethernet" Port="10G Port2" Group="MX300"/>
+  <Type Value="956" Name="Network" Protocol="Ethernet" Port="25G Port1" Group="MX300"/>
+  <Type Value="957" Name="Network" Protocol="Ethernet" Port="25G Port2" Group="MX300"/>
+  <Type Value="958" Name="Network" Protocol="Ethernet" Port="50G Port1" Group="MX300"/>
+  <Type Value="959" Name="Network" Protocol="Ethernet" Port="50G Port2" Group="MX300"/>
+  <Type Value="960" Name="Network" Protocol="Ethernet" Port="10GSFPCU Port1" Group="MX300"/>
+  <Type Value="961" Name="Network" Protocol="Ethernet" Port="10GSFPCU Port2" Group="MX300"/> -->
+
+  <Type Value="1000" Name="Locator" Group="Common"/>
+  <Type Value="1001" Name="Type" Group="Common"/>
+
+  <Type Value="2000" Name="Video" Group="Common"/>
+ 
+  <Type Value="50200" Name="MX100 BERT" Group="MX100"/>
+  <Type Value="50201" Name="MX100 RFC2544" Group="MX100"/>
+  <Type Value="50202" Name="MX100 Throughput" Group="MX100"/>
+  <Type Value="50203" Name="MX120 Port1 BERT" Group="MX100"/>
+  <Type Value="50204" Name="MX120 Port1 RFC2544" Group="MX100"/>
+  <Type Value="50205" Name="MX120 Port1 Throughput" Group="MX100"/>
+  <Type Value="50206" Name="MX120 Port2 BERT" Group="MX100"/>
+  <Type Value="50207" Name="MX120 Port2 RFC2544" Group="MX100"/>
+  <Type Value="50208" Name="MX120 Port2 Throughput" Group="MX100"/>
+  <Type Value="50209" Name="MX100+ BERT" Group="MX100"/>
+  <Type Value="50210" Name="MX100+ RFC2544" Group="MX100"/>
+  <Type Value="50211" Name="MX100+ Throughput" Group="MX100"/>
+  <Type Value="50212" Name="MX120+ Port1 BERT" Group="MX100"/>
+  <Type Value="50213" Name="MX120+ Port1 RFC2544" Group="MX100"/>
+  <Type Value="50214" Name="MX120+ Port1 Throughput" Group="MX100"/>
+  <Type Value="50215" Name="MX120+ Port2 BERT" Group="MX100"/>
+  <Type Value="50216" Name="MX120+ Port2 RFC2544" Group="MX100"/>
+  <Type Value="50217" Name="MX120+ Port2 Throughput" Group="MX100"/>
+  <Type Value="50218" Name="FC BERT" Group="MX100"/>
+  <Type Value="50219" Name="FC RFC2544" Group="MX100"/>
+  <Type Value="50220" Name="FC Throughput" Group="MX100"/>
+  <Type Value="50221" Name="MX100+ VSAM" Group="MX100"/>
+  <Type Value="50222" Name="MX120+ Port1 VSAM" Group="MX100"/>
+  <Type Value="50223" Name="MX120+ Port2 VSAM" Group="MX100"/>
+
+  <Type Value="50300" Name="DSL IP" Group="BX"/>
+  <Type Value="50301" Name="DSL Pass Through" Group="BX"/>
+  <Type Value="50302" Name="VDSL IP" Group="BX"/>
+  <Type Value="50303" Name="VDSL Pass Through" Group="BX"/>
+  <Type Value="50304" Name="TI IP" Group="BX"/>
+  <Type Value="50305" Name="TI Pass Through" Group="BX"/>
+  <Type Value="50306" Name="Link Up Threshold" Group="BX"/>
+  <Type Value="50307" Name="DMM Auto Test Threshold" Group="BX"/>
+</Profile>

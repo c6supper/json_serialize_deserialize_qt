@@ -1,0 +1,12 @@
+{
+	"id": "my-id",
+	"from": "heisenberg@breakingbad.com/bedroom",
+	"to": "skyler/bedroom",
+	"type": "application/vnd.lime.threadedtext+json",
+	"method" : "unregister",
+	"resource": {
+	},
+	"metadata": {
+		"senderIp": "192.168.0.1"
+	}
+}

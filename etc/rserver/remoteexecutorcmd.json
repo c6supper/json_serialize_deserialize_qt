@@ -1,0 +1,48 @@
+{
+  "cmdList": [
+    {
+      "cmd": "QGetResultCMD",
+      "input": "",
+      "output": "",
+      "inTopic": "rserver\\qrserver\\qupload\\quploadresult\\command",
+      "outTopic": "rserver\\qrserver\\qupload\\quploadresult\\status",
+      "timeout": 300000,
+      "isCache": true,
+      "executor": "QIpcExecutor",
+      "method": "getResultList"
+    },
+    {
+      "cmd": "QUploadResultCMD",
+      "input": "",
+      "output": "",
+      "inTopic": "rserver\\qrserver\\qupload\\quploadresult\\command",
+      "outTopic": "rserver\\qrserver\\qupload\\quploadresult\\status",
+      "timeout": 600000,
+      "isCache": false,
+      "executor": "QIpcExecutor",
+      "method": "upload"
+    },
+    {
+      "cmd": "QPrintResultKeyFileCMD",
+      "input": "",
+      "output": "",
+      "inTopic": "",
+      "outTopic": "",
+      "timeout": 0,
+      "isCache": false,
+      "executor": "QPrintExecutor",
+      "method": ""
+    },
+    {
+      "cmd": "QGetDeviceServerStatusCMD",
+      "input": "",
+      "output": "",
+      "inTopic": "rserver\\qrserver\\command",
+      "outTopic": "rserver\\qrserver\\status",
+      "timeout": 5000,
+      "isCache": false,
+      "executor": "QIpcExecutor",
+      "method": "ping"
+    }
+  ]
+}

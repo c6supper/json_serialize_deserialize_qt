@@ -1,0 +1,1346 @@
+{
+  "deviceTypeList": [
+    {
+      "deviceType": "eRServerRTU300Type",
+      "deviceName": "RTU-300",
+      "imageType": "eRServerRTU300ImageType",
+      "uncompressDir": "",
+      "targetDir": "",
+      "regExpSN": "^\\wR2\\w+",
+      "isChassis": true,
+      "supportProfile": true,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+
+      ],
+      "extraOptionModuleList": [
+        "RTU-300SM",
+        "RTU-320SM",
+        "RTU-100G",
+        "RTU-100GQ",
+        "RTU-100GX"
+      ]
+    },
+    {
+      "deviceType": "eRServerRTU300TX320SMType",
+      "deviceName": "RTU-320SM",
+      "imageType": "eRServerRTU300TX320SMImageType",
+      "uncompressDir": "",
+      "targetDir": "",
+      "regExpSN": "^BTV\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+
+      ]
+    },
+    {
+      "deviceType": "eRServerRTU300TX300SMType",
+      "deviceName": "RTU-300SM",
+      "imageType": "eRServerRTU300TX300SMImageType",
+      "uncompressDir": "",
+      "targetDir": "",
+      "regExpSN": "^BTM\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+
+      ]
+    },
+    {
+      "deviceType": "eRServerRTU300TX320S100GQType",
+      "deviceName": "RTU-100GQ",
+      "imageType": "eRServerRTU300TX320S100GQImageType",
+      "uncompressDir": "",
+      "targetDir": "",
+      "regExpSN": "^BBF\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+
+      ]
+    },
+    {
+      "deviceType": "eRServerRTU300TX320S100GType",
+      "deviceName": "RTU-100G",
+      "imageType": "eRServerRTU300TX320S100GImageType",
+      "uncompressDir": "",
+      "targetDir": "",
+      "regExpSN": "^BTW\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+
+      ]
+    },
+    {
+      "deviceType": "eRServerRTU300TX300S100GXType",
+      "deviceName": "RTU-100GX",
+      "imageType": "eRServerRTU300TX300S100GXImageType",
+      "uncompressDir": "",
+      "targetDir": "",
+      "regExpSN": "^BNK\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+
+      ]
+    },
+    {
+      "deviceType": "eRServerRTU300TX300SOTDRType",
+      "deviceName": "RTU-OTDR",
+      "imageType": "eRServerRTU300TX300SOTDRImageType",
+      "uncompressDir": "",
+      "targetDir": "",
+      "regExpSN": "^B(TU|FF)\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200PLUSPLATFORMType",
+      "deviceName": "RXT-1200+",
+      "imageType": "eRServerRXT1200PLATFORMImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wNL\\w+",
+      "isChassis": true,
+      "supportProfile": true,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "RXT-1200+"
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200PLATFORMType",
+      "deviceName": "RXT-1200",
+      "imageType": "eRServerRXT1200PLATFORMImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wS2\\w+",
+      "isChassis": true,
+      "supportProfile": true,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "RXT-1200"
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200COMBOType",
+      "deviceName": "RXT-3000",
+      "imageType": "eRServerRXT1200COMBOImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wS4\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "RXT-3000"
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200OSAType",
+      "deviceName": "RXT-45XX",
+      "imageType": "eRServerRXT1200OSAImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\w(S3|SK|AE)\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "RXT-4500",
+        "RXT-4500X",
+        "RXT-4510"
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200OTDRType",
+      "deviceName": "RXT-41XX",
+      "imageType": "eRServerRXT1200OTDRImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\w(S5|S6|S7|SJ|AP|BH)\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "RXT-4100",
+        "RXT-4100+",
+        "RXT-4111",
+        "RXT-4112",
+        "RXT-4113",
+        "RXT-4113+",
+        "RXT-4114",
+        "RXT-4115"
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200SLMType",
+      "deviceName": "RXT-8000",
+      "imageType": "eRServerRXT1200SLMImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wS9\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "RXT-8000"
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200CFP2Type",
+      "deviceName": "RXT-6000",
+      "imageType": "eRServerRXT1200CFP2ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wS8\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "RXT-6000"
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT12003900Type",
+      "deviceName": "RXT-3900",
+      "imageType": "eRServerRXT12003900ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wSF\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "RXT-3900"
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT12006000EType",
+      "deviceName": "RXT-6000e",
+      "imageType": "eRServerRXT12006000EImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wR4\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "RXT-6000e"
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT12006000PLUSType",
+      "deviceName": "RXT-6000+",
+      "imageType": "eRServerRXT12006000PLUSImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wSC\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "RXT-6000+"
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200MTT6BType",
+      "deviceName": "RXT-SSMTT-6B",
+      "imageType": "eRServerRXT1200MTT6BImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT06B\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200MTT8Type",
+      "deviceName": "RXT-SSMTT-8",
+      "imageType": "eRServerRXT1200MTT8ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT08\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200MTT9Type",
+      "deviceName": "RXT-SSMTT-9",
+      "imageType": "eRServerRXT1200MTT9ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT09\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200MTT14BType",
+      "deviceName": "RXT-SSMTT-14",
+      "imageType": "eRServerRXT1200MTT14BImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT14B\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200MTT16AType",
+      "deviceName": "RXT-SSMTT-16A",
+      "imageType": "eRServerRXT1200MTT16AImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT16A\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200MTT19AType",
+      "deviceName": "RXT-SSMTT-19A",
+      "imageType": "eRServerRXT1200MTT19AImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT19A\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200MTT24Type",
+      "deviceName": "RXT-SSMTT-24",
+      "imageType": "eRServerRXT1200MTT24ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT24\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200MTT27Type",
+      "deviceName": "RXT-SSMTT-27",
+      "imageType": "eRServerRXT1200MTT27ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT27\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200MTT38Type",
+      "deviceName": "RXT-SSMTT-38",
+      "imageType": "eRServerRXT1200MTT38ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT38\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200MTT45Type",
+      "deviceName": "RXT-SSMTT-45",
+      "imageType": "eRServerRXT1200MTT45ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT45\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200MTT48Type",
+      "deviceName": "RXT-SSMTT-48",
+      "imageType": "eRServerRXT1200MTT48ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT48\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200MTT50Type",
+      "deviceName": "RXT-SSMTT-50",
+      "imageType": "eRServerRXT1200MTT50ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT50\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200MTT51Type",
+      "deviceName": "RXT-SSMTT-51",
+      "imageType": "eRServerRXT1200MTT51ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT51\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200CARRIERType",
+      "deviceName": "RXT-2000A",
+      "imageType": "eRServerRXT1200CARRIERImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^CARRIER\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT1200SHDSLType",
+      "deviceName": "RXT-2600",
+      "imageType": "eRServerRXT1200SHDSLImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^SHDSL\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT12006200Type",
+      "deviceName": "RXT-6200",
+      "imageType": "eRServerRXT12006200ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\w(SN|SY)\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "RXT-6200"
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT12003400Type",
+      "deviceName": "RXT-3400",
+      "imageType": "eRServerRXT12003400ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wVE\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "RXT-3400"
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT12006400Type",
+      "deviceName": "RXT-6400",
+      "imageType": "eRServerRXT12006400ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wSE\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "RXT-6400"
+      ]
+    },
+    {
+      "deviceType": "eRServerRXT12006400XType",
+      "deviceName": "RXT-6400X",
+      "imageType": "eRServerRXT12006400XImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wHT\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+
+      ]
+    },
+    {
+      "deviceType": "eRServerTX320S100GType",
+      "deviceName": "TX320s-100G",
+      "imageType": "eRServerTX300S100GImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^ATW\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+        "TX320s 100G",
+        "TX320s"
+      ]
+    },
+    {
+      "deviceType": "eRServerTX320S100GQType",
+      "deviceName": "TX320s-100GQ",
+      "imageType": "eRServerTX300S100GImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^AT6\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+        "TX320s 100G",
+        "TX320s"
+      ]
+    },
+    {
+      "deviceType": "eRServerTX340S100GType",
+      "deviceName": "TX340s-100G",
+      "imageType": "eRServerTX300S100GImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^ATZ\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+        "TX340s 100G",
+        "TX340s"
+      ]
+    },
+    {
+      "deviceType": "eRServerTX320SPLATFORMType",
+      "deviceName": "TX320s",
+      "imageType": "eRServerTX300SPLATFORMImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^T(TW|T6)\\w+",
+      "isChassis": true,
+      "supportProfile": true,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "TX320s"
+      ],
+      "extraOptionModuleList": [
+        "320SM",
+        "TX320s-100G",
+        "TX320s-100GQ"
+      ]
+    },
+    {
+      "deviceType": "eRServerTX340SPLATFORMType",
+      "deviceName": "TX340s",
+      "imageType": "eRServerTX300SPLATFORMImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^T(T7|TZ|TK|PQ)\\w+",
+      "isChassis": true,
+      "supportProfile": true,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "TX340s"
+      ],
+      "extraOptionModuleList": [
+        "340SM",
+        "TX340s-100G",
+        "TX340s-100GQ",
+        "TX340s-100GX"
+      ]
+    },
+    {
+      "deviceType": "eRServerTX300SOTDRType",
+      "deviceName": "TX300s-OTDR",
+      "imageType": "eRServerTX300SOTDRImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^A(TU|FF)\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerTX300S100GType",
+      "deviceName": "TX300s-100G",
+      "imageType": "eRServerTX300S100GImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^A(TW|BF)\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerTX340S100GQType",
+      "deviceName": "TX340s-100GQ",
+      "imageType": "eRServerTX300S100GImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^ATK\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+        "TX340s 100G",
+        "TX340s"
+      ]
+    },
+    {
+      "deviceType": "eRServerTX300STX300SMType",
+      "deviceName": "300SM",
+      "imageType": "eRServerTX300STX300SMImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^ATM\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerTX300STX320SMType",
+      "deviceName": "320SM",
+      "imageType": "eRServerTX300STX320SMImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^ATV\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerTX300STX340SMType",
+      "deviceName": "340SM",
+      "imageType": "eRServerTX300STX340SMImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^ABP\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerTX300SPLATFORMType",
+      "deviceName": "TX300s",
+      "imageType": "eRServerTX300SPLATFORMImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^T(TT|GE)\\w+",
+      "isChassis": true,
+      "supportProfile": true,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ],
+      "extraOptionModuleList": [
+        "300SM",
+        "TX300s-100GX"
+      ]
+    },
+    {
+      "deviceType": "eRServerMTX150Type",
+      "deviceName": "MTX-150",
+      "imageType": "eRServerMTX150ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\w(EB|YJ|YB|YC)\\w+",
+      "isChassis": true,
+      "supportProfile": true,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerMTX150XType",
+      "deviceName": "MTX-150X",
+      "imageType": "eRServerMTX150XImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wYR\\w+",
+      "isChassis": true,
+      "supportProfile": true,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerFX100Type",
+      "deviceName": "FX-100",
+      "imageType": "eRServerFX100ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^TFF\\w+",
+      "isChassis": true,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerFX150Type",
+      "deviceName": "FX-150",
+      "imageType": "eRServerFX150ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\w(FD|RF)\\w+",
+      "isChassis": true,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerFX150LType",
+      "deviceName": "FX-150L",
+      "imageType": "eRServerFX150LImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wPC\\w+",
+      "isChassis": true,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ],
+      "style": "eFX150LStyle"
+    },
+    {
+      "deviceType": "eRServerFX180Type",
+      "deviceName": "FX-180",
+      "imageType": "eRServerFX180ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wFG\\w+",
+      "isChassis": true,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerFX180XType",
+      "deviceName": "FX-180x",
+      "imageType": "eRServerFX180XImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wQV\\w+",
+      "isChassis": true,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerNETBOXType",
+      "deviceName": "NET-BOX",
+      "imageType": "eRServerNETBOXImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wKX\\w+",
+      "isChassis": true,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerWX150Type",
+      "deviceName": "WX-150",
+      "imageType": "eRServerWX150ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wR5\\w+",
+      "isChassis": true,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerTX300SANYDSLType",
+      "deviceName": "TX300s-ANYDSL",
+      "imageType": "eRServerTX300SANYDSLImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^A(AB|AC|AD)\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerTX300S100GXType",
+      "deviceName": "TX300s-100GX",
+      "imageType": "eRServerTX300S100GXImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^ANK\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerTX340S100GXType",
+      "deviceName": "TX340s-100GX",
+      "imageType": "eRServerTX300S100GXImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^ANK\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUS600Type",
+      "deviceName": "MTTplus-600",
+      "imageType": "eRServerMTTPLUS600ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wBT\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUS340Type",
+      "deviceName": "MTTplus-340",
+      "imageType": "eRServerMTTPLUS340ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\w(QR|BS)\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "MTTplus 340"
+      ]
+    },    
+    {
+      "deviceType": "eRServerMTTPLUS320Type",
+      "deviceName": "MTTplus-320",
+      "imageType": "eRServerMTTPLUS320ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wMC\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "MTTplus 320"
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUS410PLUSType",
+      "deviceName": "MTTplus-410+",
+      "imageType": "eRServerMTTPLUS410PLUSImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\w(MD|BE)\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "MTTplus 410+"
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUS900Type",
+      "deviceName": "MTTplus-900",
+      "imageType": "eRServerMTTPLUS900ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wSG\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "MTTplus 900"
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUS420Type",
+      "deviceName": "MTTplus-420",
+      "imageType": "eRServerMTTPLUS420ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wMF\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "MTTplus 420"
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUS260Type",
+      "deviceName": "MTTplus-260",
+      "imageType": "eRServerMTTPLUS260ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wMB\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": false,
+      "oeModuleType": [
+        "MTTplus 260"
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUSMTT5Type",
+      "deviceName": "MTTplus-SSMTT-5",
+      "imageType": "eRServerMTTPLUSMTT5ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT05\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUSMTT6BType",
+      "deviceName": "MTTplus-SSMTT-6B",
+      "imageType": "eRServerMTTPLUSMTT6BImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT06B\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUSMTT8Type",
+      "deviceName": "MTTplus-SSMTT-8",
+      "imageType": "eRServerMTTPLUSMTT8ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT08\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUSMTT9Type",
+      "deviceName": "MTTplus-SSMTT-9",
+      "imageType": "eRServerMTTPLUSMTT9ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT09\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUSMTT14BType",
+      "deviceName": "MTTplus-SSMTT-14B",
+      "imageType": "eRServerMTTPLUSMTT14BImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT14B\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUSPLATFORMType",
+      "deviceName": "MTTplus",
+      "imageType": "eRServerMTTPLUSPLATFORMImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wMA\\w+",
+      "isChassis": true,
+      "supportProfile": true,
+      "canReleaseAppManually": true,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "MTTplus"
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUSMTT14CType",
+      "deviceName": "MTTplus-SSMTT-14C",
+      "imageType": "eRServerMTTPLUSMTT14CImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT14C\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUSMTT16AType",
+      "deviceName": "MTTplus-SSMTT-16A",
+      "imageType": "eRServerMTTPLUSMTT16AImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT16A\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUSMTT19AType",
+      "deviceName": "MTTplus-SSMTT-19A",
+      "imageType": "eRServerMTTPLUSMTT19AImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT19A\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUSMTT24Type",
+      "deviceName": "MTTplus-SSMTT-24",
+      "imageType": "eRServerMTTPLUSMTT24ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT24\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUSMTT27Type",
+      "deviceName": "MTTplus-SSMTT-27",
+      "imageType": "eRServerMTTPLUSMTT27ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT27\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUSMTT38Type",
+      "deviceName": "MTTplus-SSMTT-38",
+      "imageType": "eRServerMTTPLUSMTT38ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT38\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUSMTT45Type",
+      "deviceName": "MTTplus-SSMTT-45",
+      "imageType": "eRServerMTTPLUSMTT45ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT45\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": false,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUSMTT48Type",
+      "deviceName": "MTTplus-SSMTT-48",
+      "imageType": "eRServerMTTPLUSMTT48ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT48\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUSMTT50Type",
+      "deviceName": "MTTplus-SSMTT-50",
+      "imageType": "eRServerMTTPLUSMTT50ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT50\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUSMTT51Type",
+      "deviceName": "MTTplus-SSMTT-51",
+      "imageType": "eRServerMTTPLUSMTT51ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^MTT51\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUS520Type",
+      "deviceName": "MTTplus-520",
+      "imageType": "eRServerMTTPLUS520ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wSH\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "MTTplus 520"
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUS522Type",
+      "deviceName": "MTTplus-522",
+      "imageType": "eRServerMTTPLUS522ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wAK\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "MTTplus 522"
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUS523Type",
+      "deviceName": "MTTplus-523",
+      "imageType": "eRServerMTTPLUS523ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wAN\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "MTTplus 523"
+      ]
+    },
+    {
+      "deviceType": "eRServerMTTPLUS521Type",
+      "deviceName": "MTTplus-521",
+      "imageType": "eRServerMTTPLUS521ImageType",
+      "uncompressDir": "/",
+      "targetDir": "/",
+      "regExpSN": "^\\wSM\\w+",
+      "isChassis": false,
+      "supportProfile": false,
+      "canReleaseAppManually": false,
+      "canAssignOption": true,
+      "oeModuleType": [
+        "MTTplus 521"
+      ]
+    }
+  ]
+}
+

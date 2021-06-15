@@ -1,0 +1,7 @@
+#ifndef QRSERVERVERSION_H
+#define QRSERVERVERSION_H
+
+#define RSERVER_VERSION "1.1.6.4"
+
+#endif // QRSERVERVERSION_H
+
